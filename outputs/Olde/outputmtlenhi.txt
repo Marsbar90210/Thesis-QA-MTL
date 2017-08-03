@@ -1,0 +1,95 @@
+Training qa1
+Training took 79.70511619851099
+Total test loss = 2.5228
+Test loss / test accuracy for output 1 = 1.2731 / 0.5100
+Test loss / test accuracy for output 2 = 1.2497 / 0.5320
+Training qa2
+Training took 682.2229633992172
+Total test loss = 3.4532
+Test loss / test accuracy for output 1 = 1.7153 / 0.3180
+Test loss / test accuracy for output 2 = 1.7379 / 0.2750
+Training qa3
+Training took 3661.6091488937786
+Total test loss = 3.4248
+Test loss / test accuracy for output 1 = 1.6954 / 0.2170
+Test loss / test accuracy for output 2 = 1.7294 / 0.2290
+Training qa4
+Training took 36.50447441725191
+Total test loss = 1.3943
+Test loss / test accuracy for output 1 = 0.6721 / 0.6990
+Test loss / test accuracy for output 2 = 0.7223 / 0.7010
+Training qa5
+Training took 803.9640668615771
+Total test loss = 2.3816
+Test loss / test accuracy for output 1 = 1.1224 / 0.4530
+Test loss / test accuracy for output 2 = 1.2592 / 0.3960
+Training qa6
+Training took 193.3914028929894
+Total test loss = 1.3936
+Test loss / test accuracy for output 1 = 0.6963 / 0.5010
+Test loss / test accuracy for output 2 = 0.6973 / 0.4920
+Training qa7
+Training took 562.4494873737085
+Total test loss = 1.2304
+Test loss / test accuracy for output 1 = 0.6013 / 0.7840
+Test loss / test accuracy for output 2 = 0.6291 / 0.7780
+Training qa8
+Training took 442.9423295056422
+Total test loss = 2.5490
+Test loss / test accuracy for output 1 = 1.2975 / 0.5500
+Test loss / test accuracy for output 2 = 1.2515 / 0.5500
+Training qa9
+Training took 101.46439936722982
+Total test loss = 1.3504
+Test loss / test accuracy for output 1 = 0.6550 / 0.6380
+Test loss / test accuracy for output 2 = 0.6954 / 0.4940
+Training qa10
+Training took 120.82644843295202
+Total test loss = 1.6300
+Test loss / test accuracy for output 1 = 0.9296 / 0.4840
+Test loss / test accuracy for output 2 = 0.7004 / 0.4890
+Training qa12
+Training took 111.7158930095402
+Total test loss = 1.7212
+Test loss / test accuracy for output 1 = 0.8121 / 0.7380
+Test loss / test accuracy for output 2 = 0.9091 / 0.7350
+Training qa13
+Training took 158.0970711708378
+Total test loss = 0.7953
+Test loss / test accuracy for output 1 = 0.3328 / 0.9440
+Test loss / test accuracy for output 2 = 0.4625 / 0.9240
+Training qa14
+Training took 151.73416955652556
+Total test loss = 3.3903
+Test loss / test accuracy for output 1 = 1.6840 / 0.2280
+Test loss / test accuracy for output 2 = 1.7064 / 0.2050
+Training qa15
+Training took 75.3118080905515
+Total test loss = 2.8242
+Test loss / test accuracy for output 1 = 1.4201 / 0.2170
+Test loss / test accuracy for output 2 = 1.4041 / 0.2510
+Training qa16
+Training took 89.64224468963766
+Total test loss = 2.1925
+Test loss / test accuracy for output 1 = 1.0852 / 0.5010
+Test loss / test accuracy for output 2 = 1.1073 / 0.4490
+Training qa17
+Training took 71.16880988722278
+Total test loss = 1.3939
+Test loss / test accuracy for output 1 = 0.6984 / 0.4800
+Test loss / test accuracy for output 2 = 0.6954 / 0.5070
+Training qa18
+Training took 248.15771388246958
+Total test loss = 0.8501
+Test loss / test accuracy for output 1 = 0.6962 / 0.4690
+Test loss / test accuracy for output 2 = 0.1539 / 0.9280
+Training qa19
+Training took 101.57499340986396
+Total test loss = 5.0110
+Test loss / test accuracy for output 1 = 2.5050 / 0.0730
+Test loss / test accuracy for output 2 = 2.5061 / 0.0790
+Training qa20
+Training took 117.01109512704443
+Total test loss = 0.2954
+Test loss / test accuracy for output 1 = 0.1347 / 0.9480
+Test loss / test accuracy for output 2 = 0.1607 / 0.9070

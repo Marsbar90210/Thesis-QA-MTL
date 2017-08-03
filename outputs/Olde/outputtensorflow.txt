@@ -1,0 +1,79 @@
+Started Task: 1
+Longest sentence length 7
+Longest story length 10
+Average story length 6
+[[ 8 17 16 15  6  0 21]
+ [11  9 16 15  2  0 20]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]]
+Training set shape (900, 10, 7)
+Training Size 900
+Validation Size 100
+Testing Size 1000
+-----------------------
+Epoch 10
+Total Cost: 1.63603264466
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 20
+Total Cost: 0.568429904059
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 30
+Total Cost: 0.371551557444
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 40
+Total Cost: 0.302751878276
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 50
+Total Cost: 0.254821387585
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 60
+Total Cost: 0.234988067299
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 70
+Total Cost: 0.218805600889
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 80
+Total Cost: 0.207582039293
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 90
+Total Cost: 0.200964719523
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+-----------------------
+Epoch 100
+Total Cost: 0.194735198747
+Training Accuracy: 1.0
+Validation Accuracy: 1.0
+-----------------------
+Testing Accuracy: 0.997

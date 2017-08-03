@@ -1,0 +1,4 @@
+Running model for en
+Training qa1
+Training took 38.08919460489464
+Test loss / test accuracy = 1.2484 / 0.5230

@@ -1,0 +1,364 @@
+Output for model mtlete 
+MTL model based on end to end memory with 1 hops sharing all
+Running model for en/hn, 10/03/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=1, word=1, limit=500
+
+Training qa1 iter 1
+Training took 6.2448 sec
+Train activation_3_acc: max=0.3978 mean=0.3401 min=0.1622
+Train activation_3_loss: max=2.8442 mean=1.5944 min=1.4888
+Train activation_4_acc: max=0.2978 mean=0.2619 min=0.1578
+Train activation_4_loss: max=2.7405 mean=1.6996 min=1.6392
+Train loss: max=5.5848 mean=3.2940 min=3.1291
+Train val_activation_3_acc: max=0.4400 mean=0.3228 min=0.1400
+Train val_activation_3_loss: max=1.9294 mean=1.6822 min=1.6037
+Train val_activation_4_acc: max=0.2400 mean=0.1656 min=0.0800
+Train val_activation_4_loss: max=2.3348 mean=2.2016 min=1.7811
+Train val_loss: max=4.0041 mean=3.8839 min=3.5999
+
+Total test loss = 3.8644
+Test loss / test accuracy for output 1 = 1.9120 / 0.2280
+Test loss / test accuracy for output 2 = 1.9524 / 0.2120
+
+
+Training qa2 iter 1
+Training took 20.1498 sec
+Train activation_7_acc: max=0.2444 mean=0.2160 min=0.1556
+Train activation_7_loss: max=2.8485 mean=1.7907 min=1.7586
+Train activation_8_acc: max=0.2133 mean=0.1879 min=0.1378
+Train activation_8_loss: max=2.9378 mean=1.8155 min=1.7819
+Train loss: max=5.7862 mean=3.6062 min=3.5425
+Train val_activation_7_acc: max=0.2600 mean=0.1720 min=0.0600
+Train val_activation_7_loss: max=1.9809 mean=1.8491 min=1.7985
+Train val_activation_8_acc: max=0.2200 mean=0.1182 min=0.0400
+Train val_activation_8_loss: max=1.9926 mean=1.8512 min=1.7654
+Train val_loss: max=3.9310 mean=3.7003 min=3.6212
+
+Total test loss = 3.6195
+Test loss / test accuracy for output 1 = 1.8206 / 0.2020
+Test loss / test accuracy for output 2 = 1.7989 / 0.1900
+
+
+Training qa3 iter 1
+Training took 71.1472 sec
+Train activation_11_acc: max=0.3356 mean=0.2908 min=0.1756
+Train activation_11_loss: max=3.0728 mean=1.6179 min=1.5592
+Train activation_12_acc: max=0.2356 mean=0.2073 min=0.1556
+Train activation_12_loss: max=2.9284 mean=1.7903 min=1.7575
+Train loss: max=6.0012 mean=3.4082 min=3.3208
+Train val_activation_11_acc: max=0.3000 mean=0.2022 min=0.1200
+Train val_activation_11_loss: max=1.9247 mean=1.7829 min=1.7122
+Train val_activation_12_acc: max=0.3200 mean=0.1746 min=0.0400
+Train val_activation_12_loss: max=2.0337 mean=1.8601 min=1.7983
+Train val_loss: max=3.8571 mean=3.6430 min=3.5409
+
+Total test loss = 3.4955
+Test loss / test accuracy for output 1 = 1.6495 / 0.2120
+Test loss / test accuracy for output 2 = 1.8460 / 0.1600
+
+
+Training qa4 iter 1
+Training took 4.2022 sec
+Train activation_15_acc: max=0.8178 mean=0.7619 min=0.1578
+Train activation_15_loss: max=2.6399 mean=0.5910 min=0.4187
+Train activation_16_acc: max=0.9400 mean=0.8801 min=0.2000
+Train activation_16_loss: max=2.6214 mean=0.3067 min=0.1707
+Train loss: max=5.2614 mean=0.8978 min=0.5921
+Train val_activation_15_acc: max=0.7800 mean=0.7166 min=0.2600
+Train val_activation_15_loss: max=1.7554 mean=0.7776 min=0.6237
+Train val_activation_16_acc: max=0.8600 mean=0.7986 min=0.3000
+Train val_activation_16_loss: max=1.7325 mean=0.6795 min=0.5299
+Train val_loss: max=3.4879 mean=1.4571 min=1.2094
+
+Total test loss = 1.5112
+Test loss / test accuracy for output 1 = 0.9035 / 0.6700
+Test loss / test accuracy for output 2 = 0.6077 / 0.8160
+
+
+Training qa5 iter 1
+Training took 27.9682 sec
+Train activation_19_acc: max=0.6022 mean=0.5468 min=0.2267
+Train activation_19_loss: max=3.1313 mean=0.8975 min=0.7981
+Train activation_20_acc: max=0.6244 mean=0.4978 min=0.1467
+Train activation_20_loss: max=3.0745 mean=1.0671 min=0.8277
+Train loss: max=6.2058 mean=1.9646 min=1.6268
+Train val_activation_19_acc: max=0.6600 mean=0.5300 min=0.2400
+Train val_activation_19_loss: max=1.6989 mean=0.8592 min=0.7580
+Train val_activation_20_acc: max=0.5800 mean=0.4326 min=0.3000
+Train val_activation_20_loss: max=1.7175 mean=1.2105 min=1.0440
+Train val_loss: max=3.4040 mean=2.0697 min=1.8290
+
+Total test loss = 2.0591
+Test loss / test accuracy for output 1 = 0.9949 / 0.4840
+Test loss / test accuracy for output 2 = 1.0641 / 0.5040
+
+
+Training qa6 iter 1
+Training took 9.4123 sec
+Train activation_23_acc: max=0.5867 mean=0.5593 min=0.4867
+Train activation_23_loss: max=2.0124 mean=0.7003 min=0.6766
+Train activation_24_acc: max=0.5800 mean=0.5438 min=0.4533
+Train activation_24_loss: max=1.9581 mean=0.7039 min=0.6808
+Train loss: max=3.9704 mean=1.4041 min=1.3582
+Train val_activation_23_acc: max=0.6800 mean=0.5870 min=0.4200
+Train val_activation_23_loss: max=0.7634 mean=0.6840 min=0.6735
+Train val_activation_24_acc: max=0.6600 mean=0.5386 min=0.3600
+Train val_activation_24_loss: max=0.7761 mean=0.6915 min=0.6545
+Train val_loss: max=1.5049 mean=1.3756 min=1.3334
+
+Total test loss = 1.4170
+Test loss / test accuracy for output 1 = 0.7149 / 0.4980
+Test loss / test accuracy for output 2 = 0.7020 / 0.5020
+
+
+Training qa7 iter 1
+Training took 13.4820 sec
+Train activation_27_acc: max=0.5067 mean=0.4739 min=0.4111
+Train activation_27_loss: max=2.6151 mean=0.8692 min=0.8393
+Train activation_28_acc: max=0.5178 mean=0.4863 min=0.3911
+Train activation_28_loss: max=2.3954 mean=0.9365 min=0.9078
+Train loss: max=5.0105 mean=1.8057 min=1.7479
+Train val_activation_27_acc: max=0.5600 mean=0.4914 min=0.4200
+Train val_activation_27_loss: max=0.8792 mean=0.8233 min=0.7878
+Train val_activation_28_acc: max=0.5600 mean=0.4446 min=0.3800
+Train val_activation_28_loss: max=0.9117 mean=0.8371 min=0.7961
+Train val_loss: max=1.7251 mean=1.6605 min=1.5937
+
+Total test loss = 1.7392
+Test loss / test accuracy for output 1 = 0.8280 / 0.4900
+Test loss / test accuracy for output 2 = 0.9112 / 0.4680
+
+
+Training qa8 iter 1
+Training took 16.3252 sec
+Train activation_31_acc: max=0.8822 mean=0.7129 min=0.2111
+Train activation_31_loss: max=3.1083 mean=0.8302 min=0.4314
+Train activation_32_acc: max=0.3644 mean=0.3532 min=0.1778
+Train activation_32_loss: max=2.9847 mean=1.6600 min=1.6218
+Train loss: max=6.0931 mean=2.4901 min=2.0541
+Train val_activation_31_acc: max=0.7400 mean=0.5902 min=0.2200
+Train val_activation_31_loss: max=1.9064 mean=1.1700 min=0.8614
+Train val_activation_32_acc: max=0.3800 mean=0.3688 min=0.1800
+Train val_activation_32_loss: max=1.5617 mean=1.4906 min=1.4691
+Train val_loss: max=3.4629 mean=2.6606 min=2.3400
+
+Total test loss = 2.4205
+Test loss / test accuracy for output 1 = 0.7355 / 0.7920
+Test loss / test accuracy for output 2 = 1.6850 / 0.3580
+
+
+Training qa9 iter 1
+Training took 6.9144 sec
+Train activation_35_acc: max=0.7689 mean=0.7260 min=0.5578
+Train activation_35_loss: max=1.6997 mean=0.5674 min=0.5101
+Train activation_36_acc: max=0.6867 mean=0.6240 min=0.4600
+Train activation_36_loss: max=1.9674 mean=0.6290 min=0.5481
+Train loss: max=3.6671 mean=1.1964 min=1.0582
+Train val_activation_35_acc: max=0.7200 mean=0.6620 min=0.2800
+Train val_activation_35_loss: max=0.9655 mean=0.6236 min=0.5843
+Train val_activation_36_acc: max=0.5400 mean=0.4818 min=0.4000
+Train val_activation_36_loss: max=0.9395 mean=0.8442 min=0.7089
+Train val_loss: max=1.8796 mean=1.4678 min=1.3038
+
+Total test loss = 1.7591
+Test loss / test accuracy for output 1 = 0.7071 / 0.6740
+Test loss / test accuracy for output 2 = 1.0520 / 0.5060
+
+
+Training qa10 iter 1
+Training took 7.6391 sec
+Train activation_39_acc: max=0.5733 mean=0.5352 min=0.4067
+Train activation_39_loss: max=1.7507 mean=0.9098 min=0.8590
+Train activation_40_acc: max=0.6533 mean=0.6052 min=0.4667
+Train activation_40_loss: max=2.0144 mean=0.6801 min=0.6410
+Train loss: max=3.7650 mean=1.5899 min=1.5006
+Train val_activation_39_acc: max=0.6000 mean=0.4988 min=0.3400
+Train val_activation_39_loss: max=1.1677 mean=1.0253 min=0.9356
+Train val_activation_40_acc: max=0.5600 mean=0.4890 min=0.4200
+Train val_activation_40_loss: max=0.9390 mean=0.7658 min=0.7126
+Train val_loss: max=1.9095 mean=1.7911 min=1.6556
+
+Total test loss = 1.8529
+Test loss / test accuracy for output 1 = 1.1043 / 0.4240
+Test loss / test accuracy for output 2 = 0.7486 / 0.5080
+
+
+Training qa11 iter 1
+Training took 7.3792 sec
+Train activation_43_acc: max=0.8956 mean=0.8149 min=0.1667
+Train activation_43_loss: max=2.7470 mean=0.5064 min=0.2931
+Train activation_44_acc: max=0.3000 mean=0.2599 min=0.1578
+Train activation_44_loss: max=2.6176 mean=1.7009 min=1.6433
+Train loss: max=5.3646 mean=2.2073 min=1.9364
+Train val_activation_43_acc: max=0.6800 mean=0.5868 min=0.3400
+Train val_activation_43_loss: max=1.8466 mean=1.1236 min=0.8382
+Train val_activation_44_acc: max=0.2400 mean=0.1652 min=0.0400
+Train val_activation_44_loss: max=2.1347 mean=2.0152 min=1.8385
+Train val_loss: max=3.7467 mean=3.1388 min=2.7053
+
+Total test loss = 2.7929
+Test loss / test accuracy for output 1 = 0.7801 / 0.7260
+Test loss / test accuracy for output 2 = 2.0129 / 0.1660
+
+
+Training qa12 iter 1
+Training took 7.1723 sec
+Train activation_47_acc: max=0.6911 mean=0.6002 min=0.1889
+Train activation_47_loss: max=2.6493 mean=0.9924 min=0.7799
+Train activation_48_acc: max=0.7067 mean=0.6114 min=0.1622
+Train activation_48_loss: max=2.7616 mean=0.9600 min=0.7461
+Train loss: max=5.4109 mean=1.9524 min=1.5301
+Train val_activation_47_acc: max=0.5600 mean=0.4696 min=0.1200
+Train val_activation_47_loss: max=1.9808 mean=1.3037 min=1.1026
+Train val_activation_48_acc: max=0.7200 mean=0.5914 min=0.3000
+Train val_activation_48_loss: max=1.7955 mean=1.0199 min=0.8424
+Train val_loss: max=3.6715 mean=2.3236 min=1.9850
+
+Total test loss = 2.4659
+Test loss / test accuracy for output 1 = 1.1410 / 0.5600
+Test loss / test accuracy for output 2 = 1.3249 / 0.5000
+
+
+Training qa13 iter 1
+Training took 8.4398 sec
+Train activation_51_acc: max=0.3178 mean=0.2748 min=0.1756
+Train activation_51_loss: max=2.7770 mean=1.6597 min=1.5909
+Train activation_52_acc: max=0.6956 mean=0.6153 min=0.1844
+Train activation_52_loss: max=2.8053 mean=0.9783 min=0.7911
+Train loss: max=5.5823 mean=2.6379 min=2.3836
+Train val_activation_51_acc: max=0.3000 mean=0.2184 min=0.1200
+Train val_activation_51_loss: max=2.0697 mean=1.8402 min=1.7127
+Train val_activation_52_acc: max=0.6400 mean=0.5274 min=0.2000
+Train val_activation_52_loss: max=1.8347 mean=1.3064 min=1.0947
+Train val_loss: max=3.9043 mean=3.1466 min=2.8673
+
+Total test loss = 3.4845
+Test loss / test accuracy for output 1 = 2.0364 / 0.1860
+Test loss / test accuracy for output 2 = 1.4481 / 0.4820
+
+
+Training qa14 iter 1
+Training took 8.7373 sec
+Train activation_55_acc: max=0.3667 mean=0.2754 min=0.1622
+Train activation_55_loss: max=2.7248 mean=1.5823 min=1.4430
+Train activation_56_acc: max=0.7778 mean=0.6436 min=0.1689
+Train activation_56_loss: max=2.9086 mean=0.9420 min=0.6314
+Train loss: max=5.6335 mean=2.5243 min=2.0744
+Train val_activation_55_acc: max=0.3200 mean=0.2300 min=0.1200
+Train val_activation_55_loss: max=1.9015 mean=1.7017 min=1.6323
+Train val_activation_56_acc: max=0.5400 mean=0.4620 min=0.2000
+Train val_activation_56_loss: max=2.1505 mean=1.8053 min=1.4198
+Train val_loss: max=3.8193 mean=3.5070 min=3.1570
+
+Total test loss = 3.9431
+Test loss / test accuracy for output 1 = 1.8927 / 0.2120
+Test loss / test accuracy for output 2 = 2.0503 / 0.4140
+
+
+Training qa15 iter 1
+Training took 6.2988 sec
+Train activation_59_acc: max=0.5489 mean=0.4971 min=0.2244
+Train activation_59_loss: max=2.5037 mean=1.1027 min=1.0275
+Train activation_60_acc: max=0.5733 mean=0.5067 min=0.2444
+Train activation_60_loss: max=2.5044 mean=1.0783 min=0.9745
+Train loss: max=5.0081 mean=2.1811 min=2.0039
+Train val_activation_59_acc: max=0.4600 mean=0.3396 min=0.1600
+Train val_activation_59_loss: max=1.6949 mean=1.5126 min=1.3963
+Train val_activation_60_acc: max=0.6000 mean=0.4802 min=0.2600
+Train val_activation_60_loss: max=1.4331 mean=1.1941 min=1.1237
+Train val_loss: max=2.9917 mean=2.7067 min=2.5543
+
+Total test loss = 2.3136
+Test loss / test accuracy for output 1 = 1.1199 / 0.5080
+Test loss / test accuracy for output 2 = 1.1937 / 0.4660
+
+
+Training qa16 iter 1
+Training took 6.5146 sec
+Train activation_63_acc: max=0.5467 mean=0.5011 min=0.2644
+Train activation_63_loss: max=2.2954 mean=1.0917 min=1.0273
+Train activation_64_acc: max=0.5178 mean=0.4886 min=0.2156
+Train activation_64_loss: max=2.2994 mean=1.0882 min=1.0290
+Train loss: max=4.5948 mean=2.1799 min=2.0577
+Train val_activation_63_acc: max=0.5400 mean=0.4516 min=0.1200
+Train val_activation_63_loss: max=1.4731 mean=1.1951 min=1.1146
+Train val_activation_64_acc: max=0.6000 mean=0.4864 min=0.2000
+Train val_activation_64_loss: max=1.4224 mean=1.1098 min=1.0668
+Train val_loss: max=2.8955 mean=2.3049 min=2.2171
+
+Total test loss = 2.2879
+Test loss / test accuracy for output 1 = 1.1994 / 0.4360
+Test loss / test accuracy for output 2 = 1.0886 / 0.4760
+
+
+Training qa17 iter 1
+Training took 5.1162 sec
+Train activation_67_acc: max=0.6222 mean=0.5798 min=0.4778
+Train activation_67_loss: max=1.5553 mean=0.6873 min=0.6555
+Train activation_68_acc: max=0.6244 mean=0.5795 min=0.4422
+Train activation_68_loss: max=1.4270 mean=0.6853 min=0.6570
+Train loss: max=2.9824 mean=1.3726 min=1.3141
+Train val_activation_67_acc: max=0.5800 mean=0.4810 min=0.3400
+Train val_activation_67_loss: max=0.9739 mean=0.7649 min=0.7232
+Train val_activation_68_acc: max=0.7000 mean=0.6104 min=0.4400
+Train val_activation_68_loss: max=0.9719 mean=0.6659 min=0.6350
+Train val_loss: max=1.7912 mean=1.4308 min=1.3753
+
+Total test loss = 1.4711
+Test loss / test accuracy for output 1 = 0.7488 / 0.5120
+Test loss / test accuracy for output 2 = 0.7222 / 0.5000
+
+
+Training qa18 iter 1
+Training took 10.2576 sec
+Train activation_71_acc: max=0.5822 mean=0.5486 min=0.4600
+Train activation_71_loss: max=1.5547 mean=0.6961 min=0.6737
+Train activation_72_acc: max=0.6600 mean=0.6341 min=0.4844
+Train activation_72_loss: max=1.7042 mean=0.6312 min=0.6064
+Train loss: max=3.2589 mean=1.3273 min=1.2814
+Train val_activation_71_acc: max=0.5400 mean=0.4928 min=0.4400
+Train val_activation_71_loss: max=0.7983 mean=0.7124 min=0.6970
+Train val_activation_72_acc: max=0.7200 mean=0.6460 min=0.5400
+Train val_activation_72_loss: max=0.7352 mean=0.5975 min=0.5606
+Train val_loss: max=1.4581 mean=1.3099 min=1.2747
+
+Total test loss = 1.3341
+Test loss / test accuracy for output 1 = 0.7227 / 0.4920
+Test loss / test accuracy for output 2 = 0.6115 / 0.6440
+
+
+Training qa19 iter 1
+Training took 6.3915 sec
+Train activation_75_acc: max=0.2444 mean=0.1946 min=0.0622
+Train activation_75_loss: max=3.4378 mean=2.3160 min=2.2279
+Train activation_76_acc: max=0.2667 mean=0.2207 min=0.0689
+Train activation_76_loss: max=3.3876 mean=2.1928 min=2.0803
+Train loss: max=6.8254 mean=4.5087 min=4.3100
+Train val_activation_75_acc: max=0.1200 mean=0.0234 min=0.0000
+Train val_activation_75_loss: max=2.8348 mean=2.7464 min=2.5130
+Train val_activation_76_acc: max=0.1800 mean=0.0922 min=0.0200
+Train val_activation_76_loss: max=3.0102 mean=2.8088 min=2.4159
+Train val_loss: max=5.8214 mean=5.5552 min=4.9511
+
+Total test loss = 5.7024
+Test loss / test accuracy for output 1 = 2.7700 / 0.0920
+Test loss / test accuracy for output 2 = 2.9323 / 0.0940
+
+
+Training qa20 iter 1
+Training took 8.2894 sec
+Train activation_79_acc: max=0.9867 mean=0.8860 min=0.2000
+Train activation_79_loss: max=2.8096 mean=0.2760 min=0.0451
+Train activation_80_acc: max=0.9978 mean=0.8588 min=0.2756
+Train activation_80_loss: max=2.9024 mean=0.3145 min=0.0141
+Train loss: max=5.7121 mean=0.5905 min=0.0592
+Train val_activation_79_acc: max=0.9600 mean=0.8444 min=0.4800
+Train val_activation_79_loss: max=1.5685 mean=0.3830 min=0.1078
+Train val_activation_80_acc: max=0.9800 mean=0.8420 min=0.5400
+Train val_activation_80_loss: max=1.3726 mean=0.3784 min=0.0998
+Train val_loss: max=2.9411 mean=0.7614 min=0.2093
+
+Total test loss = 0.1649
+Test loss / test accuracy for output 1 = 0.1054 / 0.9660
+Test loss / test accuracy for output 2 = 0.0595 / 0.9820
+

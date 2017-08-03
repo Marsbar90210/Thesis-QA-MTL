@@ -1,0 +1,98 @@
+python -W ignore modelmtlete.py en/hn
+MTL model based on end to end memory sharing the weight matrix
+Running model for en/hn
+Training qa1
+Training took 8.929349643518245
+Total test loss = 2.7413
+Test loss / test accuracy for output 1 = 1.3748 / 0.4250
+Test loss / test accuracy for output 2 = 1.3664 / 0.4160
+Training qa2
+Training took 43.49779563234149
+Total test loss = 3.2757
+Test loss / test accuracy for output 1 = 1.6850 / 0.2960
+Test loss / test accuracy for output 2 = 1.5907 / 0.3230
+Training qa3
+Training took 156.5891081504991
+Total test loss = 3.7487
+Test loss / test accuracy for output 1 = 1.9087 / 0.1760
+Test loss / test accuracy for output 2 = 1.8399 / 0.1810
+Training qa4
+Training took 5.03768358393404
+Total test loss = 2.2635
+Test loss / test accuracy for output 1 = 1.4752 / 0.3390
+Test loss / test accuracy for output 2 = 0.7884 / 0.5450
+Training qa5
+Training took 55.811868798798855
+Total test loss = 2.8540
+Test loss / test accuracy for output 1 = 1.4552 / 0.3150
+Test loss / test accuracy for output 2 = 1.3989 / 0.3170
+Training qa6
+Training took 15.043908007842049
+Total test loss = 1.4364
+Test loss / test accuracy for output 1 = 0.7068 / 0.4950
+Test loss / test accuracy for output 2 = 0.7296 / 0.4860
+Training qa7
+Training took 37.77658955402694
+Total test loss = 1.3315
+Test loss / test accuracy for output 1 = 0.6794 / 0.7030
+Test loss / test accuracy for output 2 = 0.6521 / 0.7120
+Training qa8
+Training took 32.71438598215849
+Total test loss = 1.8053
+Test loss / test accuracy for output 1 = 0.8913 / 0.6790
+Test loss / test accuracy for output 2 = 0.9140 / 0.6890
+Training qa9
+Training took 10.330542801947445
+Total test loss = 1.4009
+Test loss / test accuracy for output 1 = 0.6858 / 0.5950
+Test loss / test accuracy for output 2 = 0.7151 / 0.5170
+Training qa10
+Training took 11.67658800340672
+Total test loss = 1.7957
+Test loss / test accuracy for output 1 = 1.0598 / 0.4270
+Test loss / test accuracy for output 2 = 0.7359 / 0.5140
+Training qa12
+Training took 10.653618635764303
+Total test loss = 2.8301
+Test loss / test accuracy for output 1 = 1.4332 / 0.3880
+Test loss / test accuracy for output 2 = 1.3969 / 0.3910
+Training qa13
+Training took 12.499326065312687
+Total test loss = 2.1604
+Test loss / test accuracy for output 1 = 0.9347 / 0.6030
+Test loss / test accuracy for output 2 = 1.2257 / 0.5100
+Training qa14
+Training took 13.003244892388409
+Total test loss = 3.3307
+Test loss / test accuracy for output 1 = 1.6459 / 0.3350
+Test loss / test accuracy for output 2 = 1.6848 / 0.3490
+Training qa15
+Training took 8.33064812709938
+Total test loss = 2.5145
+Test loss / test accuracy for output 1 = 1.4175 / 0.3020
+Test loss / test accuracy for output 2 = 1.0971 / 0.5010
+Training qa16
+Training took 8.934554754011685
+Total test loss = 2.2571
+Test loss / test accuracy for output 1 = 1.1188 / 0.4930
+Test loss / test accuracy for output 2 = 1.1383 / 0.4510
+Training qa17
+Training took 6.072830587126305
+Total test loss = 1.4286
+Test loss / test accuracy for output 1 = 0.7029 / 0.5210
+Test loss / test accuracy for output 2 = 0.7257 / 0.4840
+Training qa18
+Training took 17.59797389516109
+Total test loss = 1.4131
+Test loss / test accuracy for output 1 = 0.7120 / 0.4870
+Test loss / test accuracy for output 2 = 0.7011 / 0.4910
+Training qa19
+Training took 8.300123435226624
+Total test loss = 5.1127
+Test loss / test accuracy for output 1 = 2.5419 / 0.0990
+Test loss / test accuracy for output 2 = 2.5708 / 0.1030
+Training qa20
+Training took 10.957721898883733
+Total test loss = 2.4275
+Test loss / test accuracy for output 1 = 1.2313 / 0.5220
+Test loss / test accuracy for output 2 = 1.1962 / 0.5260

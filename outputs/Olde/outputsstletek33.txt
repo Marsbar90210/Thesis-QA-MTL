@@ -1,0 +1,972 @@
+python -W ignore modelstletek3.py en
+STL model based on end to end memory with 3 hops
+Running model for en
+
+Training qa1 iter 1
+Training took 14.1641 sec
+Train loss/acc 0.3285 / 0.9545
+Validation loss/acc 0.3760 / 0.9545
+Test loss / test accuracy = 0.3510 / 0.9545
+Training qa1 iter 2
+Training took 14.2120 sec
+Train loss/acc 0.2368 / 0.9545
+Validation loss/acc 0.1899 / 0.9545
+Test loss / test accuracy = 0.2182 / 0.9545
+Training qa1 iter 3
+Training took 14.2545 sec
+Train loss/acc 0.1265 / 0.9545
+Validation loss/acc 0.1281 / 0.9545
+Test loss / test accuracy = 0.1266 / 0.9545
+Training qa1 iter 4
+Training took 14.4079 sec
+Train loss/acc 0.2261 / 0.9545
+Validation loss/acc 0.2746 / 0.9545
+Test loss / test accuracy = 0.2205 / 0.9545
+Training qa1 iter 5
+Training took 14.4164 sec
+Train loss/acc 0.1250 / 0.9545
+Validation loss/acc 0.1256 / 0.9545
+Test loss / test accuracy = 0.1255 / 0.9545
+Training qa1 iter 6
+Training took 14.4137 sec
+Train loss/acc 0.2239 / 0.9545
+Validation loss/acc 0.2417 / 0.9545
+Test loss / test accuracy = 0.2364 / 0.9545
+Training qa1 iter 7
+Training took 14.6067 sec
+Train loss/acc 0.1236 / 0.9545
+Validation loss/acc 0.1236 / 0.9545
+Test loss / test accuracy = 0.1242 / 0.9545
+Training qa1 iter 8
+Training took 14.5971 sec
+Train loss/acc 0.2360 / 0.9545
+Validation loss/acc 0.1901 / 0.9545
+Test loss / test accuracy = 0.2176 / 0.9545
+Training qa1 iter 9
+Training took 14.5960 sec
+Train loss/acc 0.1245 / 0.9545
+Validation loss/acc 0.1263 / 0.9545
+Test loss / test accuracy = 0.1249 / 0.9545
+Training qa1 iter 10
+Training took 15.3968 sec
+Train loss/acc 0.2178 / 0.9545
+Validation loss/acc 0.2298 / 0.9545
+Test loss / test accuracy = 0.2293 / 0.9545
+
+Training qa2 iter 1
+Training took 76.4503 sec
+Train loss/acc 0.0812 / 0.9722
+Validation loss/acc 0.0825 / 0.9722
+Test loss / test accuracy = 0.0815 / 0.9722
+Training qa2 iter 2
+Training took 75.5974 sec
+Train loss/acc 0.0751 / 0.9722
+Validation loss/acc 0.0772 / 0.9722
+Test loss / test accuracy = 0.0768 / 0.9722
+Training qa2 iter 3
+Training took 76.1692 sec
+Train loss/acc 0.0810 / 0.9722
+Validation loss/acc 0.0831 / 0.9722
+Test loss / test accuracy = 0.0831 / 0.9722
+Training qa2 iter 4
+Training took 75.6784 sec
+Train loss/acc 0.1384 / 0.8674
+Validation loss/acc 0.1692 / 0.8639
+Test loss / test accuracy = 0.1470 / 0.9722
+Training qa2 iter 5
+Training took 76.3683 sec
+Train loss/acc 0.1620 / 0.9722
+Validation loss/acc 0.1133 / 0.9722
+Test loss / test accuracy = 0.1492 / 0.9722
+Training qa2 iter 6
+Training took 77.3175 sec
+Train loss/acc 0.1485 / 0.9722
+Validation loss/acc 0.1756 / 0.9722
+Test loss / test accuracy = 0.1294 / 0.9722
+Training qa2 iter 7
+Training took 77.1258 sec
+Train loss/acc 0.0781 / 0.9722
+Validation loss/acc 0.0800 / 0.9722
+Test loss / test accuracy = 0.0789 / 0.9722
+Training qa2 iter 8
+Training took 77.8999 sec
+Train loss/acc 0.0750 / 0.9722
+Validation loss/acc 0.0766 / 0.9722
+Test loss / test accuracy = 0.0755 / 0.9722
+Training qa2 iter 9
+Training took 77.9333 sec
+Train loss/acc 0.0754 / 0.9722
+Validation loss/acc 0.0754 / 0.9722
+Test loss / test accuracy = 0.0762 / 0.9722
+Training qa2 iter 10
+Training took 77.3013 sec
+Train loss/acc 0.0837 / 0.9722
+Validation loss/acc 0.0820 / 0.9722
+Test loss / test accuracy = 0.0832 / 0.9722
+
+Training qa3 iter 1
+Training took 195.7273 sec
+Train loss/acc 0.1333 / 0.9730
+Validation loss/acc 0.1394 / 0.9730
+Test loss / test accuracy = 0.1342 / 0.9730
+Training qa3 iter 2
+Training took 193.6153 sec
+Train loss/acc 0.1486 / 0.9730
+Validation loss/acc 0.1310 / 0.9730
+Test loss / test accuracy = 0.1414 / 0.9730
+Training qa3 iter 3
+Training took 194.7948 sec
+Train loss/acc 0.1387 / 0.9730
+Validation loss/acc 0.1557 / 0.9730
+Test loss / test accuracy = 0.1319 / 0.9730
+Training qa3 iter 4
+Training took 193.2516 sec
+Train loss/acc 0.0774 / 0.9638
+Validation loss/acc 0.0788 / 0.9608
+Test loss / test accuracy = 0.0771 / 0.9730
+Training qa3 iter 5
+Training took 194.3594 sec
+Train loss/acc 0.0760 / 0.9730
+Validation loss/acc 0.0758 / 0.9730
+Test loss / test accuracy = 0.0764 / 0.9730
+Training qa3 iter 6
+Training took 192.5933 sec
+Train loss/acc 0.1972 / 0.9730
+Validation loss/acc 0.2031 / 0.9730
+Test loss / test accuracy = 0.1954 / 0.9730
+Training qa3 iter 7
+Training took 194.0380 sec
+Train loss/acc 0.1884 / 0.9730
+Validation loss/acc 0.1812 / 0.9730
+Test loss / test accuracy = 0.2049 / 0.9730
+Training qa3 iter 8
+Training took 195.9812 sec
+Train loss/acc 0.1341 / 0.9730
+Validation loss/acc 0.1397 / 0.9730
+Test loss / test accuracy = 0.1352 / 0.9730
+Training qa3 iter 9
+Training took 195.3705 sec
+Train loss/acc 0.2012 / 0.9730
+Validation loss/acc 0.1690 / 0.9730
+Test loss / test accuracy = 0.2186 / 0.9730
+Training qa3 iter 10
+Training took 194.8674 sec
+Train loss/acc 0.0788 / 0.9730
+Validation loss/acc 0.0773 / 0.9730
+Test loss / test accuracy = 0.0788 / 0.9730
+
+Training qa4 iter 1
+Training took 7.6861 sec
+Train loss/acc 0.1470 / 0.9444
+Validation loss/acc 0.1474 / 0.9444
+Test loss / test accuracy = 0.1473 / 0.9444
+Training qa4 iter 2
+Training took 7.8859 sec
+Train loss/acc 0.1442 / 0.9444
+Validation loss/acc 0.1442 / 0.9444
+Test loss / test accuracy = 0.1445 / 0.9444
+Training qa4 iter 3
+Training took 8.0812 sec
+Train loss/acc 0.1497 / 0.9444
+Validation loss/acc 0.1493 / 0.9444
+Test loss / test accuracy = 0.1495 / 0.9444
+Training qa4 iter 4
+Training took 7.8172 sec
+Train loss/acc 0.1505 / 0.9444
+Validation loss/acc 0.1494 / 0.9444
+Test loss / test accuracy = 0.1510 / 0.9444
+Training qa4 iter 5
+Training took 7.9456 sec
+Train loss/acc 0.1529 / 0.9444
+Validation loss/acc 0.1531 / 0.9444
+Test loss / test accuracy = 0.1527 / 0.9444
+Training qa4 iter 6
+Training took 8.1339 sec
+Train loss/acc 0.2684 / 0.9444
+Validation loss/acc 0.2489 / 0.9444
+Test loss / test accuracy = 0.2710 / 0.9444
+Training qa4 iter 7
+Training took 8.3076 sec
+Train loss/acc 0.1458 / 0.9444
+Validation loss/acc 0.1472 / 0.9444
+Test loss / test accuracy = 0.1464 / 0.9444
+Training qa4 iter 8
+Training took 8.3089 sec
+Train loss/acc 0.2748 / 0.9444
+Validation loss/acc 0.2842 / 0.9444
+Test loss / test accuracy = 0.2629 / 0.9444
+Training qa4 iter 9
+Training took 8.0423 sec
+Train loss/acc 0.1524 / 0.9444
+Validation loss/acc 0.1575 / 0.9444
+Test loss / test accuracy = 0.1533 / 0.9444
+Training qa4 iter 10
+Training took 8.1572 sec
+Train loss/acc 0.1487 / 0.9444
+Validation loss/acc 0.1507 / 0.9444
+Test loss / test accuracy = 0.1496 / 0.9444
+
+Training qa5 iter 1
+Training took 92.7391 sec
+Train loss/acc 0.1141 / 0.9762
+Validation loss/acc 0.1484 / 0.9762
+Test loss / test accuracy = 0.1178 / 0.9762
+Training qa5 iter 2
+Training took 92.5294 sec
+Train loss/acc 0.1215 / 0.9762
+Validation loss/acc 0.1334 / 0.9762
+Test loss / test accuracy = 0.1297 / 0.9762
+Training qa5 iter 3
+Training took 92.5401 sec
+Train loss/acc 0.1579 / 0.9762
+Validation loss/acc 0.1824 / 0.9762
+Test loss / test accuracy = 0.1471 / 0.9762
+Training qa5 iter 4
+Training took 94.0289 sec
+Train loss/acc 0.1218 / 0.6568
+Validation loss/acc 0.1088 / 0.6031
+Test loss / test accuracy = 0.1146 / 0.9762
+Training qa5 iter 5
+Training took 92.9800 sec
+Train loss/acc 0.1090 / 0.9762
+Validation loss/acc 0.1442 / 0.9762
+Test loss / test accuracy = 0.1130 / 0.9762
+Training qa5 iter 6
+Training took 94.4166 sec
+Train loss/acc 0.0714 / 0.9762
+Validation loss/acc 0.0716 / 0.9762
+Test loss / test accuracy = 0.0714 / 0.9762
+Training qa5 iter 7
+Training took 93.7327 sec
+Train loss/acc 0.0710 / 0.9762
+Validation loss/acc 0.0709 / 0.9762
+Test loss / test accuracy = 0.0710 / 0.9762
+Training qa5 iter 8
+Training took 97.9049 sec
+Train loss/acc 0.0743 / 0.9762
+Validation loss/acc 0.0753 / 0.9762
+Test loss / test accuracy = 0.0742 / 0.9762
+Training qa5 iter 9
+Training took 95.1923 sec
+Train loss/acc 0.1231 / 0.9762
+Validation loss/acc 0.1223 / 0.9762
+Test loss / test accuracy = 0.1289 / 0.9762
+Training qa5 iter 10
+Training took 94.6951 sec
+Train loss/acc 0.2138 / 0.9762
+Validation loss/acc 0.1888 / 0.9762
+Test loss / test accuracy = 0.1985 / 0.9762
+
+Training qa6 iter 1
+Training took 33.4054 sec
+Train loss/acc 0.0568 / 0.9737
+Validation loss/acc 0.0592 / 0.9737
+Test loss / test accuracy = 0.0567 / 0.9737
+Training qa6 iter 2
+Training took 33.4419 sec
+Train loss/acc 0.2337 / 0.9737
+Validation loss/acc 0.2011 / 0.9737
+Test loss / test accuracy = 0.2349 / 0.9737
+Training qa6 iter 3
+Training took 35.7281 sec
+Train loss/acc 0.0482 / 0.9737
+Validation loss/acc 0.0484 / 0.9737
+Test loss / test accuracy = 0.0482 / 0.9737
+Training qa6 iter 4
+Training took 33.8823 sec
+Train loss/acc 0.0615 / 0.9737
+Validation loss/acc 0.0610 / 0.9737
+Test loss / test accuracy = 0.0615 / 0.9737
+Training qa6 iter 5
+Training took 33.7320 sec
+Train loss/acc 0.0451 / 0.9737
+Validation loss/acc 0.0456 / 0.9737
+Test loss / test accuracy = 0.0450 / 0.9737
+Training qa6 iter 6
+Training took 35.2035 sec
+Train loss/acc 0.0397 / 0.9476
+Validation loss/acc 0.0402 / 0.9474
+Test loss / test accuracy = 0.0396 / 0.9474
+Training qa6 iter 7
+Training took 35.4880 sec
+Train loss/acc 0.0373 / 0.9688
+Validation loss/acc 0.0377 / 0.9700
+Test loss / test accuracy = 0.0373 / 0.9689
+Training qa6 iter 8
+Training took 35.4239 sec
+Train loss/acc 0.0813 / 0.4063
+Validation loss/acc 0.0792 / 0.3950
+Test loss / test accuracy = 0.0813 / 0.9735
+Training qa6 iter 9
+Training took 34.1780 sec
+Train loss/acc 0.0577 / 0.9737
+Validation loss/acc 0.0559 / 0.9737
+Test loss / test accuracy = 0.0577 / 0.9737
+Training qa6 iter 10
+Training took 35.3469 sec
+Train loss/acc 0.2366 / 0.9737
+Validation loss/acc 0.2041 / 0.9737
+Test loss / test accuracy = 0.2378 / 0.9737
+
+Training qa7 iter 1
+Training took 48.5076 sec
+Train loss/acc 0.0443 / 0.9783
+Validation loss/acc 0.0421 / 0.9783
+Test loss / test accuracy = 0.0442 / 0.9783
+Training qa7 iter 2
+Training took 48.0889 sec
+Train loss/acc 0.2046 / 0.9783
+Validation loss/acc 0.1859 / 0.9783
+Test loss / test accuracy = 0.2026 / 0.9783
+Training qa7 iter 3
+Training took 47.9046 sec
+Train loss/acc 0.0609 / 0.9783
+Validation loss/acc 0.0522 / 0.9783
+Test loss / test accuracy = 0.0598 / 0.9783
+Training qa7 iter 4
+Training took 45.3238 sec
+Train loss/acc 0.0493 / 0.9783
+Validation loss/acc 0.0482 / 0.9783
+Test loss / test accuracy = 0.0492 / 0.9783
+Training qa7 iter 5
+Training took 46.6395 sec
+Train loss/acc 0.0670 / 0.9783
+Validation loss/acc 0.0652 / 0.9783
+Test loss / test accuracy = 0.0671 / 0.9783
+Training qa7 iter 6
+Training took 48.3996 sec
+Train loss/acc 0.0501 / 0.9783
+Validation loss/acc 0.0484 / 0.9783
+Test loss / test accuracy = 0.0501 / 0.9783
+Training qa7 iter 7
+Training took 47.8975 sec
+Train loss/acc 0.0442 / 0.9783
+Validation loss/acc 0.0428 / 0.9783
+Test loss / test accuracy = 0.0443 / 0.9783
+Training qa7 iter 8
+Training took 48.3463 sec
+Train loss/acc 0.0458 / 0.9783
+Validation loss/acc 0.0445 / 0.9783
+Test loss / test accuracy = 0.0455 / 0.9783
+Training qa7 iter 9
+Training took 49.4941 sec
+Train loss/acc 0.0612 / 0.9765
+Validation loss/acc 0.0597 / 0.9767
+Test loss / test accuracy = 0.0613 / 0.9783
+Training qa7 iter 10
+Training took 52.8600 sec
+Train loss/acc 0.0543 / 0.9783
+Validation loss/acc 0.0524 / 0.9783
+Test loss / test accuracy = 0.0541 / 0.9783
+
+Training qa8 iter 1
+Training took 70.1334 sec
+Train loss/acc 0.0714 / 0.6079
+Validation loss/acc 0.0902 / 0.5619
+Test loss / test accuracy = 0.0805 / 0.9792
+Training qa8 iter 2
+Training took 70.2370 sec
+Train loss/acc 0.0657 / 0.9792
+Validation loss/acc 0.0884 / 0.9792
+Test loss / test accuracy = 0.0697 / 0.9792
+Training qa8 iter 3
+Training took 68.7684 sec
+Train loss/acc 0.0680 / 0.9792
+Validation loss/acc 0.0686 / 0.9792
+Test loss / test accuracy = 0.0680 / 0.9792
+Training qa8 iter 4
+Training took 69.8424 sec
+Train loss/acc 0.0743 / 0.9792
+Validation loss/acc 0.0850 / 0.9792
+Test loss / test accuracy = 0.0719 / 0.9792
+Training qa8 iter 5
+Training took 70.8080 sec
+Train loss/acc 0.1256 / 0.9792
+Validation loss/acc 0.1133 / 0.9792
+Test loss / test accuracy = 0.1234 / 0.9792
+Training qa8 iter 6
+Training took 70.7141 sec
+Train loss/acc 0.1219 / 0.9792
+Validation loss/acc 0.1268 / 0.9792
+Test loss / test accuracy = 0.1251 / 0.9792
+Training qa8 iter 7
+Training took 75.0916 sec
+Train loss/acc 0.0799 / 0.9792
+Validation loss/acc 0.0964 / 0.9792
+Test loss / test accuracy = 0.0803 / 0.9792
+Training qa8 iter 8
+Training took 72.7976 sec
+Train loss/acc 0.1227 / 0.9792
+Validation loss/acc 0.1438 / 0.9792
+Test loss / test accuracy = 0.1303 / 0.9792
+Training qa8 iter 9
+Training took 71.8281 sec
+Train loss/acc 0.0651 / 0.9792
+Validation loss/acc 0.0713 / 0.9792
+Test loss / test accuracy = 0.0651 / 0.9792
+Training qa8 iter 10
+Training took 72.4479 sec
+Train loss/acc 0.0691 / 0.9792
+Validation loss/acc 0.0669 / 0.9792
+Test loss / test accuracy = 0.0682 / 0.9792
+
+Training qa9 iter 1
+Training took 28.1640 sec
+Train loss/acc 0.0536 / 0.9398
+Validation loss/acc 0.0500 / 0.9452
+Test loss / test accuracy = 0.0529 / 0.9419
+Training qa9 iter 2
+Training took 26.7465 sec
+Train loss/acc 0.3207 / 0.7561
+Validation loss/acc 0.3632 / 0.7563
+Test loss / test accuracy = 0.3370 / 0.7562
+Training qa9 iter 3
+Training took 28.9166 sec
+Train loss/acc 0.0539 / 0.8967
+Validation loss/acc 0.0516 / 0.9022
+Test loss / test accuracy = 0.0535 / 0.8991
+Training qa9 iter 4
+Training took 27.3834 sec
+Train loss/acc 0.0643 / 0.9630
+Validation loss/acc 0.0630 / 0.9630
+Test loss / test accuracy = 0.0642 / 0.9630
+Training qa9 iter 5
+Training took 27.8867 sec
+Train loss/acc 0.0571 / 0.9630
+Validation loss/acc 0.0561 / 0.9630
+Test loss / test accuracy = 0.0570 / 0.9630
+Training qa9 iter 6
+Training took 29.5809 sec
+Train loss/acc 0.0561 / 0.9092
+Validation loss/acc 0.0522 / 0.9137
+Test loss / test accuracy = 0.0553 / 0.9119
+Training qa9 iter 7
+Training took 28.2921 sec
+Train loss/acc 0.0583 / 0.9468
+Validation loss/acc 0.0540 / 0.9522
+Test loss / test accuracy = 0.0573 / 0.9489
+Training qa9 iter 8
+Training took 29.0170 sec
+Train loss/acc 0.5971 / 0.9630
+Validation loss/acc 0.5971 / 0.9630
+Test loss / test accuracy = 0.5971 / 0.9630
+Training qa9 iter 9
+Training took 30.3256 sec
+Train loss/acc 0.0627 / 0.9554
+Validation loss/acc 0.0598 / 0.9556
+Test loss / test accuracy = 0.0620 / 0.9552
+Training qa9 iter 10
+Training took 30.0462 sec
+Train loss/acc 0.0646 / 0.9333
+Validation loss/acc 0.0622 / 0.9333
+Test loss / test accuracy = 0.0642 / 0.9333
+
+Training qa10 iter 1
+Training took 32.7797 sec
+Train loss/acc 0.0671 / 0.9071
+Validation loss/acc 0.0660 / 0.9071
+Test loss / test accuracy = 0.0681 / 0.9071
+Training qa10 iter 2
+Training took 33.9943 sec
+Train loss/acc 0.1223 / 0.9182
+Validation loss/acc 0.1079 / 0.9171
+Test loss / test accuracy = 0.1367 / 0.9183
+Training qa10 iter 3
+Training took 35.4674 sec
+Train loss/acc 0.1222 / 0.9643
+Validation loss/acc 0.1079 / 0.9643
+Test loss / test accuracy = 0.1367 / 0.9643
+Training qa10 iter 4
+Training took 31.3059 sec
+Train loss/acc 0.1304 / 0.9643
+Validation loss/acc 0.1168 / 0.9643
+Test loss / test accuracy = 0.1444 / 0.9643
+Training qa10 iter 5
+Training took 31.4956 sec
+Train loss/acc 0.3056 / 0.9643
+Validation loss/acc 0.3135 / 0.9643
+Test loss / test accuracy = 0.2916 / 0.9643
+Training qa10 iter 6
+Training took 35.2638 sec
+Train loss/acc 0.0705 / 0.9643
+Validation loss/acc 0.0689 / 0.9643
+Test loss / test accuracy = 0.0719 / 0.9643
+Training qa10 iter 7
+Training took 33.4033 sec
+Train loss/acc 0.0697 / 0.9643
+Validation loss/acc 0.0679 / 0.9643
+Test loss / test accuracy = 0.0714 / 0.9643
+Training qa10 iter 8
+Training took 35.1363 sec
+Train loss/acc 0.0640 / 0.9357
+Validation loss/acc 0.0624 / 0.9357
+Test loss / test accuracy = 0.0656 / 0.9357
+Training qa10 iter 9
+Training took 32.7709 sec
+Train loss/acc 0.0656 / 0.9643
+Validation loss/acc 0.0645 / 0.9643
+Test loss / test accuracy = 0.0665 / 0.9643
+Training qa10 iter 10
+Training took 34.7281 sec
+Train loss/acc 0.0652 / 0.9638
+Validation loss/acc 0.0634 / 0.9621
+Test loss / test accuracy = 0.0669 / 0.9633
+
+Training qa12 iter 1
+Training took 38.3253 sec
+Train loss/acc 0.1196 / 0.9565
+Validation loss/acc 0.1192 / 0.9565
+Test loss / test accuracy = 0.1203 / 0.9565
+Training qa12 iter 2
+Training took 35.0861 sec
+Train loss/acc 0.1924 / 0.9565
+Validation loss/acc 0.2166 / 0.9565
+Test loss / test accuracy = 0.2093 / 0.9565
+Training qa12 iter 3
+Training took 33.8687 sec
+Train loss/acc 0.2266 / 0.9565
+Validation loss/acc 0.2254 / 0.9565
+Test loss / test accuracy = 0.2079 / 0.9565
+Training qa12 iter 4
+Training took 34.1042 sec
+Train loss/acc 0.1180 / 0.9565
+Validation loss/acc 0.1174 / 0.9565
+Test loss / test accuracy = 0.1185 / 0.9565
+Training qa12 iter 5
+Training took 40.2455 sec
+Train loss/acc 0.2126 / 0.9552
+Validation loss/acc 0.2062 / 0.9565
+Test loss / test accuracy = 0.2182 / 0.9565
+Training qa12 iter 6
+Training took 38.6612 sec
+Train loss/acc 0.3198 / 0.9565
+Validation loss/acc 0.3129 / 0.9565
+Test loss / test accuracy = 0.3065 / 0.9565
+Training qa12 iter 7
+Training took 38.3508 sec
+Train loss/acc 0.1195 / 0.9565
+Validation loss/acc 0.1196 / 0.9565
+Test loss / test accuracy = 0.1202 / 0.9565
+Training qa12 iter 8
+Training took 36.8805 sec
+Train loss/acc 0.1186 / 0.9565
+Validation loss/acc 0.1202 / 0.9565
+Test loss / test accuracy = 0.1200 / 0.9565
+Training qa12 iter 9
+Training took 39.7637 sec
+Train loss/acc 0.1200 / 0.9565
+Validation loss/acc 0.1203 / 0.9565
+Test loss / test accuracy = 0.1205 / 0.9565
+Training qa12 iter 10
+Training took 39.0091 sec
+Train loss/acc 0.1205 / 0.9565
+Validation loss/acc 0.1209 / 0.9565
+Test loss / test accuracy = 0.1213 / 0.9565
+
+Training qa13 iter 1
+Training took 34.6711 sec
+Train loss/acc 0.1858 / 0.0389
+Validation loss/acc 0.1457 / 0.0390
+Test loss / test accuracy = 5.3213 / 0.0391
+Training qa13 iter 2
+Training took 40.5012 sec
+Train loss/acc 0.0947 / 0.9655
+Validation loss/acc 0.0945 / 0.9655
+Test loss / test accuracy = 0.0952 / 0.9655
+Training qa13 iter 3
+Training took 34.2206 sec
+Train loss/acc 0.0945 / 0.9655
+Validation loss/acc 0.0953 / 0.9655
+Test loss / test accuracy = 0.0953 / 0.9655
+Training qa13 iter 4
+Training took 37.2647 sec
+Train loss/acc 0.1047 / 0.9655
+Validation loss/acc 0.1041 / 0.9655
+Test loss / test accuracy = 0.1049 / 0.9655
+Training qa13 iter 5
+Training took 40.0535 sec
+Train loss/acc 0.1635 / 0.9655
+Validation loss/acc 0.1688 / 0.9655
+Test loss / test accuracy = 0.1783 / 0.9655
+Training qa13 iter 6
+Training took 40.7685 sec
+Train loss/acc 0.1026 / 0.9655
+Validation loss/acc 0.1027 / 0.9655
+Test loss / test accuracy = 0.1023 / 0.9655
+Training qa13 iter 7
+Training took 44.8233 sec
+Train loss/acc 0.1780 / 0.9655
+Validation loss/acc 0.2081 / 0.9655
+Test loss / test accuracy = 0.1949 / 0.9655
+Training qa13 iter 8
+Training took 49.7642 sec
+Train loss/acc 0.2422 / 0.9655
+Validation loss/acc 0.2362 / 0.9655
+Test loss / test accuracy = 0.2495 / 0.9655
+Training qa13 iter 9
+Training took 41.7389 sec
+Train loss/acc 0.1730 / 0.9655
+Validation loss/acc 0.1722 / 0.9655
+Test loss / test accuracy = 0.1714 / 0.9655
+Training qa13 iter 10
+Training took 41.9620 sec
+Train loss/acc 0.0950 / 0.9655
+Validation loss/acc 0.0953 / 0.9655
+Test loss / test accuracy = 0.0960 / 0.9655
+
+Training qa14 iter 1
+Training took 43.5408 sec
+Train loss/acc 0.2401 / 0.9667
+Validation loss/acc 0.2274 / 0.9667
+Test loss / test accuracy = 0.2463 / 0.9667
+Training qa14 iter 2
+Training took 44.2764 sec
+Train loss/acc 0.0912 / 0.9667
+Validation loss/acc 0.0901 / 0.9667
+Test loss / test accuracy = 0.0914 / 0.9667
+Training qa14 iter 3
+Training took 45.3919 sec
+Train loss/acc 2.6102 / 0.2083
+Validation loss/acc 2.6666 / 0.2110
+Test loss / test accuracy = 2.5992 / 0.4291
+Training qa14 iter 4
+Training took 47.6724 sec
+Train loss/acc 0.1678 / 0.9667
+Validation loss/acc 0.1834 / 0.9667
+Test loss / test accuracy = 0.1614 / 0.9667
+Training qa14 iter 5
+Training took 51.8472 sec
+Train loss/acc 0.1633 / 0.9667
+Validation loss/acc 0.1475 / 0.9667
+Test loss / test accuracy = 0.1674 / 0.9667
+Training qa14 iter 6
+Training took 46.2292 sec
+Train loss/acc 0.1679 / 0.9667
+Validation loss/acc 0.1952 / 0.9667
+Test loss / test accuracy = 0.1632 / 0.9667
+Training qa14 iter 7
+Training took 48.9983 sec
+Train loss/acc 0.1590 / 0.9667
+Validation loss/acc 0.1551 / 0.9667
+Test loss / test accuracy = 0.1650 / 0.9667
+Training qa14 iter 8
+Training took 54.1470 sec
+Train loss/acc 0.1019 / 0.9667
+Validation loss/acc 0.1026 / 0.9667
+Test loss / test accuracy = 0.1019 / 0.9667
+Training qa14 iter 9
+Training took 48.4289 sec
+Train loss/acc 0.1675 / 0.9667
+Validation loss/acc 0.1953 / 0.9667
+Test loss / test accuracy = 0.1627 / 0.9667
+Training qa14 iter 10
+Training took 49.1511 sec
+Train loss/acc 0.0916 / 0.9667
+Validation loss/acc 0.0909 / 0.9667
+Test loss / test accuracy = 0.0919 / 0.9667
+
+Training qa15 iter 1
+Training took 35.3141 sec
+Train loss/acc 0.2310 / 0.9643
+Validation loss/acc 0.2425 / 0.9643
+Test loss / test accuracy = 0.1928 / 0.9643
+Training qa15 iter 2
+Training took 35.6674 sec
+Train loss/acc 0.0879 / 0.9643
+Validation loss/acc 0.0873 / 0.9643
+Test loss / test accuracy = 0.0883 / 0.9643
+Training qa15 iter 3
+Training took 36.2187 sec
+Train loss/acc 0.3559 / 0.9643
+Validation loss/acc 0.3607 / 0.9643
+Test loss / test accuracy = 0.3124 / 0.9643
+Training qa15 iter 4
+Training took 35.7233 sec
+Train loss/acc 0.0943 / 0.9643
+Validation loss/acc 0.0941 / 0.9643
+Test loss / test accuracy = 0.0937 / 0.9643
+Training qa15 iter 5
+Training took 38.8371 sec
+Train loss/acc 0.0860 / 0.9643
+Validation loss/acc 0.0859 / 0.9643
+Test loss / test accuracy = 0.0872 / 0.9643
+Training qa15 iter 6
+Training took 36.2633 sec
+Train loss/acc 0.1018 / 0.9643
+Validation loss/acc 0.1022 / 0.9643
+Test loss / test accuracy = 0.1012 / 0.9643
+Training qa15 iter 7
+Training took 37.2021 sec
+Train loss/acc 0.2318 / 0.9643
+Validation loss/acc 0.2428 / 0.9643
+Test loss / test accuracy = 0.1949 / 0.9643
+Training qa15 iter 8
+Training took 39.3885 sec
+Train loss/acc 0.1036 / 0.9643
+Validation loss/acc 0.1039 / 0.9643
+Test loss / test accuracy = 0.1024 / 0.9643
+Training qa15 iter 9
+Training took 39.3236 sec
+Train loss/acc 0.2107 / 0.9643
+Validation loss/acc 0.1981 / 0.9643
+Test loss / test accuracy = 0.1914 / 0.9643
+Training qa15 iter 10
+Training took 39.6469 sec
+Train loss/acc 0.2193 / 0.9643
+Validation loss/acc 0.2127 / 0.9643
+Test loss / test accuracy = 0.2134 / 0.9643
+
+Training qa16 iter 1
+Training took 40.8058 sec
+Train loss/acc 0.1262 / 0.9500
+Validation loss/acc 0.1286 / 0.9500
+Test loss / test accuracy = 0.1273 / 0.9500
+Training qa16 iter 2
+Training took 41.0962 sec
+Train loss/acc 0.2825 / 0.9500
+Validation loss/acc 0.2473 / 0.9500
+Test loss / test accuracy = 0.2984 / 0.9500
+Training qa16 iter 3
+Training took 39.9422 sec
+Train loss/acc 0.2855 / 0.9500
+Validation loss/acc 0.2962 / 0.9500
+Test loss / test accuracy = 0.2925 / 0.9500
+Training qa16 iter 4
+Training took 40.2450 sec
+Train loss/acc 1.7018 / 0.5089
+Validation loss/acc 1.6739 / 0.5055
+Test loss / test accuracy = 1.7560 / 0.7498
+Training qa16 iter 5
+Training took 42.0210 sec
+Train loss/acc 0.1177 / 0.9500
+Validation loss/acc 0.1159 / 0.9500
+Test loss / test accuracy = 0.1171 / 0.9500
+Training qa16 iter 6
+Training took 44.4324 sec
+Train loss/acc 0.3200 / 0.9500
+Validation loss/acc 0.3128 / 0.9500
+Test loss / test accuracy = 0.2879 / 0.9500
+Training qa16 iter 7
+Training took 43.0747 sec
+Train loss/acc 0.1237 / 0.9500
+Validation loss/acc 0.1231 / 0.9500
+Test loss / test accuracy = 0.1232 / 0.9500
+Training qa16 iter 8
+Training took 42.2988 sec
+Train loss/acc 0.2767 / 0.9500
+Validation loss/acc 0.2397 / 0.9500
+Test loss / test accuracy = 0.2913 / 0.9500
+Training qa16 iter 9
+Training took 41.6192 sec
+Train loss/acc 0.1146 / 0.9500
+Validation loss/acc 0.1145 / 0.9500
+Test loss / test accuracy = 0.1148 / 0.9500
+Training qa16 iter 10
+Training took 43.3472 sec
+Train loss/acc 0.4794 / 0.9500
+Validation loss/acc 0.5053 / 0.9500
+Test loss / test accuracy = 0.4575 / 0.9500
+
+Training qa17 iter 1
+Training took 21.6834 sec
+Train loss/acc 0.0716 / 0.9565
+Validation loss/acc 0.0719 / 0.9565
+Test loss / test accuracy = 0.0718 / 0.9565
+Training qa17 iter 2
+Training took 21.6560 sec
+Train loss/acc 0.3875 / 0.9557
+Validation loss/acc 0.3610 / 0.9565
+Test loss / test accuracy = 0.3954 / 0.9557
+Training qa17 iter 3
+Training took 21.8272 sec
+Train loss/acc 0.0662 / 0.9546
+Validation loss/acc 0.0665 / 0.9517
+Test loss / test accuracy = 0.0666 / 0.9541
+Training qa17 iter 4
+Training took 22.8233 sec
+Train loss/acc 0.0646 / 0.9565
+Validation loss/acc 0.0658 / 0.9565
+Test loss / test accuracy = 0.0647 / 0.9565
+Training qa17 iter 5
+Training took 22.0988 sec
+Train loss/acc 0.0613 / 0.9565
+Validation loss/acc 0.0614 / 0.9565
+Test loss / test accuracy = 0.0615 / 0.9567
+Training qa17 iter 6
+Training took 22.4069 sec
+Train loss/acc 0.0762 / 0.9565
+Validation loss/acc 0.0768 / 0.9565
+Test loss / test accuracy = 0.0764 / 0.9565
+Training qa17 iter 7
+Training took 21.7624 sec
+Train loss/acc 0.0815 / 0.9565
+Validation loss/acc 0.0823 / 0.9565
+Test loss / test accuracy = 0.0817 / 0.9565
+Training qa17 iter 8
+Training took 22.8535 sec
+Train loss/acc 0.0636 / 0.9565
+Validation loss/acc 0.0641 / 0.9557
+Test loss / test accuracy = 0.0641 / 0.9566
+Training qa17 iter 9
+Training took 23.0281 sec
+Train loss/acc 0.0617 / 0.9557
+Validation loss/acc 0.0618 / 0.9565
+Test loss / test accuracy = 0.0619 / 0.9557
+Training qa17 iter 10
+Training took 23.8964 sec
+Train loss/acc 0.0664 / 0.9565
+Validation loss/acc 0.0679 / 0.9565
+Test loss / test accuracy = 0.0665 / 0.9565
+
+Training qa18 iter 1
+Training took 55.6700 sec
+Train loss/acc 0.0609 / 0.8384
+Validation loss/acc 0.0605 / 0.8222
+Test loss / test accuracy = 0.0611 / 0.8342
+Training qa18 iter 2
+Training took 56.5114 sec
+Train loss/acc 0.3849 / 0.9565
+Validation loss/acc 0.3809 / 0.9565
+Test loss / test accuracy = 0.3597 / 0.9565
+Training qa18 iter 3
+Training took 58.6238 sec
+Train loss/acc 0.3798 / 0.9565
+Validation loss/acc 0.3872 / 0.9565
+Test loss / test accuracy = 0.4042 / 0.9565
+Training qa18 iter 4
+Training took 55.3880 sec
+Train loss/acc 0.0686 / 0.9565
+Validation loss/acc 0.0680 / 0.9565
+Test loss / test accuracy = 0.0682 / 0.9565
+Training qa18 iter 5
+Training took 58.9842 sec
+Train loss/acc 0.3862 / 0.9138
+Validation loss/acc 0.3820 / 0.9130
+Test loss / test accuracy = 0.3615 / 0.9137
+Training qa18 iter 6
+Training took 56.0487 sec
+Train loss/acc 0.0656 / 0.8733
+Validation loss/acc 0.0648 / 0.8717
+Test loss / test accuracy = 0.0665 / 0.8727
+Training qa18 iter 7
+Training took 59.1275 sec
+Train loss/acc 0.0608 / 0.9564
+Validation loss/acc 0.0603 / 0.9539
+Test loss / test accuracy = 0.0612 / 0.9557
+Training qa18 iter 8
+Training took 58.2659 sec
+Train loss/acc 0.3770 / 0.9559
+Validation loss/acc 0.3804 / 0.9543
+Test loss / test accuracy = 0.4026 / 0.9557
+Training qa18 iter 9
+Training took 61.2686 sec
+Train loss/acc 0.3847 / 0.9558
+Validation loss/acc 0.3806 / 0.9552
+Test loss / test accuracy = 0.3592 / 0.9585
+Training qa18 iter 10
+Training took 62.6789 sec
+Train loss/acc 0.3682 / 0.8100
+Validation loss/acc 0.3768 / 0.7674
+Test loss / test accuracy = 0.3936 / 0.8252
+
+Training qa19 iter 1
+Training took 44.5570 sec
+Train loss/acc 0.2618 / 0.9257
+Validation loss/acc 0.2451 / 0.9229
+Test loss / test accuracy = 0.2544 / 0.9714
+Training qa19 iter 2
+Training took 42.0110 sec
+Train loss/acc 0.1589 / 0.9714
+Validation loss/acc 0.1868 / 0.9714
+Test loss / test accuracy = 0.1639 / 0.9714
+Training qa19 iter 3
+Training took 43.1329 sec
+Train loss/acc 0.1240 / 0.9714
+Validation loss/acc 0.1421 / 0.9714
+Test loss / test accuracy = 0.1300 / 0.9714
+Training qa19 iter 4
+Training took 42.5918 sec
+Train loss/acc 0.1307 / 0.9714
+Validation loss/acc 0.1265 / 0.9714
+Test loss / test accuracy = 0.1330 / 0.9714
+Training qa19 iter 5
+Training took 43.3944 sec
+Train loss/acc 0.1936 / 0.9714
+Validation loss/acc 0.1926 / 0.9714
+Test loss / test accuracy = 0.1974 / 0.9714
+Training qa19 iter 6
+Training took 44.3304 sec
+Train loss/acc 0.1035 / 0.9714
+Validation loss/acc 0.1030 / 0.9714
+Test loss / test accuracy = 0.1032 / 0.9714
+Training qa19 iter 7
+Training took 43.5862 sec
+Train loss/acc 0.1277 / 0.9714
+Validation loss/acc 0.1429 / 0.9714
+Test loss / test accuracy = 0.1331 / 0.9714
+Training qa19 iter 8
+Training took 43.5630 sec
+Train loss/acc 0.1319 / 0.9714
+Validation loss/acc 0.1537 / 0.9714
+Test loss / test accuracy = 0.1342 / 0.9714
+Training qa19 iter 9
+Training took 44.5888 sec
+Train loss/acc 0.1369 / 0.9714
+Validation loss/acc 0.1424 / 0.9714
+Test loss / test accuracy = 0.1351 / 0.9714
+Training qa19 iter 10
+Training took 45.7457 sec
+Train loss/acc 0.1430 / 0.9714
+Validation loss/acc 0.1268 / 0.9714
+Test loss / test accuracy = 0.1405 / 0.9714
+
+Training qa20 iter 1
+Training took 61.9416 sec
+Train loss/acc 0.1746 / 0.9762
+Validation loss/acc 0.1760 / 0.9762
+Test loss / test accuracy = 0.1757 / 0.9762
+Training qa20 iter 2
+Training took 57.5596 sec
+Train loss/acc 0.1295 / 0.9762
+Validation loss/acc 0.1387 / 0.9762
+Test loss / test accuracy = 0.1285 / 0.9762
+Training qa20 iter 3
+Training took 59.9935 sec
+Train loss/acc 0.1007 / 0.9762
+Validation loss/acc 0.0973 / 0.9762
+Test loss / test accuracy = 0.1022 / 0.9762
+Training qa20 iter 4
+Training took 58.4965 sec
+Train loss/acc 0.1800 / 0.9762
+Validation loss/acc 0.1802 / 0.9762
+Test loss / test accuracy = 0.1798 / 0.9762
+Training qa20 iter 5
+Training took 61.9972 sec
+Train loss/acc 0.0742 / 0.9762
+Validation loss/acc 0.0741 / 0.9762
+Test loss / test accuracy = 0.0743 / 0.9762
+Training qa20 iter 6
+Training took 63.8139 sec
+Train loss/acc 0.1295 / 0.9762
+Validation loss/acc 0.1388 / 0.9762
+Test loss / test accuracy = 0.1285 / 0.9762
+Training qa20 iter 7
+Training took 61.9664 sec
+Train loss/acc 0.0686 / 0.9762
+Validation loss/acc 0.0690 / 0.9762
+Test loss / test accuracy = 0.0688 / 0.9762
+Training qa20 iter 8
+Training took 64.2912 sec
+Train loss/acc 0.1323 / 0.9762
+Validation loss/acc 0.1419 / 0.9762
+Test loss / test accuracy = 0.1314 / 0.9762
+Training qa20 iter 9
+Training took 65.4475 sec
+Train loss/acc 0.0724 / 0.9762
+Validation loss/acc 0.0729 / 0.9762
+Test loss / test accuracy = 0.0725 / 0.9762
+Training qa20 iter 10
+Training took 62.7238 sec
+Train loss/acc 0.0686 / 0.9762
+Validation loss/acc 0.0678 / 0.9762
+Test loss / test accuracy = 0.0685 / 0.9762

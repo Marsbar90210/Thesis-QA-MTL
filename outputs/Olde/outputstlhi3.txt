@@ -1,0 +1,57 @@
+Training qa1
+Training took 43.48015103626784
+Test loss / test accuracy = 1.2626 / 0.4970
+Training qa2
+Training took 194.76600291341074
+Test loss / test accuracy = 1.7871 / 0.2180
+Training qa3
+Training took 2168.1733868502133
+Test loss / test accuracy = 1.7239 / 0.2140
+Training qa4
+Training took 23.047074784075903
+Test loss / test accuracy = 0.7273 / 0.6890
+Training qa5
+Training took 303.3898434956013
+Test loss / test accuracy = 1.0568 / 0.4750
+Training qa6
+Training took 59.12332960891899
+Test loss / test accuracy = 0.6935 / 0.5140
+Training qa7
+Training took 310.4834696562625
+Test loss / test accuracy = 0.6160 / 0.7570
+Training qa8
+Training took 170.24017557702837
+Test loss / test accuracy = 1.1942 / 0.6010
+Training qa9
+Training took 59.11213091214222
+Test loss / test accuracy = 0.6938 / 0.5060
+Training qa10
+Training took 71.79422273987575
+Test loss / test accuracy = 0.6971 / 0.4770
+Training qa12
+Training took 60.37727703469909
+Test loss / test accuracy = 0.8955 / 0.7210
+Training qa13
+Training took 93.93986928563527
+Test loss / test accuracy = 0.4073 / 0.9240
+Training qa14
+Training took 83.23464805454205
+Test loss / test accuracy = 1.7277 / 0.2060
+Training qa15
+Training took 41.04944547770401
+Test loss / test accuracy = 1.4069 / 0.2510
+Training qa16
+Training took 50.62375076324133
+Test loss / test accuracy = 1.2448 / 0.4160
+Training qa17
+Training took 30.97973778133155
+Test loss / test accuracy = 0.6937 / 0.5070
+Training qa18
+Training took 144.99907196838376
+Test loss / test accuracy = 0.1332 / 0.9270
+Training qa19
+Training took 54.466268010966814
+Test loss / test accuracy = 2.5052 / 0.0910
+Training qa20
+Training took 65.94743894578869
+Test loss / test accuracy = 0.1492 / 0.9060

@@ -1,0 +1,29 @@
+python -W ignore modelmtletek3full.py en/hn
+MTL model based on end to end memory with 3 hops sharing all
+Running model for en/hn
+Parameters pad=1, wmethod=concat, flatten=0, repeat=10, word=1, limit=500
+Training qa1 iter 1
+Training took 12.7567 sec
+Train loss/acc 0.1391 / 0.0000
+Validation loss/acc 0.1392 / 0.0000
+Total test loss = 0.1395
+Test loss / test accuracy for output 1 = 0.0701 / 0.9783
+Test loss / test accuracy for output 2 = 0.0694 / 0.9783
+
+Training qa1 iter 2
+Training took 12.5365 sec
+Train loss/acc 0.2006 / 0.0000
+Validation loss/acc 0.1891 / 0.0000
+Total test loss = 0.1960
+Test loss / test accuracy for output 1 = 0.0743 / 0.9783
+Test loss / test accuracy for output 2 = 0.1217 / 0.9783
+
+Training qa1 iter 3
+Training took 12.5665 sec
+Train loss/acc 0.1973 / 0.0000
+Validation loss/acc 0.1970 / 0.0000
+Total test loss = 0.2003
+Test loss / test accuracy for output 1 = 0.1199 / 0.9783
+Test loss / test accuracy for output 2 = 0.0804 / 0.9783
+
+Training qa1 iter 4

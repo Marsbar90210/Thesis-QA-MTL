@@ -1,0 +1,4 @@
+"Output for model stl" 
+STL model based on LSTM
+Running model for en
+Parameters pad=1, wmethod=None, flatten=1, repeat=1, word=1, limit=None

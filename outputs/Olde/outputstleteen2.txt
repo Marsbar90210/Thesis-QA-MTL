@@ -1,0 +1,60 @@
+python -W ignore modelstlete.py en
+STL model based on end to end memory
+Running model for en
+Training qa1
+Training took 5.332985467762165
+Test loss / test accuracy = 0.6667 / 0.6690
+Training qa2
+Training took 27.598162310155068
+Test loss / test accuracy = 1.6559 / 0.2990
+Training qa3
+Training took 71.1390994172886
+Test loss / test accuracy = 1.8659 / 0.2720
+Training qa4
+Training took 3.303824736606657
+Test loss / test accuracy = 0.5205 / 0.6830
+Training qa5
+Training took 32.01465131377037
+Test loss / test accuracy = 0.4569 / 0.7990
+Training qa6
+Training took 10.026700803718683
+Test loss / test accuracy = 0.7035 / 0.5130
+Training qa7
+Training took 12.514919454052915
+Test loss / test accuracy = 0.5616 / 0.7630
+Training qa8
+Training took 19.2656238891488
+Test loss / test accuracy = 0.3488 / 0.9020
+Training qa9
+Training took 5.807432269344503
+Test loss / test accuracy = 0.5947 / 0.6720
+Training qa10
+Training took 6.304497354729534
+Test loss / test accuracy = 0.7552 / 0.5760
+Training qa12
+Training took 6.148327948584921
+Test loss / test accuracy = 1.0412 / 0.5440
+Training qa13
+Training took 6.146025131166397
+Test loss / test accuracy = 0.9779 / 0.5980
+Training qa14
+Training took 7.0291580980266986
+Test loss / test accuracy = 0.5378 / 0.7920
+Training qa15
+Training took 4.9346890435803346
+Test loss / test accuracy = 0.7907 / 0.6540
+Training qa16
+Training took 5.157659171904413
+Test loss / test accuracy = 1.0970 / 0.4890
+Training qa17
+Training took 3.7175720680037614
+Test loss / test accuracy = 0.7055 / 0.5330
+Training qa18
+Training took 7.642715141982677
+Test loss / test accuracy = 0.6968 / 0.5360
+Training qa19
+Training took 5.1702472829767885
+Test loss / test accuracy = 2.5047 / 0.1040
+Training qa20
+Training took 6.1752613453474225
+Test loss / test accuracy = 0.0032 / 1.0000

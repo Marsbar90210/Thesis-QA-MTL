@@ -1,0 +1,98 @@
+python -W ignore modelstletek3.py en
+STL model based on end to end memory
+Running model for en
+Training qa1
+Training took 14.7590 sec
+Train loss/acc 0.2053 / 0.9545
+Validation loss/acc 0.2234 / 0.9545
+Test loss / test accuracy = 0.2083 / 0.9545
+Training qa2
+Training took 77.4523 sec
+Train loss/acc 0.1849 / 0.9722
+Validation loss/acc 0.1934 / 0.9722
+Test loss / test accuracy = 0.2064 / 0.9722
+Training qa3
+Training took 194.6514 sec
+Train loss/acc 0.2126 / 0.9730
+Validation loss/acc 0.2211 / 0.9730
+Test loss / test accuracy = 0.2022 / 0.9730
+Training qa4
+Training took 6.6053 sec
+Train loss/acc 0.2857 / 0.9444
+Validation loss/acc 0.2412 / 0.9444
+Test loss / test accuracy = 0.2739 / 0.9444
+Training qa5
+Training took 91.6026 sec
+Train loss/acc 0.1518 / 0.9762
+Validation loss/acc 0.1276 / 0.9762
+Test loss / test accuracy = 0.1544 / 0.9762
+Training qa6
+Training took 26.2137 sec
+Train loss/acc 0.0594 / 0.9737
+Validation loss/acc 0.0595 / 0.9737
+Test loss / test accuracy = 0.0593 / 0.9737
+Training qa7
+Training took 31.1618 sec
+Train loss/acc 0.0538 / 0.9783
+Validation loss/acc 0.0531 / 0.9783
+Test loss / test accuracy = 0.0536 / 0.9783
+Training qa8
+Training took 49.3996 sec
+Train loss/acc 0.2230 / 0.9792
+Validation loss/acc 0.2161 / 0.9792
+Test loss / test accuracy = 0.2259 / 0.9792
+Training qa9
+Training took 15.5247 sec
+Train loss/acc 0.0535 / 0.9630
+Validation loss/acc 0.0516 / 0.9630
+Test loss / test accuracy = 0.0530 / 0.9716
+Training qa10
+Training took 16.2394 sec
+Train loss/acc 0.2759 / 0.9643
+Validation loss/acc 0.2794 / 0.9643
+Test loss / test accuracy = 0.2784 / 0.9643
+Training qa12
+Training took 16.4189 sec
+Train loss/acc 0.1182 / 0.9565
+Validation loss/acc 0.1192 / 0.9565
+Test loss / test accuracy = 0.1190 / 0.9565
+Training qa13
+Training took 16.6713 sec
+Train loss/acc 0.1645 / 0.9655
+Validation loss/acc 0.1986 / 0.9655
+Test loss / test accuracy = 0.1805 / 0.9655
+Training qa14
+Training took 20.8301 sec
+Train loss/acc 2.3743 / 0.2783
+Validation loss/acc 2.3835 / 0.2767
+Test loss / test accuracy = 2.3739 / 0.4889
+Training qa15
+Training took 12.0496 sec
+Train loss/acc 0.2091 / 0.9643
+Validation loss/acc 0.2019 / 0.9643
+Test loss / test accuracy = 0.2011 / 0.9643
+Training qa16
+Training took 13.8052 sec
+Train loss/acc 0.1286 / 0.9500
+Validation loss/acc 0.1268 / 0.9500
+Test loss / test accuracy = 0.1291 / 0.9500
+Training qa17
+Training took 8.0127 sec
+Train loss/acc 0.0677 / 0.9565
+Validation loss/acc 0.0688 / 0.9565
+Test loss / test accuracy = 0.0677 / 0.9565
+Training qa18
+Training took 20.6139 sec
+Train loss/acc 0.0609 / 0.9558
+Validation loss/acc 0.0604 / 0.9500
+Test loss / test accuracy = 0.0610 / 0.9562
+Training qa19
+Training took 10.9877 sec
+Train loss/acc 0.1325 / 0.9714
+Validation loss/acc 0.1287 / 0.9714
+Test loss / test accuracy = 0.1345 / 0.9714
+Training qa20
+Training took 17.1297 sec
+Train loss/acc 0.0944 / 0.9762
+Validation loss/acc 0.0900 / 0.9762
+Test loss / test accuracy = 0.0960 / 0.9762

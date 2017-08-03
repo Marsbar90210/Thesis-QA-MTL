@@ -1,0 +1,84 @@
+Output for model mtletek3full 
+MTL model based on end to end memory with 3 hops sharing all
+Running model for en/hn
+Parameters pad=1, wmethod=concat, flatten=0, repeat=10, word=1, limit=500
+Training qa1 iter 1
+Training took 12.2837 sec
+Train loss/acc 0.1531 / 0.0000
+Validation loss/acc 0.1542 / 0.0000
+Total test loss = 0.1551
+Test loss / test accuracy for output 1 = 0.0752 / 0.9783
+Test loss / test accuracy for output 2 = 0.0799 / 0.9783
+
+Training qa1 iter 2
+Training took 12.3169 sec
+Train loss/acc 0.1584 / 0.0000
+Validation loss/acc 0.1563 / 0.0000
+Total test loss = 0.1596
+Test loss / test accuracy for output 1 = 0.0788 / 0.9783
+Test loss / test accuracy for output 2 = 0.0808 / 0.9783
+
+Training qa1 iter 3
+Training took 12.0819 sec
+Train loss/acc 0.2364 / 0.0000
+Validation loss/acc 0.2209 / 0.0000
+Total test loss = 0.2439
+Test loss / test accuracy for output 1 = 0.0744 / 0.9783
+Test loss / test accuracy for output 2 = 0.1694 / 0.9783
+
+Training qa1 iter 4
+Training took 12.5031 sec
+Train loss/acc 0.1925 / 0.0000
+Validation loss/acc 0.2053 / 0.0000
+Total test loss = 0.1943
+Test loss / test accuracy for output 1 = 0.0710 / 0.9783
+Test loss / test accuracy for output 2 = 0.1233 / 0.9783
+
+Training qa1 iter 5
+Training took 12.8267 sec
+Train loss/acc 0.3323 / 0.0000
+Validation loss/acc 0.3422 / 0.0000
+Total test loss = 0.3459
+Test loss / test accuracy for output 1 = 0.1755 / 0.9783
+Test loss / test accuracy for output 2 = 0.1704 / 0.9783
+
+Training qa1 iter 6
+Training took 12.3722 sec
+Train loss/acc 0.1938 / 0.0000
+Validation loss/acc 0.1986 / 0.0000
+Total test loss = 0.2007
+Test loss / test accuracy for output 1 = 0.0737 / 0.9783
+Test loss / test accuracy for output 2 = 0.1270 / 0.9783
+
+Training qa1 iter 7
+Training took 12.4087 sec
+Train loss/acc 0.1536 / 0.0000
+Validation loss/acc 0.1531 / 0.0000
+Total test loss = 0.1552
+Test loss / test accuracy for output 1 = 0.0778 / 0.9783
+Test loss / test accuracy for output 2 = 0.0773 / 0.9783
+
+Training qa1 iter 8
+Training took 12.7840 sec
+Train loss/acc 0.2569 / 0.0000
+Validation loss/acc 0.2465 / 0.0000
+Total test loss = 0.2549
+Test loss / test accuracy for output 1 = 0.1273 / 0.9783
+Test loss / test accuracy for output 2 = 0.1276 / 0.9783
+
+Training qa1 iter 9
+Training took 12.9546 sec
+Train loss/acc 0.2350 / 0.0000
+Validation loss/acc 0.2336 / 0.0000
+Total test loss = 0.2389
+Test loss / test accuracy for output 1 = 0.0715 / 0.9783
+Test loss / test accuracy for output 2 = 0.1673 / 0.9783
+
+Training qa1 iter 10
+Training took 12.9332 sec
+Train loss/acc 0.2513 / 0.0000
+Validation loss/acc 0.2769 / 0.0000
+Total test loss = 0.2447
+Test loss / test accuracy for output 1 = 0.1268 / 0.9783
+Test loss / test accuracy for output 2 = 0.1179 / 0.9783
+

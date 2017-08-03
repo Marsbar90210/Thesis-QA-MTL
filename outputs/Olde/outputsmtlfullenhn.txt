@@ -1,0 +1,6 @@
+Running model for en/hn
+Training qa1
+Training took 61.88728131499622
+Total test loss = 2.4002
+Test loss / test accuracy for output 1 = 1.2674 / 0.4870
+Test loss / test accuracy for output 2 = 1.1328 / 0.5280

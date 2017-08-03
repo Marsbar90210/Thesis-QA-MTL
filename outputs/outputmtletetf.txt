@@ -1,0 +1,4607 @@
+Output for model mtletetf 
+Re-implementation of MemN2N model in tf
+Running model for en/hn, 28/03/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=1, word=1, limit=None
+
+Training qa1 iter 1
+Training took -673.7955 sec
+Train acc 0: max=0.9000 mean=0.8638 min=0.7900
+Train acc 1: max=0.8622 mean=0.8111 min=0.7156
+Train loss 0: max=455.9422 mean=311.9028 min=235.4266
+Train loss 1: max=686.9841 mean=428.3090 min=306.8383
+Train val acc 0: max=0.7300 mean=0.6960 min=0.6700
+Train val acc 1: max=0.7300 mean=0.6720 min=0.6400
+Train val loss 0: max=132.7370 mean=112.2477 min=84.2402
+Train val loss 1: max=107.7769 mean=100.4586 min=86.1317
+
+Total test loss = 2612.0732
+Test loss / test accuracy for output 0 = 1509.6033 / 0.6310
+Test loss / test accuracy for output 1 = 1102.4700 / 0.6680
+
+
+Training qa2 iter 1
+Training took -181.2387 sec
+Train acc 0: max=0.9056 mean=0.8396 min=0.7167
+Train acc 1: max=0.8556 mean=0.7733 min=0.6033
+Train loss 0: max=695.0718 mean=429.1905 min=276.1768
+Train loss 1: max=1015.5882 mean=571.6944 min=382.7664
+Train val acc 0: max=0.6600 mean=0.6280 min=0.5600
+Train val acc 1: max=0.6700 mean=0.6400 min=0.5800
+Train val loss 0: max=157.0325 mean=142.7478 min=124.5279
+Train val loss 1: max=119.9697 mean=108.2872 min=99.5334
+
+Total test loss = 4971.7256
+Test loss / test accuracy for output 0 = 2508.5110 / 0.5140
+Test loss / test accuracy for output 1 = 2463.2146 / 0.4680
+
+
+Training qa3 iter 1
+Training took 718.6903 sec
+Train acc 0: max=0.7611 mean=0.6244 min=0.3656
+Train acc 1: max=0.4544 mean=0.3700 min=0.2267
+Train loss 0: max=1313.9570 mean=870.5604 min=597.2739
+Train loss 1: max=1589.1919 mean=1417.1555 min=1279.9121
+Train val acc 0: max=0.4900 mean=0.4360 min=0.3300
+Train val acc 1: max=0.2700 mean=0.2400 min=0.1500
+Train val loss 0: max=196.8250 mean=172.3002 min=158.2610
+Train val loss 1: max=180.4685 mean=177.0021 min=173.3595
+
+Total test loss = 5243.4390
+Test loss / test accuracy for output 0 = 3136.1641 / 0.2690
+Test loss / test accuracy for output 1 = 2107.2749 / 0.2160
+
+
+Training qa4 iter 1
+Training took 416.9134 sec
+Train acc 0: max=0.9589 mean=0.9167 min=0.8233
+Train acc 1: max=0.9933 mean=0.9707 min=0.9200
+Train loss 0: max=450.8538 mean=203.3273 min=103.1312
+Train loss 1: max=208.9297 mean=81.3590 min=31.3681
+Train val acc 0: max=0.9100 mean=0.8520 min=0.7700
+Train val acc 1: max=0.8600 mean=0.8460 min=0.8100
+Train val loss 0: max=62.7059 mean=46.4305 min=40.1461
+Train val loss 1: max=78.1575 mean=71.8109 min=67.3303
+
+Total test loss = 1127.8765
+Test loss / test accuracy for output 0 = 556.2064 / 0.8390
+Test loss / test accuracy for output 1 = 571.6700 / 0.8900
+
+
+Training qa5 iter 1
+Training took 1190.6505 sec
+Train acc 0: max=0.9767 mean=0.9460 min=0.8711
+Train acc 1: max=0.9744 mean=0.9431 min=0.8767
+Train loss 0: max=302.4654 mean=124.7226 min=54.6460
+Train loss 1: max=233.0639 mean=114.2339 min=53.6978
+Train val acc 0: max=0.8700 mean=0.8500 min=0.8300
+Train val acc 1: max=0.8000 mean=0.7800 min=0.7700
+Train val loss 0: max=49.1272 mean=45.7671 min=40.8495
+Train val loss 1: max=111.6572 mean=87.2579 min=54.3857
+
+Total test loss = 1900.2882
+Test loss / test accuracy for output 0 = 1036.9473 / 0.7780
+Test loss / test accuracy for output 1 = 863.3409 / 0.8260
+
+
+Training qa6 iter 1
+Training took 966.8341 sec
+Train acc 0: max=0.9856 mean=0.9218 min=0.6989
+Train acc 1: max=0.9733 mean=0.9020 min=0.6511
+Train loss 0: max=513.8224 mean=153.8268 min=37.0423
+Train loss 1: max=563.5543 mean=184.7125 min=66.4473
+Train val acc 0: max=0.9400 mean=0.8860 min=0.7100
+Train val acc 1: max=0.9000 mean=0.8240 min=0.5600
+Train val loss 0: max=60.1829 mean=39.4898 min=23.7308
+Train val loss 1: max=73.8265 mean=54.5253 min=35.0616
+
+Total test loss = 911.2542
+Test loss / test accuracy for output 0 = 501.9521 / 0.8840
+Test loss / test accuracy for output 1 = 409.3020 / 0.8950
+
+
+Training qa7 iter 1
+Training took 864.4463 sec
+Train acc 0: max=0.9800 mean=0.9258 min=0.8100
+Train acc 1: max=0.9233 mean=0.8524 min=0.7356
+Train loss 0: max=458.3361 mean=191.9516 min=73.2433
+Train loss 1: max=559.5353 mean=313.4357 min=197.3934
+Train val acc 0: max=0.8000 mean=0.7960 min=0.7900
+Train val acc 1: max=0.8900 mean=0.8220 min=0.7400
+Train val loss 0: max=87.6941 mean=75.4380 min=61.6562
+Train val loss 1: max=62.1410 mean=38.9556 min=26.2347
+
+Total test loss = 1379.3597
+Test loss / test accuracy for output 0 = 883.2678 / 0.7830
+Test loss / test accuracy for output 1 = 496.0919 / 0.8490
+
+
+Training qa8 iter 1
+Training took 1102.2522 sec
+Train acc 0: max=0.9756 mean=0.9467 min=0.8789
+Train acc 1: max=0.8156 mean=0.6782 min=0.3878
+Train loss 0: max=318.6288 mean=149.2939 min=71.3814
+Train loss 1: max=1264.0055 mean=712.5344 min=456.2870
+Train val acc 0: max=0.9400 mean=0.8960 min=0.8200
+Train val acc 1: max=0.7100 mean=0.6180 min=0.4000
+Train val loss 0: max=43.2463 mean=32.6964 min=25.3560
+Train val loss 1: max=136.5431 mean=99.3195 min=87.5138
+
+Total test loss = 1728.8045
+Test loss / test accuracy for output 0 = 488.9261 / 0.8890
+Test loss / test accuracy for output 1 = 1239.8784 / 0.6400
+
+
+Training qa9 iter 1
+Training took 1718.7696 sec
+Train acc 0: max=0.9878 mean=0.9220 min=0.7733
+Train acc 1: max=0.7922 mean=0.6918 min=0.5578
+Train loss 0: max=416.4492 mean=160.2150 min=44.9801
+Train loss 1: max=632.7922 mean=511.9217 min=408.9678
+Train val acc 0: max=0.8200 mean=0.7760 min=0.7000
+Train val acc 1: max=0.5000 mean=0.4620 min=0.3900
+Train val loss 0: max=77.8934 mean=63.5001 min=54.3540
+Train val loss 1: max=98.8869 mean=90.5145 min=82.1378
+
+Total test loss = 1747.7991
+Test loss / test accuracy for output 0 = 741.5278 / 0.8420
+Test loss / test accuracy for output 1 = 1006.2712 / 0.5070
+
+
+Training qa10 iter 1
+Training took 1125.2286 sec
+Train acc 0: max=0.9644 mean=0.9196 min=0.8300
+Train acc 1: max=0.7822 mean=0.7040 min=0.5856
+Train loss 0: max=366.8478 mean=192.1644 min=101.0897
+Train loss 1: max=604.7211 mean=509.4018 min=418.9682
+Train val acc 0: max=0.8100 mean=0.7600 min=0.6800
+Train val acc 1: max=0.5500 mean=0.5060 min=0.4700
+Train val loss 0: max=114.0395 mean=95.6962 min=81.1428
+Train val loss 1: max=97.8245 mean=82.9989 min=68.9424
+
+Total test loss = 1860.0804
+Test loss / test accuracy for output 0 = 880.3622 / 0.7660
+Test loss / test accuracy for output 1 = 979.7183 / 0.5300
+
+
+Training qa11 iter 1
+Training took 1100.3536 sec
+Train acc 0: max=0.9467 mean=0.8940 min=0.8022
+Train acc 1: max=0.9522 mean=0.9042 min=0.8144
+Train loss 0: max=487.5413 mean=263.0218 min=147.5917
+Train loss 1: max=432.5001 mean=240.2001 min=139.3183
+Train val acc 0: max=0.7600 mean=0.7320 min=0.7000
+Train val acc 1: max=0.7600 mean=0.7340 min=0.7000
+Train val loss 0: max=124.5332 mean=109.1402 min=89.0854
+Train val loss 1: max=114.9750 mean=94.4892 min=63.0048
+
+Total test loss = 2926.5464
+Test loss / test accuracy for output 0 = 1592.2415 / 0.7190
+Test loss / test accuracy for output 1 = 1334.3049 / 0.7130
+
+
+Training qa12 iter 1
+Training took 1140.1976 sec
+Train acc 0: max=0.7689 mean=0.7009 min=0.5944
+Train acc 1: max=0.7389 mean=0.6676 min=0.5356
+Train loss 0: max=1030.8406 mean=705.3272 min=533.9901
+Train loss 1: max=1150.1943 mean=774.7634 min=597.5439
+Train val acc 0: max=0.6000 mean=0.5540 min=0.5100
+Train val acc 1: max=0.6300 mean=0.5680 min=0.5200
+Train val loss 0: max=152.5615 mean=140.2666 min=122.3300
+Train val loss 1: max=135.1228 mean=126.9086 min=111.9515
+
+Total test loss = 3037.5690
+Test loss / test accuracy for output 0 = 1539.5433 / 0.5010
+Test loss / test accuracy for output 1 = 1498.0256 / 0.5170
+
+
+Training qa13 iter 1
+Training took 1609.0693 sec
+Train acc 0: max=0.7944 mean=0.7491 min=0.6578
+Train acc 1: max=0.7556 mean=0.7007 min=0.5889
+Train loss 0: max=818.2537 mean=592.7885 min=489.6929
+Train loss 1: max=965.0492 mean=722.6746 min=590.3903
+Train val acc 0: max=0.5400 mean=0.5220 min=0.5000
+Train val acc 1: max=0.5500 mean=0.5420 min=0.5200
+Train val loss 0: max=153.7182 mean=142.5158 min=131.7561
+Train val loss 1: max=158.7042 mean=140.6853 min=122.8925
+
+Total test loss = 3579.8824
+Test loss / test accuracy for output 0 = 1518.1227 / 0.5860
+Test loss / test accuracy for output 1 = 2061.7598 / 0.4660
+
+
+Training qa14 iter 1
+Training took 1950.7666 sec
+Train acc 0: max=1.0000 mean=0.9938 min=0.9700
+Train acc 1: max=0.9967 mean=0.9709 min=0.8811
+Train loss 0: max=113.9776 mean=24.1688 min=0.6628
+Train loss 1: max=331.4472 mean=85.8403 min=8.6169
+Train val acc 0: max=0.9500 mean=0.9300 min=0.8700
+Train val acc 1: max=0.9000 mean=0.8740 min=0.8200
+Train val loss 0: max=57.2886 mean=33.7799 min=21.1594
+Train val loss 1: max=68.2124 mean=61.0473 min=49.9400
+
+Total test loss = 945.2114
+Test loss / test accuracy for output 0 = 363.1968 / 0.9430
+Test loss / test accuracy for output 1 = 582.0145 / 0.9010
+
+
+Training qa15 iter 1
+Training took 1241.6862 sec
+Train acc 0: max=1.0000 mean=0.7749 min=0.4178
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=1265.2755 mean=505.7076 min=17.9189
+Train loss 1: max=26.8625 mean=7.8616 min=1.0605
+Train val acc 0: max=1.0000 mean=0.7360 min=0.3000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=166.4956 mean=66.0769 min=2.9917
+Train val loss 1: max=3.4256 mean=1.0022 min=0.1265
+
+Total test loss = 26.6507
+Test loss / test accuracy for output 0 = 25.4061 / 1.0000
+Test loss / test accuracy for output 1 = 1.2446 / 1.0000
+
+
+Training qa16 iter 1
+Training took 1817.0143 sec
+Train acc 0: max=0.5911 mean=0.5382 min=0.4756
+Train acc 1: max=0.5689 mean=0.5140 min=0.4522
+Train loss 0: max=973.4832 mean=840.5511 min=770.6411
+Train loss 1: max=1077.0754 mean=872.8035 min=749.5090
+Train val acc 0: max=0.5000 mean=0.4720 min=0.4500
+Train val acc 1: max=0.4700 mean=0.4520 min=0.4200
+Train val loss 0: max=114.1510 mean=109.6995 min=100.6270
+Train val loss 1: max=130.7655 mean=108.0143 min=96.2581
+
+Total test loss = 2131.2904
+Test loss / test accuracy for output 0 = 1080.8845 / 0.4470
+Test loss / test accuracy for output 1 = 1050.4059 / 0.4250
+
+
+Training qa17 iter 1
+Training took 1321.4524 sec
+Train acc 0: max=0.6967 mean=0.6176 min=0.5578
+Train acc 1: max=0.5567 mean=0.5444 min=0.5278
+Train loss 0: max=626.5910 mean=571.8695 min=503.2704
+Train loss 1: max=627.4722 mean=617.2311 min=611.9184
+Train val acc 0: max=0.6200 mean=0.5720 min=0.5200
+Train val acc 1: max=0.5200 mean=0.4800 min=0.4500
+Train val loss 0: max=75.2173 mean=71.1099 min=68.9564
+Train val loss 1: max=73.0791 mean=72.3355 min=70.8922
+
+Total test loss = 1552.6036
+Test loss / test accuracy for output 0 = 845.6472 / 0.4910
+Test loss / test accuracy for output 1 = 706.9565 / 0.5130
+
+
+Training qa18 iter 1
+Training took 1332.2657 sec
+Train acc 0: max=0.9722 mean=0.8858 min=0.6389
+Train acc 1: max=0.9378 mean=0.8984 min=0.8178
+Train loss 0: max=607.5491 mean=222.7259 min=70.0687
+Train loss 1: max=344.2993 mean=226.5668 min=164.7043
+Train val acc 0: max=0.9800 mean=0.8540 min=0.5100
+Train val acc 1: max=0.9400 mean=0.8860 min=0.7600
+Train val loss 0: max=75.8224 mean=31.5285 min=13.5399
+Train val loss 1: max=47.2016 mean=28.0521 min=20.0220
+
+Total test loss = 830.9930
+Test loss / test accuracy for output 0 = 558.1266 / 0.8860
+Test loss / test accuracy for output 1 = 272.8664 / 0.9090
+
+
+Training qa19 iter 1
+Training took 1360.5844 sec
+Train acc 0: max=0.3467 mean=0.2658 min=0.1256
+Train acc 1: max=0.3511 mean=0.2967 min=0.2056
+Train loss 0: max=2328.9175 mean=1940.6598 min=1729.3672
+Train loss 1: max=2070.4460 mean=1768.5795 min=1611.5267
+Train val acc 0: max=0.1800 mean=0.1520 min=0.1000
+Train val acc 1: max=0.1400 mean=0.1160 min=0.0900
+Train val loss 0: max=267.1661 mean=247.9707 min=237.8578
+Train val loss 1: max=304.9395 mean=285.3502 min=261.3212
+
+Total test loss = 5174.5901
+Test loss / test accuracy for output 0 = 2607.3604 / 0.1540
+Test loss / test accuracy for output 1 = 2567.2297 / 0.1920
+
+
+Training qa20 iter 1
+Training took 1693.0100 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9449 mean=0.5310 min=0.3574
+Train loss 1: max=1.3501 mean=0.7435 min=0.4919
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.2027 mean=0.1136 min=0.0761
+Train val loss 1: max=0.1640 mean=0.0914 min=0.0612
+
+Total test loss = 1.0589
+Test loss / test accuracy for output 0 = 0.4974 / 1.0000
+Test loss / test accuracy for output 1 = 0.5615 / 1.0000
+
+Output for model mtletetf 
+Re-implementation of MemN2N model in tf
+Running model for en/hn, 30/03/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=10, word=1, limit=None
+
+Training qa1 iter 1
+Training took -381.8621 sec
+Train acc 0: max=0.9256 mean=0.8656 min=0.7489
+Train acc 1: max=0.8744 mean=0.8109 min=0.7000
+Train loss 0: max=529.4480 mean=306.7974 min=188.5240
+Train loss 1: max=648.7491 mean=429.5864 min=307.3770
+Train val acc 0: max=0.6400 mean=0.6300 min=0.6100
+Train val acc 1: max=0.7000 mean=0.6260 min=0.5800
+Train val loss 0: max=128.8366 mean=110.3663 min=95.5091
+Train val loss 1: max=118.7636 mean=106.8250 min=86.1827
+
+Total test loss = 2658.2946
+Test loss / test accuracy for output 0 = 1572.1770 / 0.6440
+Test loss / test accuracy for output 1 = 1086.1176 / 0.6680
+
+
+Training qa1 iter 2
+Training took -59.0375 sec
+Train acc 0: max=0.9200 mean=0.8564 min=0.7500
+Train acc 1: max=0.8833 mean=0.8362 min=0.7711
+Train loss 0: max=552.4692 mean=324.8785 min=207.4254
+Train loss 1: max=557.5685 mean=386.6006 min=279.7601
+Train val acc 0: max=0.7300 mean=0.6920 min=0.6000
+Train val acc 1: max=0.7600 mean=0.7380 min=0.7200
+Train val loss 0: max=145.6177 mean=123.0354 min=100.9809
+Train val loss 1: max=85.7935 mean=81.5603 min=77.8405
+
+Total test loss = 2544.5936
+Test loss / test accuracy for output 0 = 1338.7394 / 0.6450
+Test loss / test accuracy for output 1 = 1205.8542 / 0.6260
+
+
+Training qa1 iter 3
+Training took -57.1068 sec
+Train acc 0: max=0.9278 mean=0.8624 min=0.7700
+Train acc 1: max=0.8778 mean=0.8220 min=0.7100
+Train loss 0: max=512.7482 mean=307.2217 min=198.2899
+Train loss 1: max=724.7271 mean=424.4767 min=299.7128
+Train val acc 0: max=0.6500 mean=0.6160 min=0.5800
+Train val acc 1: max=0.6900 mean=0.6740 min=0.6500
+Train val loss 0: max=129.7293 mean=117.8135 min=105.8727
+Train val loss 1: max=106.0822 mean=95.2664 min=84.8596
+
+Total test loss = 2561.6659
+Test loss / test accuracy for output 0 = 1356.6086 / 0.6470
+Test loss / test accuracy for output 1 = 1205.0573 / 0.6740
+
+
+Training qa1 iter 4
+Training took -118.2181 sec
+Train acc 0: max=0.9189 mean=0.8504 min=0.7089
+Train acc 1: max=0.8789 mean=0.8311 min=0.7333
+Train loss 0: max=746.1596 mean=363.2764 min=202.4714
+Train loss 1: max=655.6226 mean=404.8572 min=286.2270
+Train val acc 0: max=0.6600 mean=0.6560 min=0.6500
+Train val acc 1: max=0.7100 mean=0.6980 min=0.6800
+Train val loss 0: max=151.7187 mean=126.1893 min=106.0833
+Train val loss 1: max=101.0069 mean=93.1205 min=85.5268
+
+Total test loss = 2863.8424
+Test loss / test accuracy for output 0 = 1631.2913 / 0.6490
+Test loss / test accuracy for output 1 = 1232.5511 / 0.6490
+
+
+Training qa1 iter 5
+Training took 76.5356 sec
+Train acc 0: max=0.9156 mean=0.8518 min=0.7467
+Train acc 1: max=0.8822 mean=0.8213 min=0.7333
+Train loss 0: max=558.6818 mean=330.9892 min=213.7980
+Train loss 1: max=616.2062 mean=401.1676 min=274.8397
+Train val acc 0: max=0.6900 mean=0.6360 min=0.5700
+Train val acc 1: max=0.6700 mean=0.6560 min=0.6500
+Train val loss 0: max=135.1733 mean=115.8885 min=92.2354
+Train val loss 1: max=109.4443 mean=101.7279 min=96.1256
+
+Total test loss = 2649.7964
+Test loss / test accuracy for output 0 = 1505.6605 / 0.6030
+Test loss / test accuracy for output 1 = 1144.1359 / 0.6500
+
+
+Training qa1 iter 6
+Training took -432.3736 sec
+Train acc 0: max=0.9011 mean=0.8456 min=0.7667
+Train acc 1: max=0.8811 mean=0.8227 min=0.7233
+Train loss 0: max=526.6866 mean=344.2574 min=235.1376
+Train loss 1: max=583.3378 mean=402.0494 min=296.8675
+Train val acc 0: max=0.6400 mean=0.6080 min=0.5800
+Train val acc 1: max=0.7200 mean=0.7040 min=0.6900
+Train val loss 0: max=147.0947 mean=129.0174 min=109.5109
+Train val loss 1: max=99.7519 mean=87.9394 min=75.5689
+
+Total test loss = 2536.6008
+Test loss / test accuracy for output 0 = 1346.8674 / 0.6350
+Test loss / test accuracy for output 1 = 1189.7334 / 0.6490
+
+
+Training qa1 iter 7
+Training took -397.2365 sec
+Train acc 0: max=0.9178 mean=0.8578 min=0.7478
+Train acc 1: max=0.8811 mean=0.8304 min=0.7333
+Train loss 0: max=553.4903 mean=333.5131 min=215.2283
+Train loss 1: max=620.3739 mean=379.0131 min=262.4622
+Train val acc 0: max=0.6800 mean=0.6520 min=0.6300
+Train val acc 1: max=0.7500 mean=0.7140 min=0.6700
+Train val loss 0: max=146.7595 mean=120.4261 min=82.2329
+Train val loss 1: max=88.3595 mean=86.2920 min=82.3245
+
+Total test loss = 2662.4825
+Test loss / test accuracy for output 0 = 1470.4342 / 0.6260
+Test loss / test accuracy for output 1 = 1192.0483 / 0.6520
+
+
+Training qa1 iter 8
+Training took -490.0083 sec
+Train acc 0: max=0.9044 mean=0.8540 min=0.7633
+Train acc 1: max=0.8733 mean=0.8216 min=0.7344
+Train loss 0: max=539.1991 mean=343.4304 min=248.4396
+Train loss 1: max=621.9727 mean=405.2277 min=296.1866
+Train val acc 0: max=0.6400 mean=0.6260 min=0.6100
+Train val acc 1: max=0.7400 mean=0.7000 min=0.6600
+Train val loss 0: max=129.2557 mean=117.6016 min=104.6102
+Train val loss 1: max=103.7692 mean=95.4487 min=90.0252
+
+Total test loss = 2427.7443
+Test loss / test accuracy for output 0 = 1336.2120 / 0.6510
+Test loss / test accuracy for output 1 = 1091.5322 / 0.6660
+
+
+Training qa1 iter 9
+Training took -166.7329 sec
+Train acc 0: max=0.9222 mean=0.8593 min=0.7844
+Train acc 1: max=0.8878 mean=0.8293 min=0.7211
+Train loss 0: max=469.1567 mean=316.1606 min=217.6349
+Train loss 1: max=658.1176 mean=412.5421 min=283.5678
+Train val acc 0: max=0.6300 mean=0.6100 min=0.5900
+Train val acc 1: max=0.6900 mean=0.6680 min=0.6400
+Train val loss 0: max=194.0758 mean=148.5439 min=109.1986
+Train val loss 1: max=107.1595 mean=98.5634 min=89.8214
+
+Total test loss = 2653.5398
+Test loss / test accuracy for output 0 = 1560.9403 / 0.6130
+Test loss / test accuracy for output 1 = 1092.5995 / 0.6670
+
+
+Training qa1 iter 10
+Training took -291.2570 sec
+Train acc 0: max=0.8889 mean=0.8358 min=0.7467
+Train acc 1: max=0.8889 mean=0.8304 min=0.7056
+Train loss 0: max=564.1647 mean=370.5569 min=272.9092
+Train loss 1: max=729.0958 mean=412.2581 min=278.0728
+Train val acc 0: max=0.6600 mean=0.6340 min=0.6000
+Train val acc 1: max=0.7700 mean=0.7140 min=0.6500
+Train val loss 0: max=104.4164 mean=100.3789 min=97.8588
+Train val loss 1: max=95.6713 mean=89.5473 min=79.9687
+
+Total test loss = 2510.1731
+Test loss / test accuracy for output 0 = 1192.4741 / 0.6380
+Test loss / test accuracy for output 1 = 1317.6990 / 0.6440
+
+
+Training qa2 iter 1
+Training took 446.6046 sec
+Train acc 0: max=0.9167 mean=0.8518 min=0.7378
+Train acc 1: max=0.7211 mean=0.6067 min=0.3800
+Train loss 0: max=720.9883 mean=411.2508 min=243.5874
+Train loss 1: max=1392.5647 mean=974.4912 min=759.9445
+Train val acc 0: max=0.7700 mean=0.7220 min=0.6400
+Train val acc 1: max=0.4700 mean=0.4220 min=0.3100
+Train val loss 0: max=139.5310 mean=120.8728 min=111.9683
+Train val loss 1: max=190.3703 mean=180.1051 min=156.4453
+
+Total test loss = 5681.1663
+Test loss / test accuracy for output 0 = 2964.2693 / 0.4740
+Test loss / test accuracy for output 1 = 2716.8970 / 0.2810
+
+
+Training qa2 iter 2
+Training took 546.8375 sec
+Train acc 0: max=0.9122 mean=0.8211 min=0.6667
+Train acc 1: max=0.8433 mean=0.7756 min=0.6522
+Train loss 0: max=903.5056 mean=479.4225 min=271.4235
+Train loss 1: max=864.2659 mean=549.1720 min=370.2721
+Train val acc 0: max=0.7300 mean=0.6840 min=0.5800
+Train val acc 1: max=0.6500 mean=0.6320 min=0.5900
+Train val loss 0: max=146.9503 mean=132.3701 min=100.0121
+Train val loss 1: max=110.6120 mean=103.3527 min=97.5906
+
+Total test loss = 4887.8660
+Test loss / test accuracy for output 0 = 2582.8645 / 0.4920
+Test loss / test accuracy for output 1 = 2305.0015 / 0.5180
+
+
+Training qa2 iter 3
+Training took 1001.2149 sec
+Train acc 0: max=0.8433 mean=0.7051 min=0.4667
+Train acc 1: max=0.8533 mean=0.7687 min=0.5856
+Train loss 0: max=1289.2537 mean=742.8348 min=425.0759
+Train loss 1: max=1013.1208 mean=572.9982 min=370.7822
+Train val acc 0: max=0.6000 mean=0.4900 min=0.3100
+Train val acc 1: max=0.7300 mean=0.6500 min=0.5400
+Train val loss 0: max=187.5387 mean=179.7603 min=172.7682
+Train val loss 1: max=128.5659 mean=102.8189 min=87.9629
+
+Total test loss = 5252.7397
+Test loss / test accuracy for output 0 = 3054.5649 / 0.3740
+Test loss / test accuracy for output 1 = 2198.1748 / 0.4730
+
+
+Training qa2 iter 4
+Training took 560.4066 sec
+Train acc 0: max=0.6822 mean=0.6124 min=0.4800
+Train acc 1: max=0.6700 mean=0.5700 min=0.3989
+Train loss 0: max=1254.7773 mean=965.3563 min=817.9941
+Train loss 1: max=1321.0378 mean=997.7096 min=792.8994
+Train val acc 0: max=0.5000 mean=0.4440 min=0.3700
+Train val acc 1: max=0.3900 mean=0.3460 min=0.2800
+Train val loss 0: max=189.9170 mean=181.2780 min=168.4086
+Train val loss 1: max=191.4556 mean=179.7477 min=167.4528
+
+Total test loss = 4914.1340
+Test loss / test accuracy for output 0 = 2565.7268 / 0.2840
+Test loss / test accuracy for output 1 = 2348.4072 / 0.3130
+
+
+Training qa2 iter 5
+Training took 1203.4389 sec
+Train acc 0: max=0.9133 mean=0.8347 min=0.6478
+Train acc 1: max=0.7889 mean=0.6491 min=0.3789
+Train loss 0: max=846.8393 mean=439.7140 min=250.4229
+Train loss 1: max=1395.9304 mean=868.5838 min=577.2787
+Train val acc 0: max=0.7200 mean=0.6740 min=0.6200
+Train val acc 1: max=0.5700 mean=0.4980 min=0.3600
+Train val loss 0: max=140.6366 mean=128.9544 min=116.4711
+Train val loss 1: max=175.5926 mean=149.9324 min=139.1500
+
+Total test loss = 5316.4653
+Test loss / test accuracy for output 0 = 2922.5776 / 0.4840
+Test loss / test accuracy for output 1 = 2393.8877 / 0.3960
+
+
+Training qa2 iter 6
+Training took 1398.8638 sec
+Train acc 0: max=0.7756 mean=0.6653 min=0.4611
+Train acc 1: max=0.6811 mean=0.5449 min=0.2889
+Train loss 0: max=1313.0603 mean=836.7136 min=573.9208
+Train loss 1: max=1492.3865 mean=1036.4944 min=779.0590
+Train val acc 0: max=0.4900 mean=0.4380 min=0.3600
+Train val acc 1: max=0.5000 mean=0.4380 min=0.3200
+Train val loss 0: max=193.9033 mean=187.7272 min=179.3423
+Train val loss 1: max=182.7413 mean=169.8046 min=154.3990
+
+Total test loss = 5610.1897
+Test loss / test accuracy for output 0 = 2768.8892 / 0.3170
+Test loss / test accuracy for output 1 = 2841.3005 / 0.2450
+
+
+Training qa2 iter 7
+Training took 1911.1884 sec
+Train acc 0: max=0.8767 mean=0.7838 min=0.6133
+Train acc 1: max=0.7378 mean=0.6264 min=0.4500
+Train loss 0: max=1025.8348 mean=567.6127 min=338.1767
+Train loss 1: max=1320.7577 mean=928.9889 min=694.7336
+Train val acc 0: max=0.6500 mean=0.6000 min=0.5100
+Train val acc 1: max=0.6400 mean=0.5340 min=0.4300
+Train val loss 0: max=155.8466 mean=131.3624 min=115.6688
+Train val loss 1: max=158.7420 mean=148.1702 min=141.5356
+
+Total test loss = 4424.1184
+Test loss / test accuracy for output 0 = 2200.6780 / 0.5100
+Test loss / test accuracy for output 1 = 2223.4404 / 0.3510
+
+
+Training qa2 iter 8
+Training took 1752.3603 sec
+Train acc 0: max=0.6989 mean=0.6104 min=0.4544
+Train acc 1: max=0.8533 mean=0.7787 min=0.6389
+Train loss 0: max=1257.1648 mean=967.1252 min=799.3826
+Train loss 1: max=912.8341 mean=547.2703 min=356.7123
+Train val acc 0: max=0.4500 mean=0.4020 min=0.3600
+Train val acc 1: max=0.6800 mean=0.6660 min=0.6300
+Train val loss 0: max=180.8998 mean=177.1400 min=173.5275
+Train val loss 1: max=133.2539 mean=122.2915 min=110.2407
+
+Total test loss = 4747.8711
+Test loss / test accuracy for output 0 = 2482.8286 / 0.3010
+Test loss / test accuracy for output 1 = 2265.0425 / 0.4900
+
+
+Training qa2 iter 9
+Training took 1660.3154 sec
+Train acc 0: max=0.6800 mean=0.5980 min=0.4644
+Train acc 1: max=0.8656 mean=0.7691 min=0.5922
+Train loss 0: max=1272.9445 mean=985.9453 min=828.1641
+Train loss 1: max=1046.0222 mean=589.2847 min=364.2826
+Train val acc 0: max=0.5200 mean=0.4760 min=0.3700
+Train val acc 1: max=0.7000 mean=0.6480 min=0.5700
+Train val loss 0: max=177.8381 mean=160.4572 min=153.1960
+Train val loss 1: max=126.7878 mean=113.0227 min=103.9155
+
+Total test loss = 4713.2832
+Test loss / test accuracy for output 0 = 2582.1885 / 0.2530
+Test loss / test accuracy for output 1 = 2131.0947 / 0.5210
+
+
+Training qa2 iter 10
+Training took 2208.7959 sec
+Train acc 0: max=0.9033 mean=0.8498 min=0.7344
+Train acc 1: max=0.8378 mean=0.7140 min=0.4811
+Train loss 0: max=732.8671 mean=426.7405 min=288.4203
+Train loss 1: max=1241.3073 mean=717.0069 min=464.3166
+Train val acc 0: max=0.7400 mean=0.6780 min=0.5800
+Train val acc 1: max=0.6400 mean=0.5760 min=0.4600
+Train val loss 0: max=141.7218 mean=132.2791 min=126.7006
+Train val loss 1: max=174.4430 mean=157.5867 min=144.7567
+
+Total test loss = 5260.2102
+Test loss / test accuracy for output 0 = 2821.9519 / 0.5460
+Test loss / test accuracy for output 1 = 2438.2583 / 0.4320
+
+
+Training qa3 iter 1
+Training took 2699.4240 sec
+Train acc 0: max=0.7556 mean=0.5993 min=0.3622
+Train acc 1: max=0.4700 mean=0.3989 min=0.2711
+Train loss 0: max=1361.5365 mean=935.4559 min=642.6118
+Train loss 1: max=1540.5559 mean=1349.7281 min=1233.9670
+Train val acc 0: max=0.5600 mean=0.4740 min=0.3600
+Train val acc 1: max=0.3900 mean=0.3380 min=0.2200
+Train val loss 0: max=155.4146 mean=151.5482 min=146.2019
+Train val loss 1: max=177.1640 mean=167.5953 min=161.7814
+
+Total test loss = 4880.5774
+Test loss / test accuracy for output 0 = 2656.0786 / 0.2550
+Test loss / test accuracy for output 1 = 2224.4988 / 0.1810
+
+
+Training qa3 iter 2
+Training took 3550.2697 sec
+Train acc 0: max=0.6789 mean=0.5562 min=0.3478
+Train acc 1: max=0.4778 mean=0.4007 min=0.2556
+Train loss 0: max=1362.6631 mean=992.1847 min=762.4330
+Train loss 1: max=1532.6929 mean=1344.4973 min=1218.6611
+Train val acc 0: max=0.4500 mean=0.3920 min=0.2900
+Train val acc 1: max=0.3700 mean=0.3180 min=0.2800
+Train val loss 0: max=165.0859 mean=160.0939 min=154.2437
+Train val loss 1: max=184.4788 mean=178.4051 min=169.5648
+
+Total test loss = 5008.2041
+Test loss / test accuracy for output 0 = 2702.0620 / 0.2440
+Test loss / test accuracy for output 1 = 2306.1421 / 0.1630
+
+
+Training qa3 iter 3
+Training took 4371.8314 sec
+Train acc 0: max=0.7911 mean=0.6289 min=0.4267
+Train acc 1: max=0.4856 mean=0.4004 min=0.2867
+Train loss 0: max=1302.1201 mean=896.7234 min=603.1616
+Train loss 1: max=1559.2031 mean=1365.5248 min=1214.3873
+Train val acc 0: max=0.6000 mean=0.4880 min=0.3500
+Train val acc 1: max=0.3500 mean=0.3020 min=0.2200
+Train val loss 0: max=154.8132 mean=139.8997 min=128.9957
+Train val loss 1: max=177.1068 mean=170.0610 min=163.3822
+
+Total test loss = 5577.5701
+Test loss / test accuracy for output 0 = 3358.8386 / 0.2170
+Test loss / test accuracy for output 1 = 2218.7314 / 0.1620
+
+
+Training qa3 iter 4
+Training took 5268.6353 sec
+Train acc 0: max=0.7822 mean=0.5920 min=0.3056
+Train acc 1: max=0.4756 mean=0.3993 min=0.2878
+Train loss 0: max=1510.9641 mean=950.2949 min=602.7887
+Train loss 1: max=1529.0493 mean=1349.5189 min=1221.2131
+Train val acc 0: max=0.5600 mean=0.4480 min=0.3100
+Train val acc 1: max=0.3900 mean=0.3300 min=0.2900
+Train val loss 0: max=174.3375 mean=156.6082 min=144.6026
+Train val loss 1: max=173.9072 mean=170.9971 min=167.7143
+
+Total test loss = 5336.3784
+Test loss / test accuracy for output 0 = 3004.9722 / 0.2490
+Test loss / test accuracy for output 1 = 2331.4062 / 0.1610
+
+
+Training qa3 iter 5
+Training took 6290.8062 sec
+Train acc 0: max=0.7244 mean=0.5924 min=0.3889
+Train acc 1: max=0.4578 mean=0.3800 min=0.2767
+Train loss 0: max=1362.0411 mean=939.5270 min=674.8457
+Train loss 1: max=1576.7964 mean=1380.3297 min=1248.0129
+Train val acc 0: max=0.5400 mean=0.4580 min=0.3100
+Train val acc 1: max=0.3300 mean=0.2680 min=0.1900
+Train val loss 0: max=166.9338 mean=151.6244 min=137.1109
+Train val loss 1: max=188.2877 mean=183.0846 min=175.4000
+
+Total test loss = 5047.3379
+Test loss / test accuracy for output 0 = 2867.1150 / 0.2480
+Test loss / test accuracy for output 1 = 2180.2229 / 0.1690
+
+
+Training qa3 iter 6
+Training took 7229.3020 sec
+Train acc 0: max=0.6978 mean=0.5631 min=0.3511
+Train acc 1: max=0.4456 mean=0.3680 min=0.2522
+Train loss 0: max=1417.0400 mean=1004.9846 min=744.6522
+Train loss 1: max=1644.1527 mean=1424.1406 min=1263.6423
+Train val acc 0: max=0.5100 mean=0.4000 min=0.2700
+Train val acc 1: max=0.3300 mean=0.2820 min=0.2200
+Train val loss 0: max=179.5976 mean=166.3918 min=160.8142
+Train val loss 1: max=191.7875 mean=175.5888 min=167.6494
+
+Total test loss = 4930.3337
+Test loss / test accuracy for output 0 = 2708.9194 / 0.2260
+Test loss / test accuracy for output 1 = 2221.4143 / 0.1630
+
+
+Training qa3 iter 7
+Training took 7917.4225 sec
+Train acc 0: max=0.7856 mean=0.6340 min=0.3767
+Train acc 1: max=0.5156 mean=0.4169 min=0.2456
+Train loss 0: max=1388.4277 mean=864.9236 min=552.1835
+Train loss 1: max=1658.9583 mean=1334.4115 min=1155.8926
+Train val acc 0: max=0.6000 mean=0.4860 min=0.2300
+Train val acc 1: max=0.3500 mean=0.3060 min=0.2500
+Train val loss 0: max=182.4399 mean=149.0537 min=125.9159
+Train val loss 1: max=199.5999 mean=180.8601 min=169.7160
+
+Total test loss = 5574.3967
+Test loss / test accuracy for output 0 = 3235.7305 / 0.2470
+Test loss / test accuracy for output 1 = 2338.6663 / 0.1920
+
+
+Training qa3 iter 8
+Training took 8839.8420 sec
+Train acc 0: max=0.7533 mean=0.6053 min=0.3522
+Train acc 1: max=0.4822 mean=0.4044 min=0.2856
+Train loss 0: max=1351.7642 mean=903.0298 min=632.8060
+Train loss 1: max=1558.9453 mean=1341.1648 min=1208.2700
+Train val acc 0: max=0.5600 mean=0.4400 min=0.2200
+Train val acc 1: max=0.3700 mean=0.2920 min=0.2600
+Train val loss 0: max=170.3530 mean=155.5899 min=147.3738
+Train val loss 1: max=175.3903 mean=173.8678 min=169.2391
+
+Total test loss = 5012.6118
+Test loss / test accuracy for output 0 = 2758.2720 / 0.2760
+Test loss / test accuracy for output 1 = 2254.3398 / 0.1770
+
+
+Training qa3 iter 9
+Training took 9472.1053 sec
+Train acc 0: max=0.7133 mean=0.5718 min=0.2833
+Train acc 1: max=0.4656 mean=0.3864 min=0.2778
+Train loss 0: max=1619.8997 mean=1009.6906 min=730.9568
+Train loss 1: max=1570.5369 mean=1406.1125 min=1259.0017
+Train val acc 0: max=0.5000 mean=0.4220 min=0.3200
+Train val acc 1: max=0.3500 mean=0.3020 min=0.2700
+Train val loss 0: max=182.9653 mean=164.8580 min=156.9062
+Train val loss 1: max=189.8639 mean=178.1263 min=171.1341
+
+Total test loss = 5066.3318
+Test loss / test accuracy for output 0 = 2816.1106 / 0.2400
+Test loss / test accuracy for output 1 = 2250.2212 / 0.1610
+
+
+Training qa3 iter 10
+Training took 9782.5979 sec
+Train acc 0: max=0.7633 mean=0.6078 min=0.3856
+Train acc 1: max=0.4611 mean=0.3638 min=0.2256
+Train loss 0: max=1349.8307 mean=928.1670 min=633.9784
+Train loss 1: max=1662.1863 mean=1409.8378 min=1259.1870
+Train val acc 0: max=0.4700 mean=0.3740 min=0.2200
+Train val acc 1: max=0.4000 mean=0.3360 min=0.2000
+Train val loss 0: max=184.3112 mean=164.1559 min=152.7547
+Train val loss 1: max=187.4414 mean=170.3468 min=164.1967
+
+Total test loss = 5301.6487
+Test loss / test accuracy for output 0 = 3032.7493 / 0.2520
+Test loss / test accuracy for output 1 = 2268.8994 / 0.1630
+
+
+Training qa4 iter 1
+Training took 9863.3907 sec
+Train acc 0: max=0.9778 mean=0.9438 min=0.8789
+Train acc 1: max=0.9911 mean=0.9711 min=0.9356
+Train loss 0: max=250.3457 mean=129.2559 min=61.1163
+Train loss 1: max=168.9297 mean=71.2251 min=29.5556
+Train val acc 0: max=0.8600 mean=0.8260 min=0.7800
+Train val acc 1: max=0.8800 mean=0.8660 min=0.8600
+Train val loss 0: max=104.1591 mean=84.4564 min=54.6054
+Train val loss 1: max=44.6260 mean=35.5330 min=29.6132
+
+Total test loss = 1429.5290
+Test loss / test accuracy for output 0 = 883.3693 / 0.8550
+Test loss / test accuracy for output 1 = 546.1597 / 0.9040
+
+
+Training qa4 iter 2
+Training took 9939.3194 sec
+Train acc 0: max=0.9967 mean=0.9453 min=0.8667
+Train acc 1: max=1.0000 mean=0.9887 min=0.9456
+Train loss 0: max=344.3409 mean=121.3571 min=17.2230
+Train loss 1: max=146.2964 mean=33.7955 min=1.7694
+Train val acc 0: max=0.9000 mean=0.8520 min=0.8000
+Train val acc 1: max=0.9700 mean=0.9540 min=0.9100
+Train val loss 0: max=72.6988 mean=63.0169 min=52.1098
+Train val loss 1: max=23.4158 mean=19.8519 min=14.9490
+
+Total test loss = 711.4056
+Test loss / test accuracy for output 0 = 405.1553 / 0.9320
+Test loss / test accuracy for output 1 = 306.2503 / 0.9510
+
+
+Training qa4 iter 3
+Training took 9951.2912 sec
+Train acc 0: max=0.9944 mean=0.9640 min=0.9056
+Train acc 1: max=0.9633 mean=0.9253 min=0.8500
+Train loss 0: max=203.2830 mean=78.6210 min=17.6368
+Train loss 1: max=396.1146 mean=182.1204 min=88.6635
+Train val acc 0: max=0.9100 mean=0.8660 min=0.7900
+Train val acc 1: max=0.7900 mean=0.7660 min=0.7500
+Train val loss 0: max=63.8802 mean=51.6570 min=45.0022
+Train val loss 1: max=87.1826 mean=74.6824 min=66.8410
+
+Total test loss = 1621.7600
+Test loss / test accuracy for output 0 = 513.7358 / 0.9100
+Test loss / test accuracy for output 1 = 1108.0242 / 0.7880
+
+
+Training qa4 iter 4
+Training took 10283.1761 sec
+Train acc 0: max=0.9800 mean=0.9389 min=0.8444
+Train acc 1: max=1.0000 mean=0.9964 min=0.9822
+Train loss 0: max=405.4490 mean=153.2178 min=53.2631
+Train loss 1: max=49.4973 mean=12.0780 min=1.9740
+Train val acc 0: max=0.8700 mean=0.8440 min=0.8000
+Train val acc 1: max=0.9900 mean=0.9720 min=0.9600
+Train val loss 0: max=100.1211 mean=86.5274 min=78.5503
+Train val loss 1: max=15.5085 mean=12.6471 min=9.1026
+
+Total test loss = 1099.6496
+Test loss / test accuracy for output 0 = 847.7316 / 0.8600
+Test loss / test accuracy for output 1 = 251.9180 / 0.9550
+
+
+Training qa4 iter 5
+Training took 10295.1029 sec
+Train acc 0: max=0.9489 mean=0.9109 min=0.8511
+Train acc 1: max=0.9933 mean=0.9516 min=0.8589
+Train loss 0: max=421.9730 mean=206.8257 min=111.1970
+Train loss 1: max=378.5313 mean=136.0426 min=35.2817
+Train val acc 0: max=0.8400 mean=0.8040 min=0.7700
+Train val acc 1: max=0.8100 mean=0.7960 min=0.7700
+Train val loss 0: max=95.1119 mean=80.5575 min=65.3967
+Train val loss 1: max=127.7768 mean=102.7404 min=81.2716
+
+Total test loss = 2119.0215
+Test loss / test accuracy for output 0 = 906.5769 / 0.8130
+Test loss / test accuracy for output 1 = 1212.4446 / 0.8110
+
+
+Training qa4 iter 6
+Training took 10562.9474 sec
+Train acc 0: max=0.9800 mean=0.9362 min=0.8722
+Train acc 1: max=0.9489 mean=0.9042 min=0.8167
+Train loss 0: max=365.8630 mean=158.9528 min=55.0285
+Train loss 1: max=387.7657 mean=200.1786 min=114.4587
+Train val acc 0: max=0.8500 mean=0.8000 min=0.7300
+Train val acc 1: max=0.8700 mean=0.8260 min=0.7900
+Train val loss 0: max=101.8879 mean=93.4951 min=81.6321
+Train val loss 1: max=64.2925 mean=52.2663 min=40.5948
+
+Total test loss = 1580.9121
+Test loss / test accuracy for output 0 = 640.8478 / 0.8700
+Test loss / test accuracy for output 1 = 940.0643 / 0.7930
+
+
+Training qa4 iter 7
+Training took 10030.8674 sec
+Train acc 0: max=1.0000 mean=0.9638 min=0.9111
+Train acc 1: max=0.9589 mean=0.9138 min=0.8200
+Train loss 0: max=196.2830 mean=84.8953 min=17.8626
+Train loss 1: max=467.2433 mean=204.0838 min=101.3610
+Train val acc 0: max=0.9200 mean=0.8900 min=0.8500
+Train val acc 1: max=0.8000 mean=0.7620 min=0.7400
+Train val loss 0: max=51.9732 mean=41.4248 min=35.0875
+Train val loss 1: max=88.4568 mean=80.4496 min=74.0762
+
+Total test loss = 1532.3577
+Test loss / test accuracy for output 0 = 517.0176 / 0.9080
+Test loss / test accuracy for output 1 = 1015.3401 / 0.7910
+
+
+Training qa4 iter 8
+Training took 10682.8055 sec
+Train acc 0: max=1.0000 mean=0.9731 min=0.8878
+Train acc 1: max=1.0000 mean=0.9900 min=0.9556
+Train loss 0: max=268.4749 mean=65.4652 min=1.3869
+Train loss 1: max=107.5504 mean=26.5787 min=1.3835
+Train val acc 0: max=0.9700 mean=0.9260 min=0.8400
+Train val acc 1: max=0.9600 mean=0.9440 min=0.9200
+Train val loss 0: max=53.4723 mean=28.7801 min=14.7185
+Train val loss 1: max=21.6199 mean=13.4903 min=7.7090
+
+Total test loss = 247.5277
+Test loss / test accuracy for output 0 = 105.3384 / 0.9750
+Test loss / test accuracy for output 1 = 142.1893 / 0.9690
+
+
+Training qa4 iter 9
+Training took 10054.6910 sec
+Train acc 0: max=1.0000 mean=0.9707 min=0.9122
+Train acc 1: max=1.0000 mean=0.9978 min=0.9889
+Train loss 0: max=204.6051 mean=68.5245 min=4.4145
+Train loss 1: max=27.6751 mean=7.1855 min=1.3188
+Train val acc 0: max=0.9300 mean=0.8940 min=0.8000
+Train val acc 1: max=0.9900 mean=0.9840 min=0.9600
+Train val loss 0: max=60.8386 mean=49.8932 min=44.3800
+Train val loss 1: max=11.8957 mean=7.4200 min=2.5235
+
+Total test loss = 340.4437
+Test loss / test accuracy for output 0 = 249.2139 / 0.9470
+Test loss / test accuracy for output 1 = 91.2298 / 0.9840
+
+
+Training qa4 iter 10
+Training took 10354.7078 sec
+Train acc 0: max=0.9911 mean=0.9313 min=0.8456
+Train acc 1: max=0.9978 mean=0.9824 min=0.9389
+Train loss 0: max=296.1336 mean=134.8599 min=34.5220
+Train loss 1: max=178.4574 mean=53.7947 min=10.7098
+Train val acc 0: max=0.8800 mean=0.8160 min=0.6900
+Train val acc 1: max=0.8900 mean=0.8600 min=0.8300
+Train val loss 0: max=87.8430 mean=77.4009 min=69.1118
+Train val loss 1: max=96.5700 mean=76.9449 min=55.7503
+
+Total test loss = 1126.7234
+Test loss / test accuracy for output 0 = 550.2721 / 0.9030
+Test loss / test accuracy for output 1 = 576.4513 / 0.9070
+
+
+Training qa5 iter 1
+Training took 10789.1494 sec
+Train acc 0: max=0.9900 mean=0.9596 min=0.8833
+Train acc 1: max=0.9711 mean=0.9396 min=0.8822
+Train loss 0: max=227.2267 mean=96.6957 min=48.4192
+Train loss 1: max=241.5599 mean=124.2465 min=66.4913
+Train val acc 0: max=0.7900 mean=0.7480 min=0.7200
+Train val acc 1: max=0.8900 mean=0.8580 min=0.7900
+Train val loss 0: max=132.3827 mean=101.8488 min=69.8211
+Train val loss 1: max=52.2158 mean=45.7775 min=37.2689
+
+Total test loss = 1766.0222
+Test loss / test accuracy for output 0 = 971.0081 / 0.8080
+Test loss / test accuracy for output 1 = 795.0142 / 0.8120
+
+
+Training qa5 iter 2
+Training took 11192.3551 sec
+Train acc 0: max=0.9756 mean=0.9558 min=0.9133
+Train acc 1: max=0.9611 mean=0.9276 min=0.8656
+Train loss 0: max=178.6681 mean=95.8506 min=56.3533
+Train loss 1: max=257.9495 mean=147.5324 min=94.1320
+Train val acc 0: max=0.8400 mean=0.8240 min=0.7900
+Train val acc 1: max=0.8800 mean=0.8620 min=0.8300
+Train val loss 0: max=121.7368 mean=103.0091 min=76.2311
+Train val loss 1: max=46.5137 mean=38.0465 min=27.1173
+
+Total test loss = 1528.7024
+Test loss / test accuracy for output 0 = 911.0798 / 0.8070
+Test loss / test accuracy for output 1 = 617.6226 / 0.8430
+
+
+Training qa5 iter 3
+Training took 11467.2058 sec
+Train acc 0: max=0.9856 mean=0.9529 min=0.8800
+Train acc 1: max=0.9800 mean=0.9516 min=0.8833
+Train loss 0: max=260.8737 mean=104.7480 min=40.5226
+Train loss 1: max=243.2025 mean=110.5352 min=53.2162
+Train val acc 0: max=0.7800 mean=0.7740 min=0.7600
+Train val acc 1: max=0.8400 mean=0.8180 min=0.7600
+Train val loss 0: max=118.9726 mean=95.8173 min=63.5515
+Train val loss 1: max=74.1609 mean=63.5490 min=52.4937
+
+Total test loss = 1884.7640
+Test loss / test accuracy for output 0 = 1197.7588 / 0.7870
+Test loss / test accuracy for output 1 = 687.0052 / 0.8350
+
+
+Training qa5 iter 4
+Training took 11358.6273 sec
+Train acc 0: max=0.9778 mean=0.9520 min=0.8989
+Train acc 1: max=0.9511 mean=0.9156 min=0.8622
+Train loss 0: max=188.5372 mean=105.0583 min=61.3191
+Train loss 1: max=262.0362 mean=164.6245 min=105.1413
+Train val acc 0: max=0.8400 mean=0.8040 min=0.7800
+Train val acc 1: max=0.8600 mean=0.8280 min=0.7800
+Train val loss 0: max=87.0369 mean=73.1626 min=56.7561
+Train val loss 1: max=51.0580 mean=45.3670 min=36.9051
+
+Total test loss = 1874.3422
+Test loss / test accuracy for output 0 = 1188.5162 / 0.7870
+Test loss / test accuracy for output 1 = 685.8259 / 0.8360
+
+
+Training qa5 iter 5
+Training took 11733.2641 sec
+Train acc 0: max=0.9811 mean=0.9478 min=0.8856
+Train acc 1: max=0.9722 mean=0.9371 min=0.8678
+Train loss 0: max=245.3659 mean=116.5175 min=55.4700
+Train loss 1: max=298.4251 mean=140.5557 min=72.4455
+Train val acc 0: max=0.8300 mean=0.8040 min=0.7800
+Train val acc 1: max=0.8800 mean=0.8560 min=0.8200
+Train val loss 0: max=80.6127 mean=67.4247 min=53.9972
+Train val loss 1: max=54.6821 mean=42.8027 min=33.8269
+
+Total test loss = 1823.7220
+Test loss / test accuracy for output 0 = 1209.5315 / 0.7840
+Test loss / test accuracy for output 1 = 614.1906 / 0.8230
+
+
+Training qa5 iter 6
+Training took 11563.4728 sec
+Train acc 0: max=0.9867 mean=0.9440 min=0.8367
+Train acc 1: max=0.9722 mean=0.9422 min=0.8822
+Train loss 0: max=395.0006 mean=139.7321 min=50.7665
+Train loss 1: max=222.3112 mean=121.7962 min=68.1088
+Train val acc 0: max=0.7700 mean=0.7460 min=0.7300
+Train val acc 1: max=0.9000 mean=0.8660 min=0.8200
+Train val loss 0: max=133.9177 mean=109.0191 min=74.2721
+Train val loss 1: max=62.7583 mean=49.3406 min=34.2317
+
+Total test loss = 2053.3622
+Test loss / test accuracy for output 0 = 1196.7759 / 0.7860
+Test loss / test accuracy for output 1 = 856.5863 / 0.8310
+
+
+Training qa5 iter 7
+Training took 12064.7156 sec
+Train acc 0: max=0.9911 mean=0.9587 min=0.9078
+Train acc 1: max=0.9589 mean=0.9318 min=0.8800
+Train loss 0: max=212.2917 mean=94.0875 min=31.3773
+Train loss 1: max=244.2584 mean=140.3715 min=87.2279
+Train val acc 0: max=0.8200 mean=0.7860 min=0.7500
+Train val acc 1: max=0.9000 mean=0.8700 min=0.8000
+Train val loss 0: max=102.8958 mean=87.8714 min=67.1275
+Train val loss 1: max=45.1166 mean=35.9678 min=28.5680
+
+Total test loss = 1732.4857
+Test loss / test accuracy for output 0 = 954.4999 / 0.8100
+Test loss / test accuracy for output 1 = 777.9858 / 0.8200
+
+
+Training qa5 iter 8
+Training took 12277.2670 sec
+Train acc 0: max=0.9867 mean=0.9553 min=0.8956
+Train acc 1: max=0.9556 mean=0.9207 min=0.8522
+Train loss 0: max=228.0173 mean=101.9327 min=40.7486
+Train loss 1: max=296.5963 mean=164.1222 min=96.1081
+Train val acc 0: max=0.8000 mean=0.7860 min=0.7700
+Train val acc 1: max=0.9100 mean=0.8740 min=0.8200
+Train val loss 0: max=143.0580 mean=104.5874 min=62.3291
+Train val loss 1: max=41.4040 mean=32.3664 min=27.8029
+
+Total test loss = 1574.8306
+Test loss / test accuracy for output 0 = 977.9360 / 0.8020
+Test loss / test accuracy for output 1 = 596.8946 / 0.8430
+
+
+Training qa5 iter 9
+Training took 12458.8582 sec
+Train acc 0: max=0.9844 mean=0.9578 min=0.8911
+Train acc 1: max=0.9778 mean=0.9387 min=0.8656
+Train loss 0: max=230.8893 mean=104.1477 min=51.0930
+Train loss 1: max=327.1977 mean=148.9195 min=72.2383
+Train val acc 0: max=0.7800 mean=0.7600 min=0.7500
+Train val acc 1: max=0.8800 mean=0.8480 min=0.7500
+Train val loss 0: max=109.3908 mean=96.5812 min=72.2946
+Train val loss 1: max=69.1776 mean=44.0472 min=33.5706
+
+Total test loss = 1809.4946
+Test loss / test accuracy for output 0 = 1171.1287 / 0.7740
+Test loss / test accuracy for output 1 = 638.3660 / 0.8360
+
+
+Training qa5 iter 10
+Training took 12735.1252 sec
+Train acc 0: max=0.9911 mean=0.9589 min=0.9089
+Train acc 1: max=0.9722 mean=0.9407 min=0.8889
+Train loss 0: max=189.5585 mean=96.4811 min=41.8997
+Train loss 1: max=250.0222 mean=133.3170 min=70.5933
+Train val acc 0: max=0.7800 mean=0.7720 min=0.7600
+Train val acc 1: max=0.8800 mean=0.8580 min=0.8500
+Train val loss 0: max=120.3309 mean=87.5065 min=54.9344
+Train val loss 1: max=53.6105 mean=44.5930 min=32.8642
+
+Total test loss = 1983.4550
+Test loss / test accuracy for output 0 = 1090.7996 / 0.7880
+Test loss / test accuracy for output 1 = 892.6554 / 0.8260
+
+
+Training qa6 iter 1
+Training took 12988.6356 sec
+Train acc 0: max=0.9956 mean=0.9580 min=0.8578
+Train acc 1: max=0.9633 mean=0.8713 min=0.5689
+Train loss 0: max=287.5554 mean=96.1860 min=21.2607
+Train loss 1: max=605.7229 mean=217.8031 min=88.0117
+Train val acc 0: max=0.9500 mean=0.9000 min=0.7700
+Train val acc 1: max=0.9200 mean=0.8140 min=0.4600
+Train val loss 0: max=53.5495 mean=33.8083 min=21.9207
+Train val loss 1: max=69.8102 mean=39.8016 min=28.3964
+
+Total test loss = 892.0038
+Test loss / test accuracy for output 0 = 580.3117 / 0.8820
+Test loss / test accuracy for output 1 = 311.6921 / 0.9050
+
+
+Training qa6 iter 2
+Training took 13207.6112 sec
+Train acc 0: max=0.9944 mean=0.9467 min=0.7989
+Train acc 1: max=0.9756 mean=0.8793 min=0.5722
+Train loss 0: max=394.4248 mean=118.5449 min=20.4606
+Train loss 1: max=605.7217 mean=213.4230 min=75.4120
+Train val acc 0: max=0.9400 mean=0.8940 min=0.7600
+Train val acc 1: max=0.9200 mean=0.8180 min=0.5400
+Train val loss 0: max=53.7898 mean=33.0831 min=20.0435
+Train val loss 1: max=68.5932 mean=43.7566 min=28.2247
+
+Total test loss = 933.1797
+Test loss / test accuracy for output 0 = 622.3546 / 0.8770
+Test loss / test accuracy for output 1 = 310.8251 / 0.8950
+
+
+Training qa6 iter 3
+Training took 12978.7039 sec
+Train acc 0: max=0.9911 mean=0.9002 min=0.5989
+Train acc 1: max=0.9622 mean=0.8271 min=0.5522
+Train loss 0: max=594.6297 mean=165.5229 min=27.6107
+Train loss 1: max=614.2136 mean=283.6824 min=103.8454
+Train val acc 0: max=0.9500 mean=0.8660 min=0.5300
+Train val acc 1: max=0.9000 mean=0.7600 min=0.4800
+Train val loss 0: max=71.0546 mean=33.7054 min=23.4398
+Train val loss 1: max=70.2773 mean=42.2866 min=25.3056
+
+Total test loss = 787.9454
+Test loss / test accuracy for output 0 = 500.9657 / 0.8790
+Test loss / test accuracy for output 1 = 286.9797 / 0.8990
+
+
+Training qa6 iter 4
+Training took 13549.8639 sec
+Train acc 0: max=0.9889 mean=0.8882 min=0.5478
+Train acc 1: max=0.9633 mean=0.8222 min=0.5289
+Train loss 0: max=644.7498 mean=181.0588 min=29.9310
+Train loss 1: max=647.3542 mean=299.1435 min=105.1417
+Train val acc 0: max=0.9500 mean=0.8460 min=0.5200
+Train val acc 1: max=0.9200 mean=0.8000 min=0.5400
+Train val loss 0: max=82.0483 mean=35.8995 min=23.2233
+Train val loss 1: max=72.4873 mean=40.9025 min=24.0481
+
+Total test loss = 811.3620
+Test loss / test accuracy for output 0 = 543.7756 / 0.8750
+Test loss / test accuracy for output 1 = 267.5864 / 0.9060
+
+
+Training qa6 iter 5
+Training took 13832.8331 sec
+Train acc 0: max=0.9867 mean=0.9002 min=0.6244
+Train acc 1: max=0.9644 mean=0.8658 min=0.5656
+Train loss 0: max=580.0192 mean=175.0902 min=29.3815
+Train loss 1: max=610.6118 mean=242.2088 min=96.6401
+Train val acc 0: max=0.9500 mean=0.8600 min=0.5600
+Train val acc 1: max=0.9100 mean=0.8060 min=0.5100
+Train val loss 0: max=70.9497 mean=38.9722 min=22.6911
+Train val loss 1: max=69.3529 mean=44.3576 min=30.1776
+
+Total test loss = 932.6198
+Test loss / test accuracy for output 0 = 617.7993 / 0.8670
+Test loss / test accuracy for output 1 = 314.8204 / 0.9060
+
+
+Training qa6 iter 6
+Training took 13475.8274 sec
+Train acc 0: max=0.9922 mean=0.9473 min=0.8000
+Train acc 1: max=0.9722 mean=0.8822 min=0.6111
+Train loss 0: max=400.4696 mean=112.5093 min=21.4808
+Train loss 1: max=584.5763 mean=212.0478 min=76.1202
+Train val acc 0: max=0.9400 mean=0.8880 min=0.7200
+Train val acc 1: max=0.8900 mean=0.7940 min=0.5300
+Train val loss 0: max=56.1789 mean=38.9186 min=28.3151
+Train val loss 1: max=68.7524 mean=46.5912 min=38.3644
+
+Total test loss = 1095.2639
+Test loss / test accuracy for output 0 = 710.7324 / 0.8760
+Test loss / test accuracy for output 1 = 384.5316 / 0.8910
+
+
+Training qa6 iter 7
+Training took 13950.7640 sec
+Train acc 0: max=0.9989 mean=0.9700 min=0.9022
+Train acc 1: max=0.9811 mean=0.8711 min=0.4989
+Train loss 0: max=231.8219 mean=75.9421 min=10.8094
+Train loss 1: max=648.9234 mean=206.3627 min=60.7239
+Train val acc 0: max=0.9600 mean=0.9360 min=0.8700
+Train val acc 1: max=0.9000 mean=0.7920 min=0.4800
+Train val loss 0: max=40.9251 mean=33.4936 min=24.4854
+Train val loss 1: max=75.7060 mean=60.2997 min=32.7091
+
+Total test loss = 1091.6145
+Test loss / test accuracy for output 0 = 655.3642 / 0.8850
+Test loss / test accuracy for output 1 = 436.2503 / 0.8830
+
+
+Training qa6 iter 8
+Training took 13657.8533 sec
+Train acc 0: max=0.9978 mean=0.9320 min=0.7100
+Train acc 1: max=0.9700 mean=0.8587 min=0.4867
+Train loss 0: max=450.2219 mean=120.1763 min=13.4277
+Train loss 1: max=660.1901 mean=226.2880 min=74.2075
+Train val acc 0: max=0.9500 mean=0.8820 min=0.6200
+Train val acc 1: max=0.9200 mean=0.8200 min=0.4600
+Train val loss 0: max=58.6046 mean=34.7174 min=22.8174
+Train val loss 1: max=79.6133 mean=37.1618 min=25.1506
+
+Total test loss = 974.8123
+Test loss / test accuracy for output 0 = 623.5159 / 0.8830
+Test loss / test accuracy for output 1 = 351.2963 / 0.8930
+
+
+Training qa6 iter 9
+Training took 13237.4511 sec
+Train acc 0: max=0.9956 mean=0.9631 min=0.8956
+Train acc 1: max=0.9767 mean=0.8680 min=0.5289
+Train loss 0: max=260.2744 mean=98.5757 min=27.5472
+Train loss 1: max=681.5222 mean=239.6958 min=82.5420
+Train val acc 0: max=0.9500 mean=0.9160 min=0.8800
+Train val acc 1: max=0.9000 mean=0.8120 min=0.5400
+Train val loss 0: max=35.4705 mean=29.3135 min=21.5511
+Train val loss 1: max=76.9057 mean=46.3869 min=35.2865
+
+Total test loss = 931.2299
+Test loss / test accuracy for output 0 = 582.8813 / 0.8730
+Test loss / test accuracy for output 1 = 348.3486 / 0.8880
+
+
+Training qa6 iter 10
+Training took 13296.4864 sec
+Train acc 0: max=0.9978 mean=0.9500 min=0.8178
+Train acc 1: max=0.9689 mean=0.8836 min=0.6011
+Train loss 0: max=382.3909 mean=115.7010 min=24.8158
+Train loss 1: max=600.9866 mean=213.4954 min=77.5109
+Train val acc 0: max=0.9300 mean=0.9040 min=0.8000
+Train val acc 1: max=0.9000 mean=0.8240 min=0.5300
+Train val loss 0: max=45.1024 mean=29.4413 min=17.8496
+Train val loss 1: max=69.1306 mean=38.4160 min=28.4536
+
+Total test loss = 904.6468
+Test loss / test accuracy for output 0 = 558.2059 / 0.8810
+Test loss / test accuracy for output 1 = 346.4409 / 0.8990
+
+
+Training qa7 iter 1
+Training took 14180.1628 sec
+Train acc 0: max=0.8411 mean=0.7984 min=0.7211
+Train acc 1: max=0.9433 mean=0.8816 min=0.7511
+Train loss 0: max=527.6313 mean=415.2755 min=346.5828
+Train loss 1: max=490.4708 mean=259.6708 min=139.3887
+Train val acc 0: max=0.7500 mean=0.7400 min=0.7200
+Train val acc 1: max=0.8600 mean=0.8100 min=0.7100
+Train val loss 0: max=66.3545 mean=62.9751 min=57.3523
+Train val loss 1: max=55.6084 mean=40.5953 min=35.6093
+
+Total test loss = 1360.8928
+Test loss / test accuracy for output 0 = 794.8940 / 0.7100
+Test loss / test accuracy for output 1 = 565.9988 / 0.8330
+
+
+Training qa7 iter 2
+Training took 14009.6488 sec
+Train acc 0: max=0.9700 mean=0.9180 min=0.8122
+Train acc 1: max=0.9089 mean=0.8224 min=0.6567
+Train loss 0: max=442.7115 mean=198.1239 min=82.4148
+Train loss 1: max=614.9231 mean=360.9543 min=211.7729
+Train val acc 0: max=0.8400 mean=0.8080 min=0.7400
+Train val acc 1: max=0.8100 mean=0.7500 min=0.6000
+Train val loss 0: max=69.0788 mean=53.2573 min=46.9536
+Train val loss 1: max=75.5761 mean=63.0067 min=58.5848
+
+Total test loss = 1442.7289
+Test loss / test accuracy for output 0 = 850.7838 / 0.7680
+Test loss / test accuracy for output 1 = 591.9451 / 0.8060
+
+
+Training qa7 iter 3
+Training took 14573.4831 sec
+Train acc 0: max=0.9533 mean=0.8987 min=0.8067
+Train acc 1: max=0.9422 mean=0.8567 min=0.6978
+Train loss 0: max=443.9748 mean=241.0615 min=126.9520
+Train loss 1: max=604.6383 mean=318.3444 min=160.3214
+Train val acc 0: max=0.8100 mean=0.7720 min=0.7200
+Train val acc 1: max=0.8300 mean=0.7680 min=0.6300
+Train val loss 0: max=62.9709 mean=60.4414 min=55.7274
+Train val loss 1: max=69.3866 mean=56.2812 min=49.5964
+
+Total test loss = 1492.5500
+Test loss / test accuracy for output 0 = 974.2197 / 0.7330
+Test loss / test accuracy for output 1 = 518.3303 / 0.8150
+
+
+Training qa7 iter 4
+Training took 14017.5809 sec
+Train acc 0: max=0.9133 mean=0.8429 min=0.7567
+Train acc 1: max=0.8911 mean=0.8396 min=0.7389
+Train loss 0: max=635.8699 mean=353.4434 min=198.1831
+Train loss 1: max=525.4603 mean=340.9415 min=246.8804
+Train val acc 0: max=0.7600 mean=0.7140 min=0.6300
+Train val acc 1: max=0.7800 mean=0.7600 min=0.7400
+Train val loss 0: max=86.4501 mean=83.7452 min=81.2173
+Train val loss 1: max=68.2242 mean=62.8889 min=55.3076
+
+Total test loss = 1616.6654
+Test loss / test accuracy for output 0 = 892.3137 / 0.7120
+Test loss / test accuracy for output 1 = 724.3517 / 0.7420
+
+
+Training qa7 iter 5
+Training took 14805.7123 sec
+Train acc 0: max=0.9000 mean=0.8498 min=0.7522
+Train acc 1: max=0.8800 mean=0.8233 min=0.7556
+Train loss 0: max=493.5956 mean=324.9038 min=229.3845
+Train loss 1: max=529.6458 mean=390.1365 min=290.3804
+Train val acc 0: max=0.7700 mean=0.7460 min=0.7100
+Train val acc 1: max=0.7900 mean=0.7600 min=0.7300
+Train val loss 0: max=90.1350 mean=81.8481 min=67.7145
+Train val loss 1: max=68.1873 mean=66.7665 min=65.0524
+
+Total test loss = 1831.0889
+Test loss / test accuracy for output 0 = 1007.2700 / 0.7140
+Test loss / test accuracy for output 1 = 823.8190 / 0.7170
+
+
+Training qa7 iter 6
+Training took 14472.8628 sec
+Train acc 0: max=0.9433 mean=0.8867 min=0.7978
+Train acc 1: max=0.8578 mean=0.8296 min=0.7522
+Train loss 0: max=431.5535 mean=248.6783 min=136.3043
+Train loss 1: max=543.1382 mean=365.1346 min=290.3849
+Train val acc 0: max=0.8400 mean=0.8080 min=0.7500
+Train val acc 1: max=0.7800 mean=0.7500 min=0.7300
+Train val loss 0: max=58.1741 mean=54.6803 min=48.8199
+Train val loss 1: max=64.9326 mean=62.9492 min=60.9664
+
+Total test loss = 1676.9979
+Test loss / test accuracy for output 0 = 927.0980 / 0.7300
+Test loss / test accuracy for output 1 = 749.8999 / 0.7180
+
+
+Training qa7 iter 7
+Training took 14523.7557 sec
+Train acc 0: max=0.9511 mean=0.8767 min=0.6756
+Train acc 1: max=0.9578 mean=0.9111 min=0.8033
+Train loss 0: max=575.0964 mean=256.6862 min=127.7453
+Train loss 1: max=390.6784 mean=200.8777 min=112.1817
+Train val acc 0: max=0.8500 mean=0.7980 min=0.6700
+Train val acc 1: max=0.8600 mean=0.8440 min=0.8000
+Train val loss 0: max=68.1131 mean=61.1806 min=55.1010
+Train val loss 1: max=57.8667 mean=49.1064 min=41.6658
+
+Total test loss = 1505.5472
+Test loss / test accuracy for output 0 = 837.5379 / 0.7840
+Test loss / test accuracy for output 1 = 668.0093 / 0.8200
+
+
+Training qa7 iter 8
+Training took 15182.9927 sec
+Train acc 0: max=0.9144 mean=0.8538 min=0.7722
+Train acc 1: max=0.9356 mean=0.8696 min=0.7722
+Train loss 0: max=493.7106 mean=330.9102 min=219.9203
+Train loss 1: max=470.6701 mean=283.3904 min=166.4615
+Train val acc 0: max=0.7900 mean=0.7580 min=0.7100
+Train val acc 1: max=0.8000 mean=0.7680 min=0.7400
+Train val loss 0: max=75.3277 mean=70.4564 min=66.6858
+Train val loss 1: max=76.5871 mean=65.4809 min=56.8735
+
+Total test loss = 1784.4718
+Test loss / test accuracy for output 0 = 969.9443 / 0.7440
+Test loss / test accuracy for output 1 = 814.5275 / 0.7760
+
+
+Training qa7 iter 9
+Training took 14913.3248 sec
+Train acc 0: max=0.9322 mean=0.8756 min=0.7933
+Train acc 1: max=0.8733 mean=0.8082 min=0.7089
+Train loss 0: max=470.8525 mean=285.3351 min=156.2510
+Train loss 1: max=589.8431 mean=416.8620 min=298.0933
+Train val acc 0: max=0.8100 mean=0.7720 min=0.7200
+Train val acc 1: max=0.7900 mean=0.7520 min=0.6700
+Train val loss 0: max=71.2670 mean=64.9568 min=56.9011
+Train val loss 1: max=69.5141 mean=67.8866 min=65.3364
+
+Total test loss = 1598.0876
+Test loss / test accuracy for output 0 = 834.5732 / 0.7590
+Test loss / test accuracy for output 1 = 763.5143 / 0.7350
+
+
+Training qa7 iter 10
+Training took 15636.3859 sec
+Train acc 0: max=0.9444 mean=0.8722 min=0.7544
+Train acc 1: max=0.8322 mean=0.7851 min=0.6456
+Train loss 0: max=499.5599 mean=287.3174 min=153.0345
+Train loss 1: max=628.0043 mean=437.0933 min=355.2408
+Train val acc 0: max=0.8600 mean=0.7900 min=0.7000
+Train val acc 1: max=0.7600 mean=0.7260 min=0.6200
+Train val loss 0: max=68.5898 mean=50.5039 min=40.2371
+Train val loss 1: max=80.5638 mean=69.1475 min=64.5776
+
+Total test loss = 1419.3183
+Test loss / test accuracy for output 0 = 672.6631 / 0.7760
+Test loss / test accuracy for output 1 = 746.6552 / 0.7270
+
+
+Training qa8 iter 1
+Training took 15743.5055 sec
+Train acc 0: max=0.9822 mean=0.9471 min=0.8378
+Train acc 1: max=0.8600 mean=0.7853 min=0.6511
+Train loss 0: max=388.3408 mean=146.0550 min=56.3059
+Train loss 1: max=819.2805 mean=516.6490 min=359.2970
+Train val acc 0: max=0.8900 mean=0.8620 min=0.7700
+Train val acc 1: max=0.7300 mean=0.6960 min=0.6200
+Train val loss 0: max=63.3611 mean=47.1378 min=42.3266
+Train val loss 1: max=99.1519 mean=91.1875 min=82.6357
+
+Total test loss = 1774.0328
+Test loss / test accuracy for output 0 = 605.3143 / 0.8710
+Test loss / test accuracy for output 1 = 1168.7185 / 0.6570
+
+
+Training qa8 iter 2
+Training took 16137.5937 sec
+Train acc 0: max=0.9844 mean=0.9358 min=0.8256
+Train acc 1: max=0.8400 mean=0.7813 min=0.6589
+Train loss 0: max=484.0975 mean=181.8582 min=58.3872
+Train loss 1: max=791.0073 mean=532.9136 min=407.9369
+Train val acc 0: max=0.9100 mean=0.8580 min=0.7300
+Train val acc 1: max=0.7500 mean=0.6960 min=0.5900
+Train val loss 0: max=95.9095 mean=72.1120 min=59.4831
+Train val loss 1: max=104.3209 mean=82.1404 min=71.7352
+
+Total test loss = 1733.8632
+Test loss / test accuracy for output 0 = 525.9905 / 0.8620
+Test loss / test accuracy for output 1 = 1207.8727 / 0.6630
+
+
+Training qa8 iter 3
+Training took 16114.6527 sec
+Train acc 0: max=0.9789 mean=0.9424 min=0.8378
+Train acc 1: max=0.8200 mean=0.7602 min=0.7011
+Train loss 0: max=469.6798 mean=174.5724 min=69.7150
+Train loss 1: max=772.7855 mean=575.7877 min=452.2940
+Train val acc 0: max=0.8900 mean=0.8540 min=0.7700
+Train val acc 1: max=0.7400 mean=0.6920 min=0.6600
+Train val loss 0: max=84.9192 mean=57.4123 min=41.8450
+Train val loss 1: max=110.8437 mean=103.4308 min=94.8833
+
+Total test loss = 1760.7485
+Test loss / test accuracy for output 0 = 467.7451 / 0.8850
+Test loss / test accuracy for output 1 = 1293.0034 / 0.6050
+
+
+Training qa8 iter 4
+Training took 15643.7009 sec
+Train acc 0: max=0.9844 mean=0.9413 min=0.8178
+Train acc 1: max=0.7856 mean=0.7058 min=0.6222
+Train loss 0: max=475.9920 mean=173.2861 min=56.2910
+Train loss 1: max=1082.8363 mean=729.7520 min=556.9937
+Train val acc 0: max=0.9000 mean=0.8540 min=0.7300
+Train val acc 1: max=0.7500 mean=0.6620 min=0.5700
+Train val loss 0: max=96.1877 mean=63.6556 min=52.0833
+Train val loss 1: max=152.2408 mean=105.4151 min=85.6628
+
+Total test loss = 1647.2699
+Test loss / test accuracy for output 0 = 604.1104 / 0.8870
+Test loss / test accuracy for output 1 = 1043.1595 / 0.6620
+
+
+Training qa8 iter 5
+Training took 16515.7824 sec
+Train acc 0: max=0.9789 mean=0.9478 min=0.8700
+Train acc 1: max=0.8300 mean=0.7782 min=0.6878
+Train loss 0: max=332.5738 mean=140.5262 min=61.4632
+Train loss 1: max=774.9330 mean=519.1393 min=408.3899
+Train val acc 0: max=0.9000 mean=0.8740 min=0.8300
+Train val acc 1: max=0.7300 mean=0.6920 min=0.6200
+Train val loss 0: max=61.0026 mean=54.7531 min=46.8237
+Train val loss 1: max=116.9336 mean=94.3987 min=87.8048
+
+Total test loss = 2075.5616
+Test loss / test accuracy for output 0 = 811.6900 / 0.8760
+Test loss / test accuracy for output 1 = 1263.8716 / 0.6430
+
+
+Training qa8 iter 6
+Training took 15917.4865 sec
+Train acc 0: max=0.9833 mean=0.9231 min=0.8378
+Train acc 1: max=0.8078 mean=0.7516 min=0.6811
+Train loss 0: max=414.4787 mean=211.9378 min=74.2093
+Train loss 1: max=762.7758 mean=573.0239 min=457.2583
+Train val acc 0: max=0.8800 mean=0.8320 min=0.7600
+Train val acc 1: max=0.7000 mean=0.6460 min=0.6000
+Train val loss 0: max=102.1864 mean=70.2376 min=56.4635
+Train val loss 1: max=102.7691 mean=100.7368 min=99.3429
+
+Total test loss = 2032.5231
+Test loss / test accuracy for output 0 = 744.3531 / 0.8380
+Test loss / test accuracy for output 1 = 1288.1700 / 0.6170
+
+
+Training qa8 iter 7
+Training took 16502.5223 sec
+Train acc 0: max=0.9822 mean=0.9133 min=0.7200
+Train acc 1: max=0.8167 mean=0.7418 min=0.5789
+Train loss 0: max=564.5651 mean=209.9950 min=77.5401
+Train loss 1: max=849.0278 mean=589.0631 min=460.6226
+Train val acc 0: max=0.8600 mean=0.8380 min=0.8000
+Train val acc 1: max=0.7200 mean=0.6400 min=0.4900
+Train val loss 0: max=73.7168 mean=70.4632 min=67.1031
+Train val loss 1: max=138.6554 mean=114.4553 min=104.9170
+
+Total test loss = 1832.5355
+Test loss / test accuracy for output 0 = 691.0425 / 0.8470
+Test loss / test accuracy for output 1 = 1141.4929 / 0.6510
+
+
+Training qa8 iter 8
+Training took 16735.5226 sec
+Train acc 0: max=0.9767 mean=0.9311 min=0.7811
+Train acc 1: max=0.8311 mean=0.7658 min=0.6244
+Train loss 0: max=482.4620 mean=169.8069 min=65.2074
+Train loss 1: max=947.0289 mean=576.0570 min=426.3265
+Train val acc 0: max=0.9100 mean=0.8620 min=0.7800
+Train val acc 1: max=0.7200 mean=0.6720 min=0.5700
+Train val loss 0: max=69.7982 mean=51.5956 min=40.6803
+Train val loss 1: max=137.3621 mean=110.2000 min=94.0259
+
+Total test loss = 1775.9043
+Test loss / test accuracy for output 0 = 585.6843 / 0.8690
+Test loss / test accuracy for output 1 = 1190.2200 / 0.6320
+
+
+Training qa8 iter 9
+Training took 17064.1198 sec
+Train acc 0: max=0.9844 mean=0.9362 min=0.7967
+Train acc 1: max=0.8289 mean=0.7493 min=0.5667
+Train loss 0: max=423.3533 mean=163.8839 min=65.8542
+Train loss 1: max=990.4697 mean=580.5550 min=416.6600
+Train val acc 0: max=0.9100 mean=0.8760 min=0.7800
+Train val acc 1: max=0.6900 mean=0.6420 min=0.5600
+Train val loss 0: max=66.5081 mean=62.4582 min=58.7089
+Train val loss 1: max=123.9085 mean=104.1051 min=92.7950
+
+Total test loss = 1884.3018
+Test loss / test accuracy for output 0 = 577.2172 / 0.8850
+Test loss / test accuracy for output 1 = 1307.0846 / 0.6140
+
+
+Training qa8 iter 10
+Training took 16496.4404 sec
+Train acc 0: max=0.9844 mean=0.9444 min=0.8433
+Train acc 1: max=0.8133 mean=0.7176 min=0.5722
+Train loss 0: max=473.8023 mean=168.0330 min=53.6387
+Train loss 1: max=961.5584 mean=664.1317 min=505.1490
+Train val acc 0: max=0.9200 mean=0.8660 min=0.7300
+Train val acc 1: max=0.7300 mean=0.6540 min=0.5600
+Train val loss 0: max=86.9092 mean=54.6831 min=42.6429
+Train val loss 1: max=123.9193 mean=101.8125 min=90.6874
+
+Total test loss = 1724.6226
+Test loss / test accuracy for output 0 = 548.1022 / 0.8830
+Test loss / test accuracy for output 1 = 1176.5204 / 0.6270
+
+
+Training qa9 iter 1
+Training took 17239.5128 sec
+Train acc 0: max=0.9611 mean=0.8896 min=0.7711
+Train acc 1: max=0.8222 mean=0.7096 min=0.5456
+Train loss 0: max=417.6381 mean=247.7578 min=138.1888
+Train loss 1: max=617.3677 mean=483.1440 min=362.3403
+Train val acc 0: max=0.8400 mean=0.7740 min=0.7000
+Train val acc 1: max=0.5700 mean=0.5520 min=0.5400
+Train val loss 0: max=66.0907 mean=59.7997 min=53.7534
+Train val loss 1: max=93.7580 mean=80.9640 min=70.2866
+
+Total test loss = 1942.8318
+Test loss / test accuracy for output 0 = 843.4101 / 0.7980
+Test loss / test accuracy for output 1 = 1099.4218 / 0.5030
+
+
+Training qa9 iter 2
+Training took 16731.9574 sec
+Train acc 0: max=0.9656 mean=0.9064 min=0.7644
+Train acc 1: max=0.7822 mean=0.6729 min=0.5689
+Train loss 0: max=409.0503 mean=212.3085 min=120.3102
+Train loss 1: max=631.7608 mean=530.4824 min=422.2610
+Train val acc 0: max=0.8300 mean=0.8040 min=0.7300
+Train val acc 1: max=0.5800 mean=0.5260 min=0.4700
+Train val loss 0: max=79.3141 mean=63.8144 min=51.0027
+Train val loss 1: max=91.5845 mean=83.1217 min=74.0686
+
+Total test loss = 1664.1198
+Test loss / test accuracy for output 0 = 647.8563 / 0.8510
+Test loss / test accuracy for output 1 = 1016.2635 / 0.5250
+
+
+Training qa9 iter 3
+Training took 16896.6478 sec
+Train acc 0: max=0.9744 mean=0.9162 min=0.7589
+Train acc 1: max=0.8367 mean=0.7269 min=0.5822
+Train loss 0: max=409.7674 mean=180.7110 min=87.7120
+Train loss 1: max=609.2390 mean=473.0269 min=359.2018
+Train val acc 0: max=0.8000 mean=0.7700 min=0.7200
+Train val acc 1: max=0.5500 mean=0.4980 min=0.3800
+Train val loss 0: max=70.7861 mean=58.5326 min=45.3529
+Train val loss 1: max=105.3663 mean=90.9235 min=74.8893
+
+Total test loss = 1894.9435
+Test loss / test accuracy for output 0 = 856.3922 / 0.8060
+Test loss / test accuracy for output 1 = 1038.5513 / 0.5510
+
+
+Training qa9 iter 4
+Training took 16805.0373 sec
+Train acc 0: max=0.9522 mean=0.8742 min=0.7144
+Train acc 1: max=0.7922 mean=0.7033 min=0.5689
+Train loss 0: max=509.0805 mean=261.0714 min=121.0901
+Train loss 1: max=612.5721 mean=501.2323 min=410.4311
+Train val acc 0: max=0.8300 mean=0.7760 min=0.6900
+Train val acc 1: max=0.5300 mean=0.5180 min=0.4900
+Train val loss 0: max=61.6612 mean=47.0442 min=39.7302
+Train val loss 1: max=98.2671 mean=84.8661 min=71.2010
+
+Total test loss = 1615.4397
+Test loss / test accuracy for output 0 = 601.9833 / 0.8220
+Test loss / test accuracy for output 1 = 1013.4564 / 0.5170
+
+
+Training qa9 iter 5
+Training took 16969.6352 sec
+Train acc 0: max=0.9811 mean=0.9200 min=0.7667
+Train acc 1: max=0.8378 mean=0.7060 min=0.5122
+Train loss 0: max=403.2370 mean=178.9870 min=84.3898
+Train loss 1: max=724.2716 mean=498.1025 min=340.5757
+Train val acc 0: max=0.8600 mean=0.8120 min=0.6700
+Train val acc 1: max=0.5700 mean=0.5260 min=0.4200
+Train val loss 0: max=59.0241 mean=48.4869 min=35.2395
+Train val loss 1: max=123.5285 mean=99.9146 min=73.9806
+
+Total test loss = 1775.6848
+Test loss / test accuracy for output 0 = 627.6824 / 0.8370
+Test loss / test accuracy for output 1 = 1148.0024 / 0.5310
+
+
+Training qa9 iter 6
+Training took 17390.2839 sec
+Train acc 0: max=0.9722 mean=0.9064 min=0.7600
+Train acc 1: max=0.8522 mean=0.7227 min=0.5089
+Train loss 0: max=419.4016 mean=213.2039 min=104.9881
+Train loss 1: max=639.3993 mean=464.2909 min=324.6121
+Train val acc 0: max=0.8100 mean=0.7500 min=0.7000
+Train val acc 1: max=0.5900 mean=0.5680 min=0.5400
+Train val loss 0: max=124.8557 mean=92.6480 min=59.4989
+Train val loss 1: max=108.7818 mean=86.1402 min=69.3005
+
+Total test loss = 1888.7705
+Test loss / test accuracy for output 0 = 867.2454 / 0.8110
+Test loss / test accuracy for output 1 = 1021.5251 / 0.5590
+
+
+Training qa9 iter 7
+Training took 17362.6538 sec
+Train acc 0: max=0.9744 mean=0.9080 min=0.7322
+Train acc 1: max=0.7500 mean=0.6564 min=0.5489
+Train loss 0: max=455.6545 mean=200.4072 min=96.2415
+Train loss 1: max=621.4219 mean=545.8831 min=463.6323
+Train val acc 0: max=0.8900 mean=0.8340 min=0.6700
+Train val acc 1: max=0.5200 mean=0.4900 min=0.4600
+Train val loss 0: max=55.8234 mean=42.1986 min=29.4231
+Train val loss 1: max=91.1105 mean=79.1407 min=71.4098
+
+Total test loss = 1557.0687
+Test loss / test accuracy for output 0 = 660.6173 / 0.8330
+Test loss / test accuracy for output 1 = 896.4514 / 0.5190
+
+
+Training qa9 iter 8
+Training took 17047.0183 sec
+Train acc 0: max=0.9733 mean=0.9138 min=0.7600
+Train acc 1: max=0.7844 mean=0.6807 min=0.5122
+Train loss 0: max=415.3877 mean=191.8853 min=104.5950
+Train loss 1: max=680.2823 mean=518.7378 min=408.2701
+Train val acc 0: max=0.8600 mean=0.8180 min=0.6900
+Train val acc 1: max=0.6000 mean=0.5340 min=0.4200
+Train val loss 0: max=89.6304 mean=67.0385 min=38.9846
+Train val loss 1: max=97.4215 mean=86.0153 min=74.7327
+
+Total test loss = 1868.8929
+Test loss / test accuracy for output 0 = 815.5636 / 0.8440
+Test loss / test accuracy for output 1 = 1053.3293 / 0.5060
+
+
+Training qa9 iter 9
+Training took 17307.2171 sec
+Train acc 0: max=0.9700 mean=0.9067 min=0.7567
+Train acc 1: max=0.7700 mean=0.6758 min=0.5811
+Train loss 0: max=426.9474 mean=196.2637 min=95.5130
+Train loss 1: max=615.4738 mean=528.1121 min=432.6157
+Train val acc 0: max=0.8100 mean=0.7580 min=0.6500
+Train val acc 1: max=0.5400 mean=0.5080 min=0.4500
+Train val loss 0: max=81.5363 mean=65.5767 min=51.9410
+Train val loss 1: max=103.5219 mean=86.7182 min=70.4915
+
+Total test loss = 1587.9034
+Test loss / test accuracy for output 0 = 671.3892 / 0.8650
+Test loss / test accuracy for output 1 = 916.5143 / 0.5180
+
+
+Training qa9 iter 10
+Training took 17472.2668 sec
+Train acc 0: max=0.9833 mean=0.9284 min=0.7933
+Train acc 1: max=0.7556 mean=0.6756 min=0.5811
+Train loss 0: max=403.9555 mean=170.9175 min=84.9642
+Train loss 1: max=613.2751 mean=533.0399 min=448.5890
+Train val acc 0: max=0.8700 mean=0.8440 min=0.7400
+Train val acc 1: max=0.5400 mean=0.5200 min=0.5000
+Train val loss 0: max=54.3575 mean=42.5165 min=29.9303
+Train val loss 1: max=95.6058 mean=80.8956 min=70.0344
+
+Total test loss = 1596.8055
+Test loss / test accuracy for output 0 = 695.2079 / 0.8510
+Test loss / test accuracy for output 1 = 901.5976 / 0.5530
+
+
+Training qa10 iter 1
+Training took 17421.5559 sec
+Train acc 0: max=0.9744 mean=0.9093 min=0.7600
+Train acc 1: max=0.8333 mean=0.7251 min=0.5389
+Train loss 0: max=444.2731 mean=203.4518 min=94.9434
+Train loss 1: max=632.6568 mean=470.5516 min=353.6208
+Train val acc 0: max=0.7400 mean=0.7220 min=0.6900
+Train val acc 1: max=0.5500 mean=0.5420 min=0.5200
+Train val loss 0: max=117.1722 mean=91.9887 min=64.6316
+Train val loss 1: max=110.7221 mean=89.8968 min=72.2390
+
+Total test loss = 1978.2745
+Test loss / test accuracy for output 0 = 904.4081 / 0.7580
+Test loss / test accuracy for output 1 = 1073.8665 / 0.5500
+
+
+Training qa10 iter 2
+Training took 17690.2834 sec
+Train acc 0: max=0.9678 mean=0.9107 min=0.7578
+Train acc 1: max=0.8022 mean=0.7189 min=0.5933
+Train loss 0: max=469.0204 mean=196.0539 min=85.6322
+Train loss 1: max=592.7063 mean=481.0527 min=398.5660
+Train val acc 0: max=0.6800 mean=0.6560 min=0.6200
+Train val acc 1: max=0.5400 mean=0.5060 min=0.4700
+Train val loss 0: max=149.4610 mean=118.5358 min=89.6928
+Train val loss 1: max=101.5232 mean=86.2218 min=71.0192
+
+Total test loss = 2081.8635
+Test loss / test accuracy for output 0 = 1088.3201 / 0.7410
+Test loss / test accuracy for output 1 = 993.5435 / 0.5190
+
+
+Training qa10 iter 3
+Training took 17382.8157 sec
+Train acc 0: max=0.9767 mean=0.9202 min=0.8022
+Train acc 1: max=0.7611 mean=0.6471 min=0.5244
+Train loss 0: max=387.2761 mean=187.8279 min=84.6266
+Train loss 1: max=666.9962 mean=554.0184 min=451.9781
+Train val acc 0: max=0.8100 mean=0.7720 min=0.7200
+Train val acc 1: max=0.5400 mean=0.5220 min=0.4900
+Train val loss 0: max=74.7152 mean=70.0911 min=60.9268
+Train val loss 1: max=91.8242 mean=80.3300 min=72.7368
+
+Total test loss = 1985.7830
+Test loss / test accuracy for output 0 = 1088.4186 / 0.7460
+Test loss / test accuracy for output 1 = 897.3644 / 0.5280
+
+
+Training qa10 iter 4
+Training took 17267.5517 sec
+Train acc 0: max=0.9733 mean=0.9071 min=0.7589
+Train acc 1: max=0.8344 mean=0.7378 min=0.5922
+Train loss 0: max=473.5828 mean=200.4624 min=82.1485
+Train loss 1: max=612.8722 mean=473.6388 min=364.3488
+Train val acc 0: max=0.7400 mean=0.7160 min=0.6400
+Train val acc 1: max=0.5600 mean=0.5000 min=0.4400
+Train val loss 0: max=115.8379 mean=95.2277 min=81.7789
+Train val loss 1: max=95.7443 mean=80.6769 min=67.3934
+
+Total test loss = 2089.7237
+Test loss / test accuracy for output 0 = 1111.5503 / 0.7460
+Test loss / test accuracy for output 1 = 978.1734 / 0.5560
+
+
+Training qa10 iter 5
+Training took 17184.1493 sec
+Train acc 0: max=0.9800 mean=0.9340 min=0.8156
+Train acc 1: max=0.8444 mean=0.7422 min=0.6100
+Train loss 0: max=389.3009 mean=160.9543 min=62.1288
+Train loss 1: max=593.1042 mean=460.9984 min=350.1808
+Train val acc 0: max=0.7800 mean=0.7460 min=0.7100
+Train val acc 1: max=0.5700 mean=0.5360 min=0.4700
+Train val loss 0: max=128.4724 mean=92.8873 min=55.9235
+Train val loss 1: max=95.2242 mean=85.0651 min=72.7632
+
+Total test loss = 2219.0223
+Test loss / test accuracy for output 0 = 1078.8545 / 0.7710
+Test loss / test accuracy for output 1 = 1140.1678 / 0.5310
+
+
+Training qa10 iter 6
+Training took 17709.1600 sec
+Train acc 0: max=0.9556 mean=0.8971 min=0.7278
+Train acc 1: max=0.8144 mean=0.7242 min=0.6078
+Train loss 0: max=473.1497 mean=217.7171 min=110.5114
+Train loss 1: max=588.5825 mean=470.7965 min=360.1470
+Train val acc 0: max=0.6900 mean=0.6620 min=0.6500
+Train val acc 1: max=0.5500 mean=0.4740 min=0.4100
+Train val loss 0: max=139.4901 mean=107.2881 min=74.5662
+Train val loss 1: max=130.6138 mean=102.9016 min=72.6409
+
+Total test loss = 2367.2965
+Test loss / test accuracy for output 0 = 1054.3942 / 0.7250
+Test loss / test accuracy for output 1 = 1312.9023 / 0.4990
+
+
+Training qa10 iter 7
+Training took 17497.9487 sec
+Train acc 0: max=0.9711 mean=0.9100 min=0.7500
+Train acc 1: max=0.8078 mean=0.7358 min=0.6211
+Train loss 0: max=469.0116 mean=195.2900 min=83.2955
+Train loss 1: max=594.5469 mean=472.1241 min=381.2632
+Train val acc 0: max=0.7200 mean=0.6860 min=0.6500
+Train val acc 1: max=0.5400 mean=0.5060 min=0.4800
+Train val loss 0: max=107.0619 mean=87.2972 min=72.5263
+Train val loss 1: max=97.1061 mean=85.0431 min=69.6916
+
+Total test loss = 2101.8463
+Test loss / test accuracy for output 0 = 1032.8573 / 0.7620
+Test loss / test accuracy for output 1 = 1068.9890 / 0.5140
+
+
+Training qa10 iter 8
+Training took 17990.5768 sec
+Train acc 0: max=0.9578 mean=0.9053 min=0.8000
+Train acc 1: max=0.8278 mean=0.7138 min=0.5922
+Train loss 0: max=389.9083 mean=201.7042 min=102.1103
+Train loss 1: max=606.5552 mean=479.1891 min=350.4927
+Train val acc 0: max=0.7200 mean=0.7060 min=0.6600
+Train val acc 1: max=0.5300 mean=0.4840 min=0.4100
+Train val loss 0: max=143.8667 mean=107.8996 min=69.0966
+Train val loss 1: max=116.8302 mean=90.3307 min=69.0766
+
+Total test loss = 1987.9171
+Test loss / test accuracy for output 0 = 924.9336 / 0.7660
+Test loss / test accuracy for output 1 = 1062.9835 / 0.5530
+
+
+Training qa10 iter 9
+Training took 18003.6151 sec
+Train acc 0: max=0.9544 mean=0.9002 min=0.7556
+Train acc 1: max=0.8022 mean=0.7216 min=0.5944
+Train loss 0: max=471.7879 mean=226.1181 min=121.5111
+Train loss 1: max=597.1481 mean=467.5757 min=362.9933
+Train val acc 0: max=0.7300 mean=0.7120 min=0.6800
+Train val acc 1: max=0.5400 mean=0.5220 min=0.5000
+Train val loss 0: max=89.4659 mean=79.2586 min=70.0515
+Train val loss 1: max=109.8471 mean=92.4415 min=70.3429
+
+Total test loss = 1948.8903
+Test loss / test accuracy for output 0 = 910.8561 / 0.7620
+Test loss / test accuracy for output 1 = 1038.0342 / 0.5780
+
+
+Training qa10 iter 10
+Training took 17888.6971 sec
+Train acc 0: max=0.9667 mean=0.9113 min=0.7811
+Train acc 1: max=0.7644 mean=0.6813 min=0.5600
+Train loss 0: max=444.8207 mean=209.3420 min=105.4244
+Train loss 1: max=621.0516 mean=518.8300 min=429.4126
+Train val acc 0: max=0.7500 mean=0.7240 min=0.6700
+Train val acc 1: max=0.5400 mean=0.5140 min=0.4900
+Train val loss 0: max=100.6967 mean=82.4216 min=65.9694
+Train val loss 1: max=85.3328 mean=76.5842 min=70.4711
+
+Total test loss = 1958.8706
+Test loss / test accuracy for output 0 = 1041.9934 / 0.7290
+Test loss / test accuracy for output 1 = 916.8772 / 0.5200
+
+
+Training qa11 iter 1
+Training took 17638.7546 sec
+Train acc 0: max=0.9500 mean=0.9082 min=0.8289
+Train acc 1: max=0.9633 mean=0.8949 min=0.7867
+Train loss 0: max=398.0199 mean=234.1408 min=149.4825
+Train loss 1: max=585.8386 mean=279.2556 min=129.0758
+Train val acc 0: max=0.8300 mean=0.8080 min=0.7800
+Train val acc 1: max=0.8100 mean=0.7840 min=0.7200
+Train val loss 0: max=70.4951 mean=64.2949 min=55.1271
+Train val loss 1: max=99.9050 mean=89.0857 min=76.3343
+
+Total test loss = 3229.3783
+Test loss / test accuracy for output 0 = 1692.9325 / 0.6830
+Test loss / test accuracy for output 1 = 1536.4458 / 0.7120
+
+
+Training qa11 iter 2
+Training took 17867.5266 sec
+Train acc 0: max=0.9389 mean=0.8840 min=0.8078
+Train acc 1: max=0.9389 mean=0.8938 min=0.8200
+Train loss 0: max=523.5167 mean=286.3121 min=167.0371
+Train loss 1: max=424.5745 mean=241.8318 min=144.0325
+Train val acc 0: max=0.7900 mean=0.7680 min=0.7500
+Train val acc 1: max=0.8100 mean=0.7960 min=0.7900
+Train val loss 0: max=118.9893 mean=90.0564 min=67.3811
+Train val loss 1: max=116.8668 mean=94.4198 min=75.5699
+
+Total test loss = 3150.4421
+Test loss / test accuracy for output 0 = 1520.4954 / 0.7110
+Test loss / test accuracy for output 1 = 1629.9468 / 0.7010
+
+
+Training qa11 iter 3
+Training took 17519.9380 sec
+Train acc 0: max=0.9444 mean=0.8929 min=0.7967
+Train acc 1: max=0.9500 mean=0.9027 min=0.8100
+Train loss 0: max=516.6634 mean=269.4289 min=165.1662
+Train loss 1: max=432.7360 mean=229.9577 min=116.1298
+Train val acc 0: max=0.7800 mean=0.7580 min=0.7300
+Train val acc 1: max=0.8300 mean=0.8040 min=0.7800
+Train val loss 0: max=119.7351 mean=101.9762 min=89.5219
+Train val loss 1: max=101.0777 mean=79.7549 min=60.0028
+
+Total test loss = 3235.4895
+Test loss / test accuracy for output 0 = 1657.4858 / 0.7170
+Test loss / test accuracy for output 1 = 1578.0037 / 0.7050
+
+
+Training qa11 iter 4
+Training took 17844.5671 sec
+Train acc 0: max=0.9578 mean=0.9160 min=0.8222
+Train acc 1: max=0.9533 mean=0.8996 min=0.7778
+Train loss 0: max=472.0331 mean=231.4609 min=131.3375
+Train loss 1: max=562.7783 mean=249.4497 min=120.9511
+Train val acc 0: max=0.8400 mean=0.8220 min=0.7800
+Train val acc 1: max=0.8200 mean=0.8000 min=0.7800
+Train val loss 0: max=79.0840 mean=71.4173 min=61.4465
+Train val loss 1: max=111.9243 mean=99.2649 min=79.2951
+
+Total test loss = 3311.8052
+Test loss / test accuracy for output 0 = 1860.6956 / 0.6950
+Test loss / test accuracy for output 1 = 1451.1096 / 0.6940
+
+
+Training qa11 iter 5
+Training took 18040.9805 sec
+Train acc 0: max=0.9556 mean=0.9122 min=0.8267
+Train acc 1: max=0.9611 mean=0.9047 min=0.8033
+Train loss 0: max=470.1559 mean=243.6996 min=149.1446
+Train loss 1: max=507.1978 mean=241.6882 min=116.8382
+Train val acc 0: max=0.8000 mean=0.7900 min=0.7800
+Train val acc 1: max=0.8100 mean=0.7920 min=0.7800
+Train val loss 0: max=97.5748 mean=76.6054 min=65.4612
+Train val loss 1: max=96.5782 mean=83.2743 min=69.6177
+
+Total test loss = 3224.9709
+Test loss / test accuracy for output 0 = 1734.5571 / 0.7000
+Test loss / test accuracy for output 1 = 1490.4138 / 0.7160
+
+
+Training qa11 iter 6
+Training took 17885.7283 sec
+Train acc 0: max=0.9556 mean=0.9038 min=0.8011
+Train acc 1: max=0.9544 mean=0.8958 min=0.7944
+Train loss 0: max=450.4453 mean=238.2989 min=127.6343
+Train loss 1: max=462.4108 mean=240.9980 min=119.1973
+Train val acc 0: max=0.8100 mean=0.8020 min=0.7900
+Train val acc 1: max=0.8300 mean=0.8120 min=0.7700
+Train val loss 0: max=97.1592 mean=72.1260 min=51.7666
+Train val loss 1: max=107.1348 mean=84.9304 min=60.6045
+
+Total test loss = 3383.7864
+Test loss / test accuracy for output 0 = 1674.7904 / 0.7070
+Test loss / test accuracy for output 1 = 1708.9960 / 0.6850
+
+
+Training qa11 iter 7
+Training took 17922.3834 sec
+Train acc 0: max=0.9433 mean=0.9029 min=0.8178
+Train acc 1: max=0.9500 mean=0.9007 min=0.8111
+Train loss 0: max=473.0968 mean=248.4692 min=151.6596
+Train loss 1: max=476.2256 mean=239.1255 min=122.2613
+Train val acc 0: max=0.7800 mean=0.7580 min=0.7300
+Train val acc 1: max=0.8200 mean=0.7960 min=0.7700
+Train val loss 0: max=118.6566 mean=102.2138 min=81.6024
+Train val loss 1: max=117.1138 mean=99.6777 min=80.7104
+
+Total test loss = 3118.0980
+Test loss / test accuracy for output 0 = 1631.6014 / 0.6910
+Test loss / test accuracy for output 1 = 1486.4966 / 0.6980
+
+
+Training qa11 iter 8
+Training took 18247.0943 sec
+Train acc 0: max=0.9611 mean=0.9056 min=0.8100
+Train acc 1: max=0.9511 mean=0.9009 min=0.8011
+Train loss 0: max=472.0953 mean=246.0712 min=131.1434
+Train loss 1: max=504.1904 mean=250.8929 min=131.9813
+Train val acc 0: max=0.7800 mean=0.7620 min=0.7300
+Train val acc 1: max=0.8500 mean=0.8300 min=0.7800
+Train val loss 0: max=134.8419 mean=114.0347 min=87.5054
+Train val loss 1: max=86.6243 mean=74.7270 min=61.4676
+
+Total test loss = 3279.3591
+Test loss / test accuracy for output 0 = 1787.8157 / 0.6990
+Test loss / test accuracy for output 1 = 1491.5435 / 0.6930
+
+
+Training qa11 iter 9
+Training took 18123.9403 sec
+Train acc 0: max=0.9344 mean=0.8764 min=0.7722
+Train acc 1: max=0.9322 mean=0.8900 min=0.8133
+Train loss 0: max=531.2802 mean=289.8963 min=165.1257
+Train loss 1: max=429.1115 mean=239.9005 min=151.8718
+Train val acc 0: max=0.8000 mean=0.7900 min=0.7800
+Train val acc 1: max=0.7900 mean=0.7840 min=0.7800
+Train val loss 0: max=95.0798 mean=83.8901 min=66.9531
+Train val loss 1: max=128.5922 mean=107.4600 min=76.6987
+
+Total test loss = 2767.5496
+Test loss / test accuracy for output 0 = 1327.1792 / 0.7240
+Test loss / test accuracy for output 1 = 1440.3704 / 0.6940
+
+
+Training qa11 iter 10
+Training took 18000.2902 sec
+Train acc 0: max=0.9511 mean=0.8991 min=0.8111
+Train acc 1: max=0.9578 mean=0.9044 min=0.8000
+Train loss 0: max=414.1491 mean=230.8408 min=130.2172
+Train loss 1: max=492.3587 mean=239.7807 min=128.5442
+Train val acc 0: max=0.8000 mean=0.7800 min=0.7300
+Train val acc 1: max=0.8500 mean=0.8220 min=0.7700
+Train val loss 0: max=83.9370 mean=76.6122 min=62.3432
+Train val loss 1: max=75.0554 mean=68.9512 min=61.3001
+
+Total test loss = 2996.8113
+Test loss / test accuracy for output 0 = 1684.8074 / 0.7120
+Test loss / test accuracy for output 1 = 1312.0039 / 0.7130
+
+
+Training qa12 iter 1
+Training took 17909.5674 sec
+Train acc 0: max=0.7733 mean=0.7156 min=0.6200
+Train acc 1: max=0.7656 mean=0.6864 min=0.5711
+Train loss 0: max=915.6250 mean=679.3110 min=536.2148
+Train loss 1: max=1124.8168 mean=738.1495 min=552.7943
+Train val acc 0: max=0.5700 mean=0.5600 min=0.5500
+Train val acc 1: max=0.5700 mean=0.5440 min=0.5200
+Train val loss 0: max=139.9136 mean=126.3529 min=115.6101
+Train val loss 1: max=152.6451 mean=141.5394 min=126.1173
+
+Total test loss = 3065.6755
+Test loss / test accuracy for output 0 = 1499.3181 / 0.5150
+Test loss / test accuracy for output 1 = 1566.3574 / 0.5160
+
+
+Training qa12 iter 2
+Training took 17914.1010 sec
+Train acc 0: max=0.7689 mean=0.6978 min=0.5322
+Train acc 1: max=0.7456 mean=0.6758 min=0.5544
+Train loss 0: max=1160.7676 mean=723.3905 min=539.8727
+Train loss 1: max=1053.1528 mean=737.0847 min=573.7971
+Train val acc 0: max=0.5600 mean=0.5320 min=0.4900
+Train val acc 1: max=0.6200 mean=0.5600 min=0.4800
+Train val loss 0: max=143.2820 mean=129.7386 min=114.4758
+Train val loss 1: max=135.5768 mean=123.7377 min=111.1465
+
+Total test loss = 3104.1707
+Test loss / test accuracy for output 0 = 1576.4194 / 0.5150
+Test loss / test accuracy for output 1 = 1527.7512 / 0.5060
+
+
+Training qa12 iter 3
+Training took 18462.8533 sec
+Train acc 0: max=0.7900 mean=0.7031 min=0.5589
+Train acc 1: max=0.7411 mean=0.6942 min=0.6333
+Train loss 0: max=1030.3237 mean=706.0073 min=544.4237
+Train loss 1: max=858.4186 mean=693.8055 min=573.6697
+Train val acc 0: max=0.5600 mean=0.5300 min=0.4800
+Train val acc 1: max=0.6000 mean=0.5620 min=0.5000
+Train val loss 0: max=157.2793 mean=140.8484 min=126.3907
+Train val loss 1: max=143.8830 mean=125.1818 min=110.1135
+
+Total test loss = 2988.7847
+Test loss / test accuracy for output 0 = 1501.3447 / 0.5240
+Test loss / test accuracy for output 1 = 1487.4399 / 0.4950
+
+
+Training qa12 iter 4
+Training took 17891.2839 sec
+Train acc 0: max=0.7789 mean=0.6947 min=0.5300
+Train acc 1: max=0.7889 mean=0.7144 min=0.6178
+Train loss 0: max=1136.2856 mean=719.9442 min=534.8517
+Train loss 1: max=924.5104 mean=683.5618 min=548.1980
+Train val acc 0: max=0.6000 mean=0.5480 min=0.4900
+Train val acc 1: max=0.6000 mean=0.5560 min=0.5000
+Train val loss 0: max=137.9985 mean=130.3953 min=119.2753
+Train val loss 1: max=141.8023 mean=122.4588 min=106.9605
+
+Total test loss = 3162.4391
+Test loss / test accuracy for output 0 = 1591.0149 / 0.5040
+Test loss / test accuracy for output 1 = 1571.4242 / 0.5040
+
+
+Training qa12 iter 5
+Training took 18439.8559 sec
+Train acc 0: max=0.7700 mean=0.7120 min=0.6144
+Train acc 1: max=0.7444 mean=0.6591 min=0.5089
+Train loss 0: max=899.4202 mean=680.2541 min=563.3999
+Train loss 1: max=1129.5002 mean=775.7780 min=596.1465
+Train val acc 0: max=0.5700 mean=0.5300 min=0.4900
+Train val acc 1: max=0.6000 mean=0.5380 min=0.4300
+Train val loss 0: max=142.9061 mean=131.3537 min=116.0244
+Train val loss 1: max=148.9757 mean=130.5745 min=119.7684
+
+Total test loss = 2912.4158
+Test loss / test accuracy for output 0 = 1478.9701 / 0.5310
+Test loss / test accuracy for output 1 = 1433.4457 / 0.5300
+
+
+Training qa12 iter 6
+Training took 18252.3536 sec
+Train acc 0: max=0.7600 mean=0.6762 min=0.5300
+Train acc 1: max=0.7489 mean=0.6840 min=0.5856
+Train loss 0: max=1081.4773 mean=738.3568 min=566.8134
+Train loss 1: max=968.4871 mean=724.7548 min=583.6379
+Train val acc 0: max=0.5600 mean=0.5360 min=0.5100
+Train val acc 1: max=0.6100 mean=0.5860 min=0.5500
+Train val loss 0: max=137.6645 mean=130.2633 min=119.2065
+Train val loss 1: max=121.5299 mean=113.3604 min=109.1573
+
+Total test loss = 2905.5913
+Test loss / test accuracy for output 0 = 1440.1455 / 0.5360
+Test loss / test accuracy for output 1 = 1465.4458 / 0.5020
+
+
+Training qa12 iter 7
+Training took 18320.9585 sec
+Train acc 0: max=0.7967 mean=0.6969 min=0.5544
+Train acc 1: max=0.7622 mean=0.6931 min=0.5656
+Train loss 0: max=1098.0710 mean=721.9894 min=514.8585
+Train loss 1: max=1101.2675 mean=728.1349 min=556.3019
+Train val acc 0: max=0.5600 mean=0.5020 min=0.4600
+Train val acc 1: max=0.5700 mean=0.5640 min=0.5500
+Train val loss 0: max=155.9287 mean=140.8877 min=122.9356
+Train val loss 1: max=145.9748 mean=131.6274 min=116.4798
+
+Total test loss = 3185.4891
+Test loss / test accuracy for output 0 = 1669.9413 / 0.5100
+Test loss / test accuracy for output 1 = 1515.5479 / 0.5030
+
+
+Training qa12 iter 8
+Training took 18517.7286 sec
+Train acc 0: max=0.7622 mean=0.6902 min=0.5756
+Train acc 1: max=0.7556 mean=0.6818 min=0.5478
+Train loss 0: max=1049.5012 mean=738.3939 min=587.2581
+Train loss 1: max=1093.3795 mean=747.0385 min=584.9360
+Train val acc 0: max=0.5100 mean=0.5040 min=0.5000
+Train val acc 1: max=0.5700 mean=0.5400 min=0.4700
+Train val loss 0: max=139.0229 mean=132.4673 min=128.2623
+Train val loss 1: max=143.2088 mean=126.1807 min=113.5110
+
+Total test loss = 2906.1501
+Test loss / test accuracy for output 0 = 1438.1074 / 0.5100
+Test loss / test accuracy for output 1 = 1468.0427 / 0.5020
+
+
+Training qa12 iter 9
+Training took 17946.3328 sec
+Train acc 0: max=0.8033 mean=0.7178 min=0.6122
+Train acc 1: max=0.7767 mean=0.6993 min=0.5656
+Train loss 0: max=934.8492 mean=685.0843 min=525.6608
+Train loss 1: max=1044.0540 mean=718.5906 min=550.8079
+Train val acc 0: max=0.5600 mean=0.5340 min=0.5100
+Train val acc 1: max=0.5400 mean=0.5200 min=0.5000
+Train val loss 0: max=170.7895 mean=145.1264 min=122.1246
+Train val loss 1: max=136.8258 mean=125.9916 min=120.6397
+
+Total test loss = 3129.2168
+Test loss / test accuracy for output 0 = 1591.0470 / 0.5260
+Test loss / test accuracy for output 1 = 1538.1698 / 0.5180
+
+
+Training qa12 iter 10
+Training took 18366.8238 sec
+Train acc 0: max=0.7744 mean=0.7036 min=0.5644
+Train acc 1: max=0.7411 mean=0.6787 min=0.5456
+Train loss 0: max=1077.9823 mean=710.2463 min=537.4982
+Train loss 1: max=1048.4272 mean=732.4464 min=585.9590
+Train val acc 0: max=0.5400 mean=0.5060 min=0.4800
+Train val acc 1: max=0.5800 mean=0.5520 min=0.5300
+Train val loss 0: max=149.5029 mean=133.1860 min=117.1843
+Train val loss 1: max=130.0805 mean=121.9117 min=111.6586
+
+Total test loss = 2960.7676
+Test loss / test accuracy for output 0 = 1520.2737 / 0.5160
+Test loss / test accuracy for output 1 = 1440.4939 / 0.5100
+
+
+Training qa13 iter 1
+Training took 18416.6640 sec
+Train acc 0: max=0.7900 mean=0.7431 min=0.6622
+Train acc 1: max=0.7511 mean=0.7007 min=0.6189
+Train loss 0: max=805.5593 mean=615.6583 min=508.5952
+Train loss 1: max=945.9610 mean=726.1584 min=620.0331
+Train val acc 0: max=0.5900 mean=0.5840 min=0.5600
+Train val acc 1: max=0.4800 mean=0.4660 min=0.4500
+Train val loss 0: max=176.3326 mean=150.0797 min=116.1675
+Train val loss 1: max=174.1693 mean=166.0558 min=154.4503
+
+Total test loss = 3157.8652
+Test loss / test accuracy for output 0 = 1397.3861 / 0.5940
+Test loss / test accuracy for output 1 = 1760.4791 / 0.4780
+
+
+Training qa13 iter 2
+Training took 18273.5532 sec
+Train acc 0: max=0.8022 mean=0.7429 min=0.6322
+Train acc 1: max=0.7344 mean=0.6836 min=0.5756
+Train loss 0: max=941.1224 mean=627.9860 min=469.1283
+Train loss 1: max=1095.9829 mean=780.6049 min=643.1556
+Train val acc 0: max=0.5900 mean=0.5600 min=0.5300
+Train val acc 1: max=0.4200 mean=0.3960 min=0.3800
+Train val loss 0: max=180.2614 mean=157.5053 min=126.2113
+Train val loss 1: max=184.1970 mean=176.4149 min=161.9044
+
+Total test loss = 3223.2051
+Test loss / test accuracy for output 0 = 1507.7545 / 0.5560
+Test loss / test accuracy for output 1 = 1715.4506 / 0.4570
+
+
+Training qa13 iter 3
+Training took 18994.6192 sec
+Train acc 0: max=0.8056 mean=0.7529 min=0.6667
+Train acc 1: max=0.7444 mean=0.6909 min=0.5744
+Train loss 0: max=873.2064 mean=595.5563 min=459.0804
+Train loss 1: max=985.1708 mean=731.5290 min=613.0649
+Train val acc 0: max=0.5800 mean=0.5660 min=0.5400
+Train val acc 1: max=0.4600 mean=0.4420 min=0.4300
+Train val loss 0: max=188.2720 mean=164.8884 min=144.4896
+Train val loss 1: max=177.0487 mean=166.8008 min=161.6164
+
+Total test loss = 3476.9313
+Test loss / test accuracy for output 0 = 1681.2032 / 0.5750
+Test loss / test accuracy for output 1 = 1795.7280 / 0.4730
+
+
+Training qa13 iter 4
+Training took 18755.8114 sec
+Train acc 0: max=0.8056 mean=0.7487 min=0.6467
+Train acc 1: max=0.7756 mean=0.7078 min=0.6078
+Train loss 0: max=919.0441 mean=607.5753 min=463.0003
+Train loss 1: max=957.4478 mean=714.2458 min=567.2823
+Train val acc 0: max=0.6400 mean=0.6180 min=0.5800
+Train val acc 1: max=0.5000 mean=0.4600 min=0.4200
+Train val loss 0: max=147.3790 mean=136.7213 min=127.9487
+Train val loss 1: max=184.4436 mean=172.4702 min=163.8159
+
+Total test loss = 3517.8300
+Test loss / test accuracy for output 0 = 1595.4703 / 0.5500
+Test loss / test accuracy for output 1 = 1922.3596 / 0.4660
+
+
+Training qa13 iter 5
+Training took 19060.7193 sec
+Train acc 0: max=0.8011 mean=0.7533 min=0.6822
+Train acc 1: max=0.7144 mean=0.6660 min=0.5911
+Train loss 0: max=824.0604 mean=598.1534 min=486.4834
+Train loss 1: max=959.6215 mean=746.5704 min=621.3457
+Train val acc 0: max=0.5800 mean=0.5560 min=0.5400
+Train val acc 1: max=0.4600 mean=0.4340 min=0.3900
+Train val loss 0: max=171.1707 mean=156.2732 min=133.2369
+Train val loss 1: max=159.3805 mean=154.4684 min=149.2323
+
+Total test loss = 3276.3866
+Test loss / test accuracy for output 0 = 1629.5798 / 0.5560
+Test loss / test accuracy for output 1 = 1646.8068 / 0.4430
+
+
+Training qa13 iter 6
+Training took 18309.9825 sec
+Train acc 0: max=0.7822 mean=0.7371 min=0.6556
+Train acc 1: max=0.7622 mean=0.6864 min=0.5489
+Train loss 0: max=817.9901 mean=588.0167 min=475.2397
+Train loss 1: max=1074.2808 mean=739.4582 min=575.9838
+Train val acc 0: max=0.6300 mean=0.6060 min=0.5700
+Train val acc 1: max=0.4500 mean=0.4040 min=0.3500
+Train val loss 0: max=119.5821 mean=114.2093 min=104.0832
+Train val loss 1: max=169.0123 mean=163.1139 min=154.1559
+
+Total test loss = 3250.3853
+Test loss / test accuracy for output 0 = 1386.3516 / 0.5500
+Test loss / test accuracy for output 1 = 1864.0337 / 0.4690
+
+
+Training qa13 iter 7
+Training took 19191.1878 sec
+Train acc 0: max=0.8078 mean=0.7633 min=0.6811
+Train acc 1: max=0.7389 mean=0.6818 min=0.6011
+Train loss 0: max=827.2366 mean=584.3129 min=457.2511
+Train loss 1: max=970.7115 mean=768.0995 min=655.7073
+Train val acc 0: max=0.5800 mean=0.5680 min=0.5400
+Train val acc 1: max=0.4600 mean=0.4280 min=0.4000
+Train val loss 0: max=187.6280 mean=164.7025 min=138.9189
+Train val loss 1: max=196.4699 mean=180.4766 min=168.1414
+
+Total test loss = 3305.0605
+Test loss / test accuracy for output 0 = 1649.3501 / 0.5750
+Test loss / test accuracy for output 1 = 1655.7104 / 0.4740
+
+
+Training qa13 iter 8
+Training took 19112.1341 sec
+Train acc 0: max=0.8189 mean=0.7491 min=0.6511
+Train acc 1: max=0.7256 mean=0.6798 min=0.5789
+Train loss 0: max=785.3069 mean=561.6768 min=422.8416
+Train loss 1: max=1053.6094 mean=773.5319 min=647.1911
+Train val acc 0: max=0.5900 mean=0.5540 min=0.5400
+Train val acc 1: max=0.4600 mean=0.4400 min=0.4200
+Train val loss 0: max=171.4247 mean=137.8301 min=108.5373
+Train val loss 1: max=163.7967 mean=156.4724 min=144.4573
+
+Total test loss = 3209.5148
+Test loss / test accuracy for output 0 = 1536.9664 / 0.5580
+Test loss / test accuracy for output 1 = 1672.5483 / 0.4940
+
+
+Training qa13 iter 9
+Training took 18457.3733 sec
+Train acc 0: max=0.8011 mean=0.7424 min=0.6600
+Train acc 1: max=0.7611 mean=0.6978 min=0.6033
+Train loss 0: max=831.3841 mean=587.0135 min=437.8302
+Train loss 1: max=1000.0637 mean=753.1263 min=606.0060
+Train val acc 0: max=0.5900 mean=0.5700 min=0.5300
+Train val acc 1: max=0.4900 mean=0.4360 min=0.3500
+Train val loss 0: max=136.8347 mean=129.2406 min=119.9890
+Train val loss 1: max=182.1884 mean=174.6244 min=166.3110
+
+Total test loss = 3214.2557
+Test loss / test accuracy for output 0 = 1484.9746 / 0.5700
+Test loss / test accuracy for output 1 = 1729.2811 / 0.5030
+
+
+Training qa13 iter 10
+Training took 19306.4578 sec
+Train acc 0: max=0.8189 mean=0.7667 min=0.6789
+Train acc 1: max=0.7656 mean=0.7040 min=0.6100
+Train loss 0: max=774.1060 mean=543.6605 min=420.2671
+Train loss 1: max=1022.5475 mean=736.8549 min=585.3657
+Train val acc 0: max=0.6200 mean=0.5640 min=0.5400
+Train val acc 1: max=0.4600 mean=0.4500 min=0.4200
+Train val loss 0: max=151.8499 mean=135.9665 min=118.6199
+Train val loss 1: max=178.1500 mean=171.6151 min=158.4040
+
+Total test loss = 3476.6390
+Test loss / test accuracy for output 0 = 1569.4752 / 0.5390
+Test loss / test accuracy for output 1 = 1907.1638 / 0.4760
+
+
+Training qa14 iter 1
+Training took 19037.5964 sec
+Train acc 0: max=1.0000 mean=0.9962 min=0.9822
+Train acc 1: max=0.9967 mean=0.9662 min=0.8556
+Train loss 0: max=65.1071 mean=14.6829 min=0.9236
+Train loss 1: max=426.0454 mean=98.7814 min=8.9240
+Train val acc 0: max=0.9700 mean=0.9620 min=0.9600
+Train val acc 1: max=0.9300 mean=0.8780 min=0.7400
+Train val loss 0: max=22.2888 mean=21.2527 min=19.1177
+Train val loss 1: max=105.2343 mean=68.3740 min=43.8973
+
+Total test loss = 903.5056
+Test loss / test accuracy for output 0 = 474.0609 / 0.9230
+Test loss / test accuracy for output 1 = 429.4447 / 0.9180
+
+
+Training qa14 iter 2
+Training took 19119.4610 sec
+Train acc 0: max=0.9989 mean=0.9689 min=0.8811
+Train acc 1: max=0.9944 mean=0.9587 min=0.8556
+Train loss 0: max=356.3412 mean=93.4191 min=4.4155
+Train loss 1: max=397.5118 mean=115.2216 min=15.8110
+Train val acc 0: max=0.9400 mean=0.8980 min=0.8300
+Train val acc 1: max=0.9100 mean=0.8520 min=0.7500
+Train val loss 0: max=60.2193 mean=44.6237 min=35.4296
+Train val loss 1: max=86.8134 mean=63.2428 min=50.3602
+
+Total test loss = 1651.2444
+Test loss / test accuracy for output 0 = 938.1998 / 0.8560
+Test loss / test accuracy for output 1 = 713.0446 / 0.8650
+
+
+Training qa14 iter 3
+Training took 19201.3993 sec
+Train acc 0: max=0.9922 mean=0.9642 min=0.8878
+Train acc 1: max=0.9856 mean=0.9522 min=0.8611
+Train loss 0: max=324.6212 mean=100.1043 min=18.6305
+Train loss 1: max=389.5017 mean=127.5524 min=36.7464
+Train val acc 0: max=0.8700 mean=0.8300 min=0.7900
+Train val acc 1: max=0.8800 mean=0.8540 min=0.7800
+Train val loss 0: max=66.8500 mean=57.5006 min=43.8300
+Train val loss 1: max=82.4079 mean=71.7940 min=53.5542
+
+Total test loss = 2555.8679
+Test loss / test accuracy for output 0 = 1466.4966 / 0.7870
+Test loss / test accuracy for output 1 = 1089.3713 / 0.8070
+
+
+Training qa14 iter 4
+Training took 19187.1700 sec
+Train acc 0: max=1.0000 mean=0.9947 min=0.9733
+Train acc 1: max=0.9844 mean=0.9507 min=0.8611
+Train loss 0: max=84.4698 mean=18.3048 min=1.0513
+Train loss 1: max=359.2130 mean=129.4789 min=40.9962
+Train val acc 0: max=0.9700 mean=0.9560 min=0.9500
+Train val acc 1: max=0.8400 mean=0.8160 min=0.8000
+Train val loss 0: max=42.8661 mean=31.7318 min=14.6060
+Train val loss 1: max=103.3446 mean=92.0713 min=72.0860
+
+Total test loss = 1511.1425
+Test loss / test accuracy for output 0 = 450.9393 / 0.9340
+Test loss / test accuracy for output 1 = 1060.2031 / 0.8160
+
+
+Training qa14 iter 5
+Training took 18756.6950 sec
+Train acc 0: max=1.0000 mean=0.9927 min=0.9700
+Train acc 1: max=0.9889 mean=0.9580 min=0.8767
+Train loss 0: max=97.3877 mean=24.5136 min=1.1620
+Train loss 1: max=375.2880 mean=121.0573 min=32.9366
+Train val acc 0: max=0.9300 mean=0.9160 min=0.9000
+Train val acc 1: max=0.8400 mean=0.8200 min=0.7800
+Train val loss 0: max=37.3316 mean=35.4139 min=29.9806
+Train val loss 1: max=89.3879 mean=72.8074 min=53.1506
+
+Total test loss = 1527.5759
+Test loss / test accuracy for output 0 = 398.6362 / 0.9310
+Test loss / test accuracy for output 1 = 1128.9397 / 0.8280
+
+
+Training qa14 iter 6
+Training took 19125.7673 sec
+Train acc 0: max=1.0000 mean=0.9960 min=0.9800
+Train acc 1: max=0.9889 mean=0.9591 min=0.8944
+Train loss 0: max=75.7685 mean=16.4637 min=0.8706
+Train loss 1: max=329.3010 mean=122.5168 min=32.8084
+Train val acc 0: max=0.9500 mean=0.9460 min=0.9400
+Train val acc 1: max=0.8200 mean=0.8140 min=0.8000
+Train val loss 0: max=23.1342 mean=18.3526 min=13.2428
+Train val loss 1: max=89.7942 mean=79.9985 min=67.0299
+
+Total test loss = 1405.4778
+Test loss / test accuracy for output 0 = 366.0464 / 0.9350
+Test loss / test accuracy for output 1 = 1039.4314 / 0.8180
+
+
+Training qa14 iter 7
+Training took 19272.4951 sec
+Train acc 0: max=1.0000 mean=0.9967 min=0.9833
+Train acc 1: max=0.9856 mean=0.9473 min=0.8733
+Train loss 0: max=75.5918 mean=16.2090 min=0.7524
+Train loss 1: max=365.5227 mean=148.9243 min=47.1645
+Train val acc 0: max=0.9800 mean=0.9720 min=0.9700
+Train val acc 1: max=0.8200 mean=0.7960 min=0.7800
+Train val loss 0: max=24.6922 mean=19.1645 min=10.9550
+Train val loss 1: max=94.6672 mean=85.3079 min=78.3261
+
+Total test loss = 1491.6649
+Test loss / test accuracy for output 0 = 445.3624 / 0.9360
+Test loss / test accuracy for output 1 = 1046.3025 / 0.8050
+
+
+Training qa14 iter 8
+Training took 19674.5664 sec
+Train acc 0: max=0.9989 mean=0.9702 min=0.8878
+Train acc 1: max=0.9889 mean=0.9589 min=0.8767
+Train loss 0: max=336.5131 mean=89.1736 min=5.6645
+Train loss 1: max=346.8284 mean=119.5230 min=34.0233
+Train val acc 0: max=0.8900 mean=0.8800 min=0.8700
+Train val acc 1: max=0.8400 mean=0.8060 min=0.7600
+Train val loss 0: max=96.4572 mean=74.9245 min=48.8005
+Train val loss 1: max=113.8438 mean=86.3887 min=59.5160
+
+Total test loss = 2131.4512
+Test loss / test accuracy for output 0 = 1005.3402 / 0.8370
+Test loss / test accuracy for output 1 = 1126.1110 / 0.8230
+
+
+Training qa14 iter 9
+Training took 18924.4903 sec
+Train acc 0: max=1.0000 mean=0.9984 min=0.9922
+Train acc 1: max=0.9900 mean=0.9547 min=0.8556
+Train loss 0: max=44.9097 mean=10.0696 min=0.7645
+Train loss 1: max=378.3703 mean=121.0646 min=31.0979
+Train val acc 0: max=0.9700 mean=0.9560 min=0.9500
+Train val acc 1: max=0.8600 mean=0.8280 min=0.7700
+Train val loss 0: max=29.3500 mean=26.0077 min=21.2750
+Train val loss 1: max=71.3589 mean=58.2488 min=52.5134
+
+Total test loss = 1358.5469
+Test loss / test accuracy for output 0 = 445.2623 / 0.9260
+Test loss / test accuracy for output 1 = 913.2845 / 0.8390
+
+
+Training qa14 iter 10
+Training took 19549.9327 sec
+Train acc 0: max=1.0000 mean=0.9962 min=0.9833
+Train acc 1: max=0.9878 mean=0.9396 min=0.8200
+Train loss 0: max=58.7614 mean=14.0442 min=0.8587
+Train loss 1: max=576.9734 mean=179.3429 min=33.1690
+Train val acc 0: max=0.9700 mean=0.9600 min=0.9500
+Train val acc 1: max=0.8500 mean=0.8120 min=0.6900
+Train val loss 0: max=24.8372 mean=20.7379 min=13.9773
+Train val loss 1: max=99.6008 mean=80.5672 min=60.4669
+
+Total test loss = 1612.2078
+Test loss / test accuracy for output 0 = 486.3718 / 0.9230
+Test loss / test accuracy for output 1 = 1125.8361 / 0.8240
+
+
+Training qa15 iter 1
+Training took 19414.8995 sec
+Train acc 0: max=1.0000 mean=0.9402 min=0.7011
+Train acc 1: max=1.0000 mean=0.9987 min=0.9933
+Train loss 0: max=735.5288 mean=148.0195 min=0.6611
+Train loss 1: max=64.7577 mean=13.6179 min=0.5487
+Train val acc 0: max=1.0000 mean=0.9260 min=0.6300
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=90.0314 mean=18.1220 min=0.0853
+Train val loss 1: max=6.7256 mean=1.4193 min=0.0613
+
+Total test loss = 10.5862
+Test loss / test accuracy for output 0 = 1.0627 / 1.0000
+Test loss / test accuracy for output 1 = 9.5234 / 0.9970
+
+
+Training qa15 iter 2
+Training took 19502.3984 sec
+Train acc 0: max=1.0000 mean=0.9644 min=0.8222
+Train acc 1: max=1.0000 mean=0.9987 min=0.9933
+Train loss 0: max=459.4955 mean=93.0291 min=0.9650
+Train loss 1: max=42.5425 mean=9.3143 min=0.7152
+Train val acc 0: max=1.0000 mean=0.9620 min=0.8100
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=52.9620 mean=10.7439 min=0.1305
+Train val loss 1: max=3.5712 mean=0.7947 min=0.0711
+
+Total test loss = 2.2406
+Test loss / test accuracy for output 0 = 1.3399 / 1.0000
+Test loss / test accuracy for output 1 = 0.9007 / 1.0000
+
+
+Training qa15 iter 3
+Training took 19685.7631 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=3.0031 mean=1.1191 min=0.4926
+Train loss 1: max=3.0093 mean=1.2056 min=0.5822
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.3524 mean=0.1341 min=0.0610
+Train val loss 1: max=0.4156 mean=0.1746 min=0.0896
+
+Total test loss = 19.3465
+Test loss / test accuracy for output 0 = 18.6267 / 0.9940
+Test loss / test accuracy for output 1 = 0.7198 / 1.0000
+
+
+Training qa15 iter 4
+Training took 19197.1224 sec
+Train acc 0: max=1.0000 mean=0.9884 min=0.9422
+Train acc 1: max=1.0000 mean=0.9980 min=0.9900
+Train loss 0: max=217.8052 mean=44.4354 min=0.7004
+Train loss 1: max=45.0887 mean=9.6024 min=0.5433
+Train val acc 0: max=1.0000 mean=0.9900 min=0.9500
+Train val acc 1: max=1.0000 mean=0.9980 min=0.9900
+Train val loss 0: max=23.6995 mean=4.8581 min=0.0936
+Train val loss 1: max=4.7420 mean=1.0639 min=0.1043
+
+Total test loss = 1.6812
+Test loss / test accuracy for output 0 = 1.0183 / 1.0000
+Test loss / test accuracy for output 1 = 0.6629 / 1.0000
+
+
+Training qa15 iter 5
+Training took 19348.5063 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=5.6411 mean=1.6733 min=0.4938
+Train loss 1: max=3.5145 mean=1.2827 min=0.5516
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.7810 mean=0.2313 min=0.0686
+Train val loss 1: max=0.3416 mean=0.1237 min=0.0527
+
+Total test loss = 1.2782
+Test loss / test accuracy for output 0 = 0.6269 / 1.0000
+Test loss / test accuracy for output 1 = 0.6513 / 1.0000
+
+
+Training qa15 iter 6
+Training took 19755.7771 sec
+Train acc 0: max=1.0000 mean=0.8967 min=0.4833
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=1064.7427 mean=214.0984 min=0.7815
+Train loss 1: max=16.3586 mean=4.0009 min=0.6037
+Train val acc 0: max=1.0000 mean=0.8920 min=0.4600
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=116.2346 mean=23.4657 min=0.1614
+Train val loss 1: max=1.5589 mean=0.3898 min=0.0661
+
+Total test loss = 1.7250
+Test loss / test accuracy for output 0 = 1.0140 / 1.0000
+Test loss / test accuracy for output 1 = 0.7109 / 1.0000
+
+
+Training qa15 iter 7
+Training took 19587.0838 sec
+Train acc 0: max=1.0000 mean=0.9111 min=0.5556
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=947.0889 mean=190.4377 min=0.7456
+Train loss 1: max=20.8319 mean=4.9973 min=0.6942
+Train val acc 0: max=1.0000 mean=0.9040 min=0.5200
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=106.1176 mean=21.3666 min=0.1047
+Train val loss 1: max=2.8309 mean=1.0144 min=0.3639
+
+Total test loss = 1.9283
+Test loss / test accuracy for output 0 = 0.9902 / 1.0000
+Test loss / test accuracy for output 1 = 0.9381 / 1.0000
+
+
+Training qa15 iter 8
+Training took 19962.5455 sec
+Train acc 0: max=1.0000 mean=0.8298 min=0.4833
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=1023.3831 mean=357.1422 min=6.9252
+Train loss 1: max=10.9069 mean=3.5707 min=0.9429
+Train val acc 0: max=1.0000 mean=0.8100 min=0.4700
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=111.6756 mean=43.3904 min=0.8291
+Train val loss 1: max=1.3461 mean=0.4366 min=0.1230
+
+Total test loss = 23.1082
+Test loss / test accuracy for output 0 = 22.0450 / 0.9940
+Test loss / test accuracy for output 1 = 1.0632 / 1.0000
+
+
+Training qa15 iter 9
+Training took 19889.6905 sec
+Train acc 0: max=1.0000 mean=0.9602 min=0.8011
+Train acc 1: max=1.0000 mean=0.9987 min=0.9933
+Train loss 0: max=487.4666 mean=98.5975 min=0.9058
+Train loss 1: max=40.0444 mean=8.6728 min=0.6052
+Train val acc 0: max=1.0000 mean=0.9600 min=0.8000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=64.1915 mean=13.0079 min=0.1389
+Train val loss 1: max=4.8043 mean=1.0451 min=0.0782
+
+Total test loss = 2.4455
+Test loss / test accuracy for output 0 = 1.7118 / 1.0000
+Test loss / test accuracy for output 1 = 0.7337 / 1.0000
+
+
+Training qa15 iter 10
+Training took 20072.9752 sec
+Train acc 0: max=1.0000 mean=0.8849 min=0.4244
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=1395.9722 mean=281.3439 min=1.3483
+Train loss 1: max=23.5588 mean=5.1735 min=0.3651
+Train val acc 0: max=1.0000 mean=0.9020 min=0.5100
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=148.8218 mean=30.0158 min=0.1499
+Train val loss 1: max=2.3015 mean=0.5156 min=0.0415
+
+Total test loss = 36.1344
+Test loss / test accuracy for output 0 = 34.3375 / 0.9900
+Test loss / test accuracy for output 1 = 1.7968 / 0.9990
+
+
+Training qa16 iter 1
+Training took 19877.9651 sec
+Train acc 0: max=0.6000 mean=0.5338 min=0.4511
+Train acc 1: max=0.5656 mean=0.5213 min=0.4622
+Train loss 0: max=1031.7710 mean=850.7997 min=742.8239
+Train loss 1: max=1014.3736 mean=860.2687 min=762.4403
+Train val acc 0: max=0.5200 mean=0.4060 min=0.3400
+Train val acc 1: max=0.4200 mean=0.3960 min=0.3600
+Train val loss 0: max=146.5927 mean=124.2166 min=111.4187
+Train val loss 1: max=118.1088 mean=111.1287 min=106.9669
+
+Total test loss = 2060.1113
+Test loss / test accuracy for output 0 = 1061.2407 / 0.4570
+Test loss / test accuracy for output 1 = 998.8706 / 0.4810
+
+
+Training qa16 iter 2
+Training took 19873.4229 sec
+Train acc 0: max=0.5744 mean=0.5293 min=0.4467
+Train acc 1: max=0.5722 mean=0.5311 min=0.4878
+Train loss 0: max=1025.3197 mean=826.7482 min=730.8607
+Train loss 1: max=908.3926 mean=820.0731 min=742.9400
+Train val acc 0: max=0.4400 mean=0.4040 min=0.3700
+Train val acc 1: max=0.4600 mean=0.4180 min=0.3800
+Train val loss 0: max=126.0007 mean=115.4114 min=108.9464
+Train val loss 1: max=114.1474 mean=109.1217 min=105.0114
+
+Total test loss = 2088.4584
+Test loss / test accuracy for output 0 = 1042.8116 / 0.4200
+Test loss / test accuracy for output 1 = 1045.6467 / 0.4540
+
+
+Training qa16 iter 3
+Training took 19932.5747 sec
+Train acc 0: max=0.5689 mean=0.5216 min=0.4600
+Train acc 1: max=0.6211 mean=0.5602 min=0.4722
+Train loss 0: max=949.7646 mean=839.3236 min=753.8040
+Train loss 1: max=967.3515 mean=785.5411 min=706.8558
+Train val acc 0: max=0.4500 mean=0.4040 min=0.3600
+Train val acc 1: max=0.4900 mean=0.4000 min=0.3600
+Train val loss 0: max=125.3507 mean=115.1935 min=108.1269
+Train val loss 1: max=126.9388 mean=121.4392 min=113.6135
+
+Total test loss = 2175.4160
+Test loss / test accuracy for output 0 = 1045.5081 / 0.4550
+Test loss / test accuracy for output 1 = 1129.9080 / 0.4290
+
+
+Training qa16 iter 4
+Training took 20024.0496 sec
+Train acc 0: max=0.5633 mean=0.5296 min=0.4533
+Train acc 1: max=0.5444 mean=0.5249 min=0.4856
+Train loss 0: max=1075.2976 mean=853.4185 min=758.9591
+Train loss 1: max=997.6564 mean=868.8260 min=805.9931
+Train val acc 0: max=0.4500 mean=0.4060 min=0.3400
+Train val acc 1: max=0.4300 mean=0.4140 min=0.4000
+Train val loss 0: max=149.7287 mean=115.2006 min=101.5330
+Train val loss 1: max=122.8957 mean=116.4168 min=112.4786
+
+Total test loss = 2144.1189
+Test loss / test accuracy for output 0 = 1031.1614 / 0.4420
+Test loss / test accuracy for output 1 = 1112.9575 / 0.4490
+
+
+Training qa16 iter 5
+Training took 19731.1346 sec
+Train acc 0: max=0.6100 mean=0.5678 min=0.5056
+Train acc 1: max=0.6011 mean=0.5564 min=0.5044
+Train loss 0: max=929.9709 mean=803.9926 min=744.4679
+Train loss 1: max=942.3911 mean=803.2877 min=731.2203
+Train val acc 0: max=0.4200 mean=0.4020 min=0.3900
+Train val acc 1: max=0.4700 mean=0.4280 min=0.4000
+Train val loss 0: max=123.4295 mean=117.5187 min=109.8741
+Train val loss 1: max=120.5121 mean=110.0418 min=105.4450
+
+Total test loss = 2093.5328
+Test loss / test accuracy for output 0 = 1070.2871 / 0.4620
+Test loss / test accuracy for output 1 = 1023.2457 / 0.4540
+
+
+Training qa16 iter 6
+Training took 19662.6376 sec
+Train acc 0: max=0.5767 mean=0.5364 min=0.4533
+Train acc 1: max=0.5433 mean=0.5156 min=0.4456
+Train loss 0: max=1137.7109 mean=908.0399 min=812.3342
+Train loss 1: max=1120.0784 mean=945.0970 min=871.1754
+Train val acc 0: max=0.4200 mean=0.3980 min=0.3800
+Train val acc 1: max=0.5000 mean=0.4680 min=0.4300
+Train val loss 0: max=139.2358 mean=128.2574 min=120.0341
+Train val loss 1: max=131.8954 mean=117.8594 min=110.7674
+
+Total test loss = 2256.4562
+Test loss / test accuracy for output 0 = 1137.6766 / 0.4620
+Test loss / test accuracy for output 1 = 1118.7795 / 0.4580
+
+
+Training qa16 iter 7
+Training took 20010.0249 sec
+Train acc 0: max=0.5578 mean=0.5276 min=0.4733
+Train acc 1: max=0.5756 mean=0.5271 min=0.4544
+Train loss 0: max=1027.1394 mean=895.0174 min=827.5426
+Train loss 1: max=1079.2197 mean=882.3414 min=784.9434
+Train val acc 0: max=0.3700 mean=0.3440 min=0.3100
+Train val acc 1: max=0.4500 mean=0.4160 min=0.3700
+Train val loss 0: max=136.2101 mean=125.3062 min=119.7859
+Train val loss 1: max=130.7626 mean=110.2958 min=101.9209
+
+Total test loss = 2091.8005
+Test loss / test accuracy for output 0 = 1052.4905 / 0.4570
+Test loss / test accuracy for output 1 = 1039.3101 / 0.4520
+
+
+Training qa16 iter 8
+Training took 19877.4691 sec
+Train acc 0: max=0.6022 mean=0.5420 min=0.4500
+Train acc 1: max=0.6322 mean=0.5707 min=0.4856
+Train loss 0: max=1024.9839 mean=826.0793 min=728.7275
+Train loss 1: max=996.9806 mean=794.7733 min=699.9847
+Train val acc 0: max=0.4300 mean=0.3780 min=0.3300
+Train val acc 1: max=0.4700 mean=0.4540 min=0.4400
+Train val loss 0: max=130.6831 mean=120.1764 min=115.9378
+Train val loss 1: max=121.7224 mean=109.7554 min=104.2830
+
+Total test loss = 2148.6204
+Test loss / test accuracy for output 0 = 1073.3767 / 0.4490
+Test loss / test accuracy for output 1 = 1075.2437 / 0.4480
+
+
+Training qa16 iter 9
+Training took 19520.6606 sec
+Train acc 0: max=0.6033 mean=0.5576 min=0.4767
+Train acc 1: max=0.6100 mean=0.5522 min=0.4611
+Train loss 0: max=1034.8422 mean=841.2986 min=739.5652
+Train loss 1: max=976.0157 mean=790.9491 min=691.0508
+Train val acc 0: max=0.4800 mean=0.3960 min=0.3300
+Train val acc 1: max=0.4700 mean=0.4300 min=0.3900
+Train val loss 0: max=123.6714 mean=119.6833 min=115.3835
+Train val loss 1: max=117.5020 mean=108.2385 min=103.8742
+
+Total test loss = 2167.8763
+Test loss / test accuracy for output 0 = 1108.2415 / 0.4390
+Test loss / test accuracy for output 1 = 1059.6349 / 0.4560
+
+
+Training qa16 iter 10
+Training took 19771.8440 sec
+Train acc 0: max=0.5856 mean=0.5300 min=0.4500
+Train acc 1: max=0.5533 mean=0.5302 min=0.5000
+Train loss 0: max=1282.2991 mean=892.3561 min=735.2672
+Train loss 1: max=917.1356 mean=823.0493 min=758.6500
+Train val acc 0: max=0.4300 mean=0.4200 min=0.3900
+Train val acc 1: max=0.4500 mean=0.4320 min=0.4000
+Train val loss 0: max=153.1904 mean=122.2646 min=110.2260
+Train val loss 1: max=118.5893 mean=116.4277 min=113.7030
+
+Total test loss = 2141.3604
+Test loss / test accuracy for output 0 = 1056.6711 / 0.4610
+Test loss / test accuracy for output 1 = 1084.6892 / 0.4740
+
+
+Training qa17 iter 1
+Training took 20011.0594 sec
+Train acc 0: max=0.6600 mean=0.5864 min=0.5111
+Train acc 1: max=0.5856 mean=0.5464 min=0.5156
+Train loss 0: max=638.4105 mean=592.8668 min=542.2751
+Train loss 1: max=660.8668 mean=624.5578 min=610.3256
+Train val acc 0: max=0.6000 mean=0.5640 min=0.5300
+Train val acc 1: max=0.5200 mean=0.4960 min=0.4500
+Train val loss 0: max=70.6310 mean=68.7547 min=67.3596
+Train val loss 1: max=72.9637 mean=70.7821 min=69.6518
+
+Total test loss = 1489.1646
+Test loss / test accuracy for output 0 = 771.6230 / 0.4950
+Test loss / test accuracy for output 1 = 717.5416 / 0.5120
+
+
+Training qa17 iter 2
+Training took 20249.2415 sec
+Train acc 0: max=0.6378 mean=0.5689 min=0.5044
+Train acc 1: max=0.5722 mean=0.5398 min=0.4956
+Train loss 0: max=639.4703 mean=607.8666 min=564.5027
+Train loss 1: max=859.2349 mean=666.0084 min=615.8386
+Train val acc 0: max=0.6000 mean=0.5260 min=0.4600
+Train val acc 1: max=0.5300 mean=0.5040 min=0.4700
+Train val loss 0: max=74.7283 mean=70.8562 min=68.2433
+Train val loss 1: max=90.3808 mean=74.2833 min=70.1484
+
+Total test loss = 1495.8593
+Test loss / test accuracy for output 0 = 789.6743 / 0.4680
+Test loss / test accuracy for output 1 = 706.1849 / 0.5010
+
+
+Training qa17 iter 3
+Training took 19975.2488 sec
+Train acc 0: max=0.6278 mean=0.5618 min=0.4967
+Train acc 1: max=0.5589 mean=0.5284 min=0.5000
+Train loss 0: max=629.1636 mean=599.9445 min=561.1381
+Train loss 1: max=633.8161 mean=622.3582 min=614.5136
+Train val acc 0: max=0.5700 mean=0.5320 min=0.4900
+Train val acc 1: max=0.5400 mean=0.4960 min=0.4700
+Train val loss 0: max=74.0412 mean=70.4071 min=68.6357
+Train val loss 1: max=72.3461 mean=70.4194 min=69.5264
+
+Total test loss = 1488.6980
+Test loss / test accuracy for output 0 = 778.6436 / 0.4690
+Test loss / test accuracy for output 1 = 710.0544 / 0.5210
+
+
+Training qa17 iter 4
+Training took 20181.1439 sec
+Train acc 0: max=0.6600 mean=0.5778 min=0.5022
+Train acc 1: max=0.5689 mean=0.5438 min=0.5178
+Train loss 0: max=631.5905 mean=603.1193 min=557.6252
+Train loss 1: max=628.4966 mean=618.2819 min=611.7241
+Train val acc 0: max=0.5700 mean=0.5440 min=0.5100
+Train val acc 1: max=0.5500 mean=0.5180 min=0.5100
+Train val loss 0: max=75.2956 mean=70.7117 min=67.4144
+Train val loss 1: max=70.3206 mean=70.1098 min=69.8738
+
+Total test loss = 1522.4873
+Test loss / test accuracy for output 0 = 805.2378 / 0.4620
+Test loss / test accuracy for output 1 = 717.2495 / 0.5040
+
+
+Training qa17 iter 5
+Training took 19619.1163 sec
+Train acc 0: max=0.6267 mean=0.5629 min=0.4956
+Train acc 1: max=0.5611 mean=0.5400 min=0.5222
+Train loss 0: max=669.4055 mean=614.9880 min=564.0612
+Train loss 1: max=639.5728 mean=621.1808 min=612.1432
+Train val acc 0: max=0.5700 mean=0.5220 min=0.4900
+Train val acc 1: max=0.5000 mean=0.4860 min=0.4700
+Train val loss 0: max=74.7932 mean=71.8883 min=68.5379
+Train val loss 1: max=71.0103 mean=70.6090 min=70.3434
+
+Total test loss = 1477.7697
+Test loss / test accuracy for output 0 = 768.0038 / 0.4710
+Test loss / test accuracy for output 1 = 709.7659 / 0.4980
+
+
+Training qa17 iter 6
+Training took 19825.0256 sec
+Train acc 0: max=0.6844 mean=0.6038 min=0.5044
+Train acc 1: max=0.5811 mean=0.5462 min=0.4844
+Train loss 0: max=653.5513 mean=581.1749 min=498.6247
+Train loss 1: max=658.9260 mean=625.7365 min=612.6971
+Train val acc 0: max=0.5800 mean=0.5460 min=0.5000
+Train val acc 1: max=0.5100 mean=0.4900 min=0.4700
+Train val loss 0: max=76.1824 mean=72.9186 min=68.8165
+Train val loss 1: max=73.7140 mean=71.4605 min=70.3095
+
+Total test loss = 1565.1584
+Test loss / test accuracy for output 0 = 862.5947 / 0.5070
+Test loss / test accuracy for output 1 = 702.5637 / 0.5160
+
+
+Training qa17 iter 7
+Training took 20286.8996 sec
+Train acc 0: max=0.6089 mean=0.5724 min=0.5100
+Train acc 1: max=0.5700 mean=0.5360 min=0.4822
+Train loss 0: max=641.5238 mean=606.9780 min=583.3384
+Train loss 1: max=701.4912 mean=637.0081 min=610.5493
+Train val acc 0: max=0.5900 mean=0.5420 min=0.5100
+Train val acc 1: max=0.5300 mean=0.5060 min=0.4800
+Train val loss 0: max=71.9761 mean=70.2484 min=68.5515
+Train val loss 1: max=77.5779 mean=72.4075 min=70.6218
+
+Total test loss = 1458.3026
+Test loss / test accuracy for output 0 = 749.4601 / 0.4810
+Test loss / test accuracy for output 1 = 708.8424 / 0.5110
+
+
+Training qa17 iter 8
+Training took 20268.8826 sec
+Train acc 0: max=0.6278 mean=0.5676 min=0.4956
+Train acc 1: max=0.5722 mean=0.5544 min=0.5189
+Train loss 0: max=674.3093 mean=609.4711 min=567.4139
+Train loss 1: max=629.9596 mean=617.5173 min=610.1876
+Train val acc 0: max=0.5600 mean=0.5200 min=0.4900
+Train val acc 1: max=0.5300 mean=0.5080 min=0.4500
+Train val loss 0: max=75.6221 mean=71.9315 min=68.7644
+Train val loss 1: max=71.0025 mean=70.6851 min=70.3399
+
+Total test loss = 1491.8091
+Test loss / test accuracy for output 0 = 770.5289 / 0.4680
+Test loss / test accuracy for output 1 = 721.2802 / 0.5070
+
+
+Training qa17 iter 9
+Training took 19930.7862 sec
+Train acc 0: max=0.6444 mean=0.5773 min=0.4956
+Train acc 1: max=0.5633 mean=0.5462 min=0.5222
+Train loss 0: max=663.5846 mean=600.9619 min=548.5350
+Train loss 1: max=624.3542 mean=618.4203 min=613.3567
+Train val acc 0: max=0.6200 mean=0.5440 min=0.4900
+Train val acc 1: max=0.5500 mean=0.5180 min=0.4800
+Train val loss 0: max=75.0241 mean=71.0452 min=68.3840
+Train val loss 1: max=70.4936 mean=70.2641 min=69.9379
+
+Total test loss = 1505.1149
+Test loss / test accuracy for output 0 = 792.2963 / 0.4640
+Test loss / test accuracy for output 1 = 712.8186 / 0.5000
+
+
+Training qa17 iter 10
+Training took 19624.7844 sec
+Train acc 0: max=0.6956 mean=0.6127 min=0.5322
+Train acc 1: max=0.5622 mean=0.5333 min=0.4744
+Train loss 0: max=639.5624 mean=579.9974 min=511.2831
+Train loss 1: max=642.3226 mean=623.0219 min=613.3813
+Train val acc 0: max=0.5500 mean=0.5340 min=0.5100
+Train val acc 1: max=0.5400 mean=0.5040 min=0.4700
+Train val loss 0: max=79.5560 mean=73.1686 min=67.9363
+Train val loss 1: max=72.4283 mean=70.9860 min=70.2863
+
+Total test loss = 1568.7184
+Test loss / test accuracy for output 0 = 860.7278 / 0.4560
+Test loss / test accuracy for output 1 = 707.9906 / 0.5220
+
+
+Training qa18 iter 1
+Training took 20046.2863 sec
+Train acc 0: max=0.7889 mean=0.6831 min=0.5467
+Train acc 1: max=0.9567 mean=0.9122 min=0.8067
+Train loss 0: max=620.0713 mean=523.4335 min=430.6384
+Train loss 1: max=364.8021 mean=197.7158 min=108.1168
+Train val acc 0: max=0.6600 mean=0.5920 min=0.5000
+Train val acc 1: max=0.9400 mean=0.8820 min=0.7500
+Train val loss 0: max=77.7573 mean=72.2178 min=69.8522
+Train val loss 1: max=50.4315 mean=37.8617 min=30.7920
+
+Total test loss = 1135.9057
+Test loss / test accuracy for output 0 = 733.9468 / 0.6190
+Test loss / test accuracy for output 1 = 401.9589 / 0.8790
+
+
+Training qa18 iter 2
+Training took 20466.8655 sec
+Train acc 0: max=0.7467 mean=0.6596 min=0.5222
+Train acc 1: max=0.9678 mean=0.9291 min=0.8078
+Train loss 0: max=671.8270 mean=545.0649 min=454.4969
+Train loss 1: max=349.4926 mean=132.4846 min=57.6221
+Train val acc 0: max=0.6400 mean=0.5940 min=0.5400
+Train val acc 1: max=0.9500 mean=0.8980 min=0.7900
+Train val loss 0: max=77.2704 mean=70.4188 min=63.0209
+Train val loss 1: max=48.9692 mean=21.5117 min=11.1487
+
+Total test loss = 1128.6776
+Test loss / test accuracy for output 0 = 799.5768 / 0.5960
+Test loss / test accuracy for output 1 = 329.1009 / 0.9100
+
+
+Training qa18 iter 3
+Training took 19959.5662 sec
+Train acc 0: max=0.7744 mean=0.6996 min=0.5744
+Train acc 1: max=0.9656 mean=0.9213 min=0.8533
+Train loss 0: max=623.3171 mean=509.4281 min=433.3660
+Train loss 1: max=327.0639 mean=166.4141 min=73.8650
+Train val acc 0: max=0.6400 mean=0.6080 min=0.5400
+Train val acc 1: max=0.8900 mean=0.8580 min=0.8000
+Train val loss 0: max=71.7856 mean=69.6978 min=68.2385
+Train val loss 1: max=49.1926 mean=34.2094 min=26.1437
+
+Total test loss = 1012.9849
+Test loss / test accuracy for output 0 = 727.7614 / 0.6200
+Test loss / test accuracy for output 1 = 285.2235 / 0.8940
+
+
+Training qa18 iter 4
+Training took 20284.3514 sec
+Train acc 0: max=0.7878 mean=0.6929 min=0.4956
+Train acc 1: max=0.9733 mean=0.9262 min=0.8167
+Train loss 0: max=689.4285 mean=524.2983 min=428.5151
+Train loss 1: max=337.6298 mean=149.5093 min=63.3241
+Train val acc 0: max=0.6100 mean=0.5680 min=0.4900
+Train val acc 1: max=0.9600 mean=0.9120 min=0.8000
+Train val loss 0: max=79.3449 mean=74.3105 min=71.8395
+Train val loss 1: max=43.5048 mean=28.7333 min=21.9552
+
+Total test loss = 1035.4445
+Test loss / test accuracy for output 0 = 796.7296 / 0.5630
+Test loss / test accuracy for output 1 = 238.7149 / 0.9130
+
+
+Training qa18 iter 5
+Training took 20672.7804 sec
+Train acc 0: max=0.9622 mean=0.8369 min=0.6189
+Train acc 1: max=0.9533 mean=0.9080 min=0.8211
+Train loss 0: max=593.2257 mean=305.0018 min=102.1493
+Train loss 1: max=398.2786 mean=208.4157 min=116.9699
+Train val acc 0: max=0.9500 mean=0.8280 min=0.6000
+Train val acc 1: max=0.9000 mean=0.8540 min=0.7900
+Train val loss 0: max=66.9881 mean=37.2335 min=18.2556
+Train val loss 1: max=54.3067 mean=42.8274 min=37.9909
+
+Total test loss = 868.5947
+Test loss / test accuracy for output 0 = 606.6962 / 0.8580
+Test loss / test accuracy for output 1 = 261.8985 / 0.9120
+
+
+Training qa18 iter 6
+Training took 20069.3042 sec
+Train acc 0: max=0.9644 mean=0.8860 min=0.6456
+Train acc 1: max=0.9600 mean=0.9004 min=0.8233
+Train loss 0: max=570.0795 mean=245.7177 min=107.5851
+Train loss 1: max=318.3303 mean=187.5738 min=80.4942
+Train val acc 0: max=0.9400 mean=0.8680 min=0.7200
+Train val acc 1: max=0.9500 mean=0.8780 min=0.7800
+Train val loss 0: max=64.0253 mean=34.7093 min=20.9581
+Train val loss 1: max=45.9551 mean=30.9930 min=19.3753
+
+Total test loss = 607.0100
+Test loss / test accuracy for output 0 = 391.1310 / 0.8720
+Test loss / test accuracy for output 1 = 215.8791 / 0.9170
+
+
+Training qa18 iter 7
+Training took 20554.0129 sec
+Train acc 0: max=0.9456 mean=0.8131 min=0.6089
+Train acc 1: max=0.9733 mean=0.9182 min=0.8078
+Train loss 0: max=584.5727 mean=346.9625 min=158.8407
+Train loss 1: max=368.4636 mean=170.1199 min=64.9165
+Train val acc 0: max=0.8900 mean=0.7500 min=0.5100
+Train val acc 1: max=0.9100 mean=0.8600 min=0.7800
+Train val loss 0: max=69.3456 mean=47.5617 min=27.6934
+Train val loss 1: max=43.5247 mean=34.6849 min=26.4335
+
+Total test loss = 1043.7369
+Test loss / test accuracy for output 0 = 613.8193 / 0.8000
+Test loss / test accuracy for output 1 = 429.9176 / 0.8680
+
+
+Training qa18 iter 8
+Training took 20238.7680 sec
+Train acc 0: max=0.7789 mean=0.6993 min=0.5278
+Train acc 1: max=0.9822 mean=0.9227 min=0.7711
+Train loss 0: max=650.4476 mean=503.9583 min=411.8383
+Train loss 1: max=443.5143 mean=154.1772 min=46.4375
+Train val acc 0: max=0.6400 mean=0.5800 min=0.4700
+Train val acc 1: max=0.9900 mean=0.8960 min=0.7000
+Train val loss 0: max=77.6271 mean=71.7613 min=67.0110
+Train val loss 1: max=64.7711 mean=25.0650 min=5.0386
+
+Total test loss = 975.4972
+Test loss / test accuracy for output 0 = 778.9978 / 0.6000
+Test loss / test accuracy for output 1 = 196.4994 / 0.9380
+
+
+Training qa18 iter 9
+Training took 20531.5334 sec
+Train acc 0: max=0.8033 mean=0.7020 min=0.5100
+Train acc 1: max=0.9800 mean=0.9336 min=0.8244
+Train loss 0: max=642.0233 mean=485.5914 min=398.1599
+Train loss 1: max=320.5233 mean=139.5103 min=58.6251
+Train val acc 0: max=0.6900 mean=0.6300 min=0.4900
+Train val acc 1: max=0.9300 mean=0.8960 min=0.8000
+Train val loss 0: max=74.9232 mean=66.4432 min=62.0530
+Train val loss 1: max=39.7498 mean=25.3402 min=19.6964
+
+Total test loss = 1440.9798
+Test loss / test accuracy for output 0 = 865.2645 / 0.5570
+Test loss / test accuracy for output 1 = 575.7153 / 0.8700
+
+
+Training qa18 iter 10
+Training took 20632.3786 sec
+Train acc 0: max=0.7678 mean=0.6798 min=0.5811
+Train acc 1: max=0.9689 mean=0.9049 min=0.7700
+Train loss 0: max=621.9971 mean=516.6707 min=412.6463
+Train loss 1: max=398.0683 mean=177.5960 min=64.0309
+Train val acc 0: max=0.6300 mean=0.5880 min=0.5100
+Train val acc 1: max=0.9200 mean=0.8500 min=0.7200
+Train val loss 0: max=78.0341 mean=68.8634 min=63.7546
+Train val loss 1: max=55.0816 mean=33.3513 min=18.5930
+
+Total test loss = 1033.9546
+Test loss / test accuracy for output 0 = 768.6992 / 0.5900
+Test loss / test accuracy for output 1 = 265.2554 / 0.9230
+
+
+Training qa19 iter 1
+Training took 20912.0869 sec
+Train acc 0: max=0.3644 mean=0.2733 min=0.1533
+Train acc 1: max=0.3567 mean=0.3136 min=0.2367
+Train loss 0: max=2228.6235 mean=1903.6340 min=1687.7847
+Train loss 1: max=2041.7897 mean=1766.3953 min=1609.5483
+Train val acc 0: max=0.2000 mean=0.1480 min=0.0900
+Train val acc 1: max=0.2400 mean=0.1740 min=0.1100
+Train val loss 0: max=278.8951 mean=274.7398 min=270.6529
+Train val loss 1: max=250.3402 mean=247.2636 min=244.9461
+
+Total test loss = 5361.3389
+Test loss / test accuracy for output 0 = 2762.2097 / 0.1480
+Test loss / test accuracy for output 1 = 2599.1292 / 0.1930
+
+
+Training qa19 iter 2
+Training took 20742.8676 sec
+Train acc 0: max=0.3322 mean=0.2622 min=0.1244
+Train acc 1: max=0.3567 mean=0.2913 min=0.1889
+Train loss 0: max=2220.9648 mean=1911.3236 min=1724.2117
+Train loss 1: max=2111.9153 mean=1800.7581 min=1632.7174
+Train val acc 0: max=0.1900 mean=0.1400 min=0.0800
+Train val acc 1: max=0.2300 mean=0.1900 min=0.1300
+Train val loss 0: max=268.7175 mean=256.0883 min=249.1600
+Train val loss 1: max=254.8991 mean=250.2497 min=245.8877
+
+Total test loss = 5290.1409
+Test loss / test accuracy for output 0 = 2604.0349 / 0.1590
+Test loss / test accuracy for output 1 = 2686.1060 / 0.1820
+
+
+Training qa19 iter 3
+Training took 20541.4250 sec
+Train acc 0: max=0.3444 mean=0.2609 min=0.1056
+Train acc 1: max=0.4033 mean=0.3324 min=0.2244
+Train loss 0: max=2301.7446 mean=1931.0369 min=1725.4380
+Train loss 1: max=1986.1572 mean=1722.6139 min=1562.1843
+Train val acc 0: max=0.1800 mean=0.1240 min=0.0900
+Train val acc 1: max=0.1500 mean=0.1220 min=0.1000
+Train val loss 0: max=274.5310 mean=265.5096 min=259.5473
+Train val loss 1: max=277.3168 mean=256.9352 min=235.1801
+
+Total test loss = 5502.3042
+Test loss / test accuracy for output 0 = 2757.6646 / 0.1290
+Test loss / test accuracy for output 1 = 2744.6396 / 0.1700
+
+
+Training qa19 iter 4
+Training took 20883.9572 sec
+Train acc 0: max=0.3533 mean=0.2804 min=0.1367
+Train acc 1: max=0.3767 mean=0.3184 min=0.2411
+Train loss 0: max=2162.6477 mean=1888.9391 min=1713.9987
+Train loss 1: max=2003.1968 mean=1769.1693 min=1618.0815
+Train val acc 0: max=0.2000 mean=0.1480 min=0.0800
+Train val acc 1: max=0.1500 mean=0.1420 min=0.1200
+Train val loss 0: max=259.9376 mean=254.0157 min=247.0542
+Train val loss 1: max=261.0225 mean=253.1390 min=241.8421
+
+Total test loss = 5220.8655
+Test loss / test accuracy for output 0 = 2584.2742 / 0.1750
+Test loss / test accuracy for output 1 = 2636.5913 / 0.1740
+
+
+Training qa19 iter 5
+Training took 21290.8585 sec
+Train acc 0: max=0.3522 mean=0.2718 min=0.1567
+Train acc 1: max=0.3689 mean=0.2991 min=0.1756
+Train loss 0: max=2167.0649 mean=1900.3936 min=1709.1335
+Train loss 1: max=2136.5781 mean=1794.1617 min=1626.9026
+Train val acc 0: max=0.1000 mean=0.0860 min=0.0700
+Train val acc 1: max=0.2500 mean=0.1980 min=0.1500
+Train val loss 0: max=290.2082 mean=276.5765 min=264.7892
+Train val loss 1: max=246.8158 mean=241.7725 min=237.9947
+
+Total test loss = 5286.2429
+Test loss / test accuracy for output 0 = 2710.8652 / 0.1460
+Test loss / test accuracy for output 1 = 2575.3777 / 0.1700
+
+
+Training qa19 iter 6
+Training took 20929.2150 sec
+Train acc 0: max=0.3333 mean=0.2562 min=0.1511
+Train acc 1: max=0.3789 mean=0.3149 min=0.2056
+Train loss 0: max=2238.9814 mean=1940.6973 min=1747.7161
+Train loss 1: max=2105.8438 mean=1750.2582 min=1572.8014
+Train val acc 0: max=0.1700 mean=0.1360 min=0.0900
+Train val acc 1: max=0.1500 mean=0.1300 min=0.1100
+Train val loss 0: max=266.3297 mean=259.9966 min=253.1649
+Train val loss 1: max=282.6773 mean=266.1490 min=246.7336
+
+Total test loss = 5296.4937
+Test loss / test accuracy for output 0 = 2642.4543 / 0.1540
+Test loss / test accuracy for output 1 = 2654.0393 / 0.1680
+
+
+Training qa19 iter 7
+Training took 20567.9302 sec
+Train acc 0: max=0.3700 mean=0.2773 min=0.1278
+Train acc 1: max=0.3689 mean=0.3002 min=0.1911
+Train loss 0: max=2367.3049 mean=1893.6168 min=1657.1433
+Train loss 1: max=2066.1782 mean=1760.2522 min=1588.6550
+Train val acc 0: max=0.1600 mean=0.1280 min=0.0700
+Train val acc 1: max=0.1900 mean=0.1460 min=0.1000
+Train val loss 0: max=287.2090 mean=264.0306 min=253.6679
+Train val loss 1: max=271.2888 mean=262.2027 min=249.4829
+
+Total test loss = 5349.8323
+Test loss / test accuracy for output 0 = 2623.0967 / 0.1660
+Test loss / test accuracy for output 1 = 2726.7356 / 0.1610
+
+
+Training qa19 iter 8
+Training took 20846.6126 sec
+Train acc 0: max=0.3533 mean=0.2822 min=0.1656
+Train acc 1: max=0.3511 mean=0.3062 min=0.2256
+Train loss 0: max=2176.6431 mean=1884.5811 min=1710.6765
+Train loss 1: max=1962.9019 mean=1752.3766 min=1607.2224
+Train val acc 0: max=0.2000 mean=0.1480 min=0.1000
+Train val acc 1: max=0.1800 mean=0.1500 min=0.1300
+Train val loss 0: max=261.0517 mean=254.0853 min=246.2567
+Train val loss 1: max=277.7364 mean=262.0092 min=247.0651
+
+Total test loss = 5323.4631
+Test loss / test accuracy for output 0 = 2579.9084 / 0.1880
+Test loss / test accuracy for output 1 = 2743.5547 / 0.1600
+
+
+Training qa19 iter 9
+Training took 21317.0677 sec
+Train acc 0: max=0.3667 mean=0.2804 min=0.1600
+Train acc 1: max=0.3544 mean=0.3056 min=0.2467
+Train loss 0: max=2114.5024 mean=1868.5612 min=1683.6000
+Train loss 1: max=2001.4921 mean=1798.9674 min=1666.0903
+Train val acc 0: max=0.1600 mean=0.1280 min=0.0600
+Train val acc 1: max=0.2000 mean=0.1800 min=0.1600
+Train val loss 0: max=256.5521 mean=254.6024 min=249.0634
+Train val loss 1: max=260.1849 mean=249.6779 min=232.8668
+
+Total test loss = 5290.7622
+Test loss / test accuracy for output 0 = 2658.1011 / 0.1560
+Test loss / test accuracy for output 1 = 2632.6611 / 0.1640
+
+
+Training qa19 iter 10
+Training took 21019.7428 sec
+Train acc 0: max=0.3467 mean=0.2724 min=0.1333
+Train acc 1: max=0.3622 mean=0.3093 min=0.2256
+Train loss 0: max=2327.0034 mean=1888.2086 min=1690.0564
+Train loss 1: max=2063.1411 mean=1777.9183 min=1615.9912
+Train val acc 0: max=0.1800 mean=0.1240 min=0.0600
+Train val acc 1: max=0.2900 mean=0.2280 min=0.1400
+Train val loss 0: max=283.7104 mean=257.7329 min=246.0132
+Train val loss 1: max=247.2265 mean=245.0806 min=240.8264
+
+Total test loss = 5225.8906
+Test loss / test accuracy for output 0 = 2607.9707 / 0.1490
+Test loss / test accuracy for output 1 = 2617.9199 / 0.1760
+
+
+Training qa20 iter 1
+Training took 20736.1632 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9042 mean=0.5101 min=0.3442
+Train loss 1: max=1.1929 mean=0.6643 min=0.4436
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1130 mean=0.0634 min=0.0426
+Train val loss 1: max=0.1540 mean=0.0875 min=0.0594
+
+Total test loss = 0.9493
+Test loss / test accuracy for output 0 = 0.3948 / 1.0000
+Test loss / test accuracy for output 1 = 0.5544 / 1.0000
+
+
+Training qa20 iter 2
+Training took 21060.2553 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9571 mean=0.5351 min=0.3584
+Train loss 1: max=1.1880 mean=0.6550 min=0.4336
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1346 mean=0.0750 min=0.0500
+Train val loss 1: max=0.1545 mean=0.0850 min=0.0561
+
+Total test loss = 1.0495
+Test loss / test accuracy for output 0 = 0.4893 / 1.0000
+Test loss / test accuracy for output 1 = 0.5602 / 1.0000
+
+
+Training qa20 iter 3
+Training took 21288.2156 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9817 mean=0.5461 min=0.3642
+Train loss 1: max=1.4378 mean=0.7823 min=0.5121
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1515 mean=0.0832 min=0.0549
+Train val loss 1: max=0.1904 mean=0.1024 min=0.0664
+
+Total test loss = 3.2971
+Test loss / test accuracy for output 0 = 2.6806 / 0.9990
+Test loss / test accuracy for output 1 = 0.6166 / 1.0000
+
+
+Training qa20 iter 4
+Training took 21356.0377 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=1.0022 mean=0.5580 min=0.3723
+Train loss 1: max=1.1932 mean=0.6628 min=0.4415
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1159 mean=0.0658 min=0.0448
+Train val loss 1: max=0.1358 mean=0.0755 min=0.0503
+
+Total test loss = 1.0616
+Test loss / test accuracy for output 0 = 0.4637 / 1.0000
+Test loss / test accuracy for output 1 = 0.5979 / 1.0000
+
+
+Training qa20 iter 5
+Training took 20848.1821 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9389 mean=0.5244 min=0.3508
+Train loss 1: max=1.1681 mean=0.6545 min=0.4392
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1242 mean=0.0699 min=0.0471
+Train val loss 1: max=0.1296 mean=0.0726 min=0.0488
+
+Total test loss = 1.0483
+Test loss / test accuracy for output 0 = 0.4335 / 1.0000
+Test loss / test accuracy for output 1 = 0.6147 / 1.0000
+
+
+Training qa20 iter 6
+Training took 21299.6297 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9347 mean=0.5249 min=0.3528
+Train loss 1: max=1.3245 mean=0.7289 min=0.4816
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1145 mean=0.0643 min=0.0432
+Train val loss 1: max=0.1770 mean=0.0976 min=0.0646
+
+Total test loss = 1.7216
+Test loss / test accuracy for output 0 = 1.1623 / 1.0000
+Test loss / test accuracy for output 1 = 0.5594 / 1.0000
+
+
+Training qa20 iter 7
+Training took 21623.4615 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9362 mean=0.5245 min=0.3518
+Train loss 1: max=1.1566 mean=0.6428 min=0.4282
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1195 mean=0.0664 min=0.0443
+Train val loss 1: max=0.1615 mean=0.0882 min=0.0579
+
+Total test loss = 1.1871
+Test loss / test accuracy for output 0 = 0.4021 / 1.0000
+Test loss / test accuracy for output 1 = 0.7850 / 1.0000
+
+
+Training qa20 iter 8
+Training took 21659.5239 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.8579 mean=0.4833 min=0.3258
+Train loss 1: max=1.2110 mean=0.6723 min=0.4476
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1090 mean=0.0615 min=0.0415
+Train val loss 1: max=0.1484 mean=0.0834 min=0.0562
+
+Total test loss = 0.9566
+Test loss / test accuracy for output 0 = 0.4075 / 1.0000
+Test loss / test accuracy for output 1 = 0.5491 / 1.0000
+
+
+Training qa20 iter 9
+Training took 21663.3588 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9094 mean=0.5146 min=0.3482
+Train loss 1: max=1.4629 mean=0.7985 min=0.5233
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1145 mean=0.0639 min=0.0427
+Train val loss 1: max=0.1658 mean=0.0904 min=0.0593
+
+Total test loss = 0.9796
+Test loss / test accuracy for output 0 = 0.3902 / 1.0000
+Test loss / test accuracy for output 1 = 0.5893 / 1.0000
+
+
+Training qa20 iter 10
+Training took 20931.2265 sec
+Train acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train loss 0: max=0.9338 mean=0.5135 min=0.3393
+Train loss 1: max=1.2049 mean=0.6575 min=0.4317
+Train val acc 0: max=1.0000 mean=1.0000 min=1.0000
+Train val acc 1: max=1.0000 mean=1.0000 min=1.0000
+Train val loss 0: max=0.1082 mean=0.0599 min=0.0398
+Train val loss 1: max=0.1420 mean=0.0779 min=0.0514
+
+Total test loss = 0.8890
+Test loss / test accuracy for output 0 = 0.3983 / 1.0000
+Test loss / test accuracy for output 1 = 0.4908 / 1.0000
+
+Output for model mtletetf 
+Re-implementation of MemN2N model in tf
+Running model for en/hn, 18/04/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=1, word=1, limit=None
+
+Training qa1 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 16.2752 sec
+Train acc 0: max=0.8033 mean=0.7404 min=0.6856
+Train acc 1: max=0.7911 mean=0.7511 min=0.7167
+Train loss 0: max=800.9731 mean=607.9236 min=436.9778
+Train loss 1: max=653.5029 mean=563.2477 min=446.1971
+Train val acc 0: max=0.7300 mean=0.6633 min=0.6300
+Train val acc 1: max=0.6200 mean=0.5967 min=0.5800
+Train val loss 0: max=101.4962 mean=92.5863 min=79.5182
+Train val loss 1: max=105.9749 mean=105.6907 min=105.1958
+
+Total test loss = 1969.1184
+Test loss / test accuracy for output 0 = 1022.2914 / 0.6290
+Test loss / test accuracy for output 1 = 946.8270 / 0.6540
+
+
+Training qa2 iter 1
+Stopped early in iteration 70
+Returning iteration 60
+Training took 151.8455 sec
+Train acc 0: max=0.8633 mean=0.7325 min=0.4422
+Train acc 1: max=0.7911 mean=0.6381 min=0.3000
+Train loss 0: max=1351.3193 mean=657.3364 min=367.2913
+Train loss 1: max=1483.0168 mean=824.2107 min=446.1971
+Train val acc 0: max=0.7300 mean=0.6044 min=0.2900
+Train val acc 1: max=0.6200 mean=0.5078 min=0.2000
+Train val loss 0: max=193.3520 mean=117.2186 min=79.5182
+Train val loss 1: max=183.6784 mean=128.2977 min=105.1958
+
+Total test loss = 3912.3654
+Test loss / test accuracy for output 0 = 2196.4761 / 0.5150
+Test loss / test accuracy for output 1 = 1715.8893 / 0.5000
+
+
+Training qa3 iter 1
+Stopped early in iteration 70
+Returning iteration 60
+Training took 540.7023 sec
+Train acc 0: max=0.8633 mean=0.6333 min=0.2567
+Train acc 1: max=0.7911 mean=0.5199 min=0.2556
+Train loss 0: max=1503.0166 mean=845.8701 min=367.2913
+Train loss 1: max=1577.6776 mean=1081.1079 min=446.1971
+Train val acc 0: max=0.7300 mean=0.5153 min=0.2900
+Train val acc 1: max=0.6200 mean=0.4047 min=0.1600
+Train val loss 0: max=193.3520 mean=130.5749 min=79.5182
+Train val loss 1: max=187.8247 mean=148.5182 min=105.1958
+
+Total test loss = 4742.4714
+Test loss / test accuracy for output 0 = 2616.2087 / 0.2320
+Test loss / test accuracy for output 1 = 2126.2627 / 0.1720
+
+
+Training qa4 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 4.1250 sec
+Train acc 0: max=0.8633 mean=0.6445 min=0.2567
+Train acc 1: max=0.7911 mean=0.5343 min=0.2556
+Train loss 0: max=1503.0166 mean=823.7972 min=367.2913
+Train loss 1: max=1577.6776 mean=1060.2454 min=446.1971
+Train val acc 0: max=0.7800 mean=0.5319 min=0.2900
+Train val acc 1: max=0.6700 mean=0.4213 min=0.1600
+Train val loss 0: max=193.3520 mean=126.5602 min=66.3399
+Train val loss 1: max=187.8247 mean=144.6067 min=85.9337
+
+Total test loss = 1352.4326
+Test loss / test accuracy for output 0 = 529.0308 / 0.8200
+Test loss / test accuracy for output 1 = 823.4018 / 0.7220
+
+
+Training qa5 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 114.0997 sec
+Train acc 0: max=0.9344 mean=0.6830 min=0.2567
+Train acc 1: max=0.9100 mean=0.5898 min=0.2556
+Train loss 0: max=1503.0166 mean=731.5508 min=133.8566
+Train loss 1: max=1577.6776 mean=928.8317 min=175.3871
+Train val acc 0: max=0.8500 mean=0.5763 min=0.2900
+Train val acc 1: max=0.8200 mean=0.4811 min=0.1600
+Train val loss 0: max=193.3520 mean=114.4391 min=37.9681
+Train val loss 1: max=187.8247 mean=128.5618 min=37.6877
+
+Total test loss = 1329.3809
+Test loss / test accuracy for output 0 = 728.5908 / 0.7950
+Test loss / test accuracy for output 1 = 600.7900 / 0.8220
+
+
+Training qa6 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 20.4259 sec
+Train acc 0: max=0.9344 mean=0.6884 min=0.2567
+Train acc 1: max=0.9100 mean=0.6000 min=0.2556
+Train loss 0: max=1503.0166 mean=701.4631 min=133.8566
+Train loss 1: max=1577.6776 mean=886.8566 min=175.3871
+Train val acc 0: max=0.9500 mean=0.5962 min=0.2900
+Train val acc 1: max=0.8200 mean=0.4976 min=0.1600
+Train val loss 0: max=193.3520 mean=107.9616 min=24.7065
+Train val loss 1: max=187.8247 mean=122.2621 min=37.6877
+
+Total test loss = 585.1355
+Test loss / test accuracy for output 0 = 318.4546 / 0.8680
+Test loss / test accuracy for output 1 = 266.6810 / 0.9090
+
+
+Training qa7 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 75.1337 sec
+Train acc 0: max=0.9344 mean=0.6971 min=0.2567
+Train acc 1: max=0.9100 mean=0.6235 min=0.2556
+Train loss 0: max=1503.0166 mean=677.2369 min=133.8566
+Train loss 1: max=1577.6776 mean=826.5732 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6183 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5238 min=0.1600
+Train val loss 0: max=193.3520 mean=103.1416 min=24.7065
+Train val loss 1: max=187.8247 mean=114.6516 min=37.6877
+
+Total test loss = 1807.9116
+Test loss / test accuracy for output 0 = 820.3075 / 0.7510
+Test loss / test accuracy for output 1 = 987.6041 / 0.6970
+
+
+Training qa8 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 75.5939 sec
+Train acc 0: max=0.9344 mean=0.7158 min=0.2567
+Train acc 1: max=0.9100 mean=0.6255 min=0.2556
+Train loss 0: max=1503.0166 mean=637.5781 min=133.8566
+Train loss 1: max=1577.6776 mean=834.9897 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6386 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5286 min=0.1600
+Train val loss 0: max=193.3520 mean=99.5077 min=24.7065
+Train val loss 1: max=187.8247 mean=116.7948 min=37.6877
+
+Total test loss = 1909.8644
+Test loss / test accuracy for output 0 = 674.4999 / 0.7970
+Test loss / test accuracy for output 1 = 1235.3645 / 0.6000
+
+
+Training qa9 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 13.6627 sec
+Train acc 0: max=0.9344 mean=0.7159 min=0.2567
+Train acc 1: max=0.9100 mean=0.6203 min=0.2556
+Train loss 0: max=1503.0166 mean=627.6158 min=133.8566
+Train loss 1: max=1577.6776 mean=820.6638 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6410 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5277 min=0.1600
+Train val loss 0: max=193.3520 mean=96.9956 min=24.7065
+Train val loss 1: max=187.8247 mean=113.6259 min=37.6877
+
+Total test loss = 1305.1740
+Test loss / test accuracy for output 0 = 588.2108 / 0.7280
+Test loss / test accuracy for output 1 = 716.9633 / 0.5210
+
+
+Training qa10 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 32.0302 sec
+Train acc 0: max=0.9344 mean=0.7305 min=0.2567
+Train acc 1: max=0.9100 mean=0.6211 min=0.2556
+Train loss 0: max=1503.0166 mean=587.4053 min=133.8566
+Train loss 1: max=1577.6776 mean=788.7665 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6569 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5289 min=0.1600
+Train val loss 0: max=193.3520 mean=92.4013 min=24.7065
+Train val loss 1: max=187.8247 mean=108.3144 min=37.6877
+
+Total test loss = 1677.1108
+Test loss / test accuracy for output 0 = 844.2895 / 0.7640
+Test loss / test accuracy for output 1 = 832.8214 / 0.5200
+
+
+Training qa11 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 22.6714 sec
+Train acc 0: max=0.9344 mean=0.7412 min=0.2567
+Train acc 1: max=0.9100 mean=0.6402 min=0.2556
+Train loss 0: max=1503.0166 mean=573.2797 min=133.8566
+Train loss 1: max=1577.6776 mean=755.4382 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6659 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5528 min=0.1600
+Train val loss 0: max=193.3520 mean=91.8089 min=24.7065
+Train val loss 1: max=187.8247 mean=104.3349 min=37.6877
+
+Total test loss = 2061.0868
+Test loss / test accuracy for output 0 = 1108.6796 / 0.7020
+Test loss / test accuracy for output 1 = 952.4072 / 0.7190
+
+
+Training qa12 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 22.6616 sec
+Train acc 0: max=0.9344 mean=0.7295 min=0.2567
+Train acc 1: max=0.9100 mean=0.6335 min=0.2556
+Train loss 0: max=1503.0166 mean=605.5016 min=133.8566
+Train loss 1: max=1577.6776 mean=778.4944 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6467 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5437 min=0.1600
+Train val loss 0: max=193.3520 mean=96.5383 min=24.7065
+Train val loss 1: max=187.8247 mean=107.5611 min=37.6877
+
+Total test loss = 2694.7252
+Test loss / test accuracy for output 0 = 1395.9960 / 0.5010
+Test loss / test accuracy for output 1 = 1298.7292 / 0.5220
+
+
+Training qa13 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 23.0770 sec
+Train acc 0: max=0.9344 mean=0.7250 min=0.2567
+Train acc 1: max=0.9100 mean=0.6311 min=0.2556
+Train loss 0: max=1503.0166 mean=617.2766 min=133.8566
+Train loss 1: max=1577.6776 mean=794.2361 min=175.3871
+Train val acc 0: max=0.9500 mean=0.6450 min=0.2900
+Train val acc 1: max=0.8200 mean=0.5413 min=0.1600
+Train val loss 0: max=193.3520 mean=97.7867 min=24.7065
+Train val loss 1: max=187.8247 mean=109.8718 min=37.6877
+
+Total test loss = 2830.3396
+Test loss / test accuracy for output 0 = 1324.6917 / 0.5500
+Test loss / test accuracy for output 1 = 1505.6479 / 0.4790
+
+
+Training qa14 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 23.4468 sec
+Train acc 0: max=0.9933 mean=0.7378 min=0.2567
+Train acc 1: max=0.9389 mean=0.6441 min=0.2556
+Train loss 0: max=1503.0166 mean=593.5414 min=25.2994
+Train loss 1: max=1577.6776 mean=772.6182 min=154.7307
+Train val acc 0: max=0.9600 mean=0.6616 min=0.2900
+Train val acc 1: max=0.9000 mean=0.5580 min=0.1600
+Train val loss 0: max=193.3520 mean=94.1207 min=24.5179
+Train val loss 1: max=187.8247 mean=107.2130 min=36.5482
+
+Total test loss = 1119.4837
+Test loss / test accuracy for output 0 = 277.4556 / 0.9430
+Test loss / test accuracy for output 1 = 842.0281 / 0.8240
+
+
+Training qa15 iter 1
+Training took 31.3993 sec
+Train acc 0: max=1.0000 mean=0.7682 min=0.2567
+Train acc 1: max=1.0000 mean=0.6962 min=0.2556
+Train loss 0: max=1503.0166 mean=522.3742 min=0.9093
+Train loss 1: max=1577.6776 mean=659.8039 min=0.4727
+Train val acc 0: max=1.0000 mean=0.7051 min=0.2900
+Train val acc 1: max=1.0000 mean=0.6242 min=0.1600
+Train val loss 0: max=193.3520 mean=81.7736 min=1.2093
+Train val loss 1: max=187.8247 mean=91.2615 min=0.0599
+
+Total test loss = 10.4431
+Test loss / test accuracy for output 0 = 9.7819 / 0.9970
+Test loss / test accuracy for output 1 = 0.6612 / 1.0000
+
+
+Training qa16 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 7.2258 sec
+Train acc 0: max=1.0000 mean=0.7630 min=0.2567
+Train acc 1: max=1.0000 mean=0.6920 min=0.2556
+Train loss 0: max=1503.0166 mean=531.6947 min=0.9093
+Train loss 1: max=1577.6776 mean=666.6140 min=0.4727
+Train val acc 0: max=1.0000 mean=0.7017 min=0.2900
+Train val acc 1: max=1.0000 mean=0.6223 min=0.1600
+Train val loss 0: max=193.3520 mean=82.3871 min=1.2093
+Train val loss 1: max=187.8247 mean=91.6083 min=0.0599
+
+Total test loss = 2565.7814
+Test loss / test accuracy for output 0 = 1395.0546 / 0.4480
+Test loss / test accuracy for output 1 = 1170.7268 / 0.4470
+
+
+Training qa17 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 4.5799 sec
+Train acc 0: max=1.0000 mean=0.7589 min=0.2567
+Train acc 1: max=1.0000 mean=0.6889 min=0.2556
+Train loss 0: max=1503.0166 mean=533.3660 min=0.9093
+Train loss 1: max=1577.6776 mean=665.9712 min=0.4727
+Train val acc 0: max=1.0000 mean=0.6987 min=0.2900
+Train val acc 1: max=1.0000 mean=0.6211 min=0.1600
+Train val loss 0: max=193.3520 mean=82.1824 min=1.2093
+Train val loss 1: max=187.8247 mean=91.2388 min=0.0599
+
+Total test loss = 1418.6635
+Test loss / test accuracy for output 0 = 703.3140 / 0.4830
+Test loss / test accuracy for output 1 = 715.3495 / 0.5070
+
+
+Training qa18 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 15.8338 sec
+Train acc 0: max=1.0000 mean=0.7550 min=0.2567
+Train acc 1: max=1.0000 mean=0.6869 min=0.2556
+Train loss 0: max=1503.0166 mean=534.8927 min=0.9093
+Train loss 1: max=1577.6776 mean=664.7484 min=0.4727
+Train val acc 0: max=1.0000 mean=0.6940 min=0.2900
+Train val acc 1: max=1.0000 mean=0.6202 min=0.1600
+Train val loss 0: max=193.3520 mean=82.0416 min=1.2093
+Train val loss 1: max=187.8247 mean=90.8321 min=0.0599
+
+Total test loss = 1102.2437
+Test loss / test accuracy for output 0 = 736.4248 / 0.4720
+Test loss / test accuracy for output 1 = 365.8189 / 0.8190
+
+
+Training qa19 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 6.5249 sec
+Train acc 0: max=1.0000 mean=0.7446 min=0.0989
+Train acc 1: max=1.0000 mean=0.6775 min=0.0922
+Train loss 0: max=2252.1855 mean=562.1513 min=0.9093
+Train loss 1: max=2374.2437 mean=691.8832 min=0.4727
+Train val acc 0: max=1.0000 mean=0.6859 min=0.1800
+Train val acc 1: max=1.0000 mean=0.6106 min=0.0200
+Train val loss 0: max=252.8551 mean=84.7530 min=1.2093
+Train val loss 1: max=284.2524 mean=93.9023 min=0.0599
+
+Total test loss = 5227.0310
+Test loss / test accuracy for output 0 = 2621.8320 / 0.1080
+Test loss / test accuracy for output 1 = 2605.1990 / 0.1360
+
+
+Training qa20 iter 1
+Training took 44.3769 sec
+Train acc 0: max=1.0000 mean=0.7796 min=0.0989
+Train acc 1: max=1.0000 mean=0.7217 min=0.0922
+Train loss 0: max=2252.1855 mean=485.2350 min=0.3439
+Train loss 1: max=2374.2437 mean=597.2323 min=0.4586
+Train val acc 0: max=1.0000 mean=0.7289 min=0.1800
+Train val acc 1: max=1.0000 mean=0.6640 min=0.0200
+Train val loss 0: max=252.8551 mean=73.1621 min=0.0928
+Train val loss 1: max=284.2524 mean=81.0526 min=0.0494
+
+Total test loss = 0.9869
+Test loss / test accuracy for output 0 = 0.4583 / 1.0000
+Test loss / test accuracy for output 1 = 0.5285 / 1.0000
+
+
+Output for model mtletetf
+Re-implementation of MemN2N model in tf
+Running model for en/hn, 15/05/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=1, word=1, limit=None, stop_early=1
+
+Training qa1 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 7.1085 sec
+Train acc 0: max=0.7078 mean=0.7078 min=0.7078
+Train acc 1: max=0.7400 mean=0.7400 min=0.7400
+Train loss 0: max=756.1505 mean=756.1505 min=756.1505
+Train loss 1: max=651.4991 mean=651.4991 min=651.4991
+Train val acc 0: max=0.6100 mean=0.6100 min=0.6100
+Train val acc 1: max=0.5900 mean=0.5900 min=0.5900
+Train val loss 0: max=127.6392 mean=127.6392 min=127.6392
+Train val loss 1: max=117.4121 mean=117.4121 min=117.4121
+
+Total test loss = 2020.4120
+Test loss / test accuracy for output 0 = 1133.0537 / 0.6320
+Test loss / test accuracy for output 1 = 887.3583 / 0.6480
+
+
+Training qa2 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 80.4904 sec
+Train acc 0: max=0.7078 mean=0.5324 min=0.3600
+Train acc 1: max=0.7400 mean=0.5394 min=0.3011
+Train loss 0: max=1457.1315 mean=1121.3799 min=756.1505
+Train loss 1: max=1494.1425 mean=1047.2106 min=651.4991
+Train val acc 0: max=0.6100 mean=0.4217 min=0.2600
+Train val acc 1: max=0.5900 mean=0.4083 min=0.2800
+Train val loss 0: max=180.5027 mean=158.0137 min=127.6392
+Train val loss 1: max=174.9361 mean=157.9173 min=117.4121
+
+Total test loss = 4764.9619
+Test loss / test accuracy for output 0 = 2190.1748 / 0.3130
+Test loss / test accuracy for output 1 = 2574.7871 / 0.3130
+
+
+Training qa3 iter 1
+Training took 690.3196 sec
+Train acc 0: max=0.7411 mean=0.5661 min=0.2911
+Train acc 1: max=0.7400 mean=0.4262 min=0.1989
+Train loss 0: max=1514.0763 mean=1017.5590 min=649.6782
+Train loss 1: max=1687.9839 mean=1275.0745 min=651.4991
+Train val acc 0: max=0.6100 mean=0.3738 min=0.2200
+Train val acc 1: max=0.5900 mean=0.3044 min=0.1500
+Train val loss 0: max=181.9208 mean=166.5951 min=127.6392
+Train val loss 1: max=189.8660 mean=173.8463 min=117.4121
+
+Total test loss = 5264.8052
+Test loss / test accuracy for output 0 = 2983.8147 / 0.2080
+Test loss / test accuracy for output 1 = 2280.9905 / 0.1640
+
+
+Training qa4 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 4.2839 sec
+Train acc 0: max=0.8867 mean=0.6106 min=0.2911
+Train acc 1: max=0.9433 mean=0.5039 min=0.1989
+Train loss 0: max=1514.0763 mean=913.2708 min=237.2120
+Train loss 1: max=1687.9839 mean=1104.5930 min=103.7555
+Train val acc 0: max=0.9000 mean=0.4458 min=0.2200
+Train val acc 1: max=0.9000 mean=0.3900 min=0.1500
+Train val loss 0: max=181.9208 mean=147.7506 min=32.5229
+Train val loss 1: max=189.8660 mean=152.4351 min=27.2363
+
+Total test loss = 971.0441
+Test loss / test accuracy for output 0 = 587.0881 / 0.8250
+Test loss / test accuracy for output 1 = 383.9559 / 0.8930
+
+
+Training qa5 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 122.2552 sec
+Train acc 0: max=0.9522 mean=0.6731 min=0.2911
+Train acc 1: max=0.9433 mean=0.5839 min=0.1989
+Train loss 0: max=1514.0763 mean=763.8256 min=116.5952
+Train loss 1: max=1687.9839 mean=924.5795 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5200 min=0.2200
+Train val acc 1: max=0.9000 mean=0.4779 min=0.1500
+Train val loss 0: max=181.9208 mean=128.2497 min=32.5229
+Train val loss 1: max=189.8660 mean=133.8183 min=27.2363
+
+Total test loss = 1425.0989
+Test loss / test accuracy for output 0 = 777.0973 / 0.7920
+Test loss / test accuracy for output 1 = 648.0016 / 0.8340
+
+
+Training qa6 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 18.7042 sec
+Train acc 0: max=0.9544 mean=0.6740 min=0.2911
+Train acc 1: max=0.9433 mean=0.5893 min=0.1989
+Train loss 0: max=1514.0763 mean=731.5157 min=116.5952
+Train loss 1: max=1687.9839 mean=884.1480 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5300 min=0.2200
+Train val acc 1: max=0.9000 mean=0.4863 min=0.1500
+Train val loss 0: max=181.9208 mean=121.2358 min=32.5229
+Train val loss 1: max=189.8660 mean=126.6416 min=27.2363
+
+Total test loss = 786.7174
+Test loss / test accuracy for output 0 = 308.7956 / 0.8970
+Test loss / test accuracy for output 1 = 477.9219 / 0.7570
+
+
+Training qa7 iter 1
+Stopped early in iteration 70
+Returning iteration 60
+Training took 153.0449 sec
+Train acc 0: max=0.9544 mean=0.7013 min=0.2911
+Train acc 1: max=0.9589 mean=0.6368 min=0.1989
+Train loss 0: max=1514.0763 mean=672.6414 min=116.5952
+Train loss 1: max=1687.9839 mean=786.8652 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5636 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5448 min=0.1500
+Train val loss 0: max=181.9208 mean=111.7881 min=32.5229
+Train val loss 1: max=189.8660 mean=114.2270 min=27.2363
+
+Total test loss = 1198.1676
+Test loss / test accuracy for output 0 = 711.2914 / 0.7710
+Test loss / test accuracy for output 1 = 486.8762 / 0.8490
+
+
+Training qa8 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 22.4725 sec
+Train acc 0: max=0.9544 mean=0.7036 min=0.2911
+Train acc 1: max=0.9589 mean=0.6358 min=0.1989
+Train loss 0: max=1514.0763 mean=673.5842 min=116.5952
+Train loss 1: max=1687.9839 mean=798.3024 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5685 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5441 min=0.1500
+Train val loss 0: max=181.9208 mean=111.3143 min=32.5229
+Train val loss 1: max=189.8660 mean=115.9006 min=27.2363
+
+Total test loss = 2224.4802
+Test loss / test accuracy for output 0 = 1043.0618 / 0.7030
+Test loss / test accuracy for output 1 = 1181.4185 / 0.6150
+
+
+Training qa9 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 21.6289 sec
+Train acc 0: max=0.9544 mean=0.7150 min=0.2911
+Train acc 1: max=0.9589 mean=0.6286 min=0.1989
+Train loss 0: max=1514.0763 mean=639.6653 min=116.5952
+Train loss 1: max=1687.9839 mean=780.1873 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5808 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5442 min=0.1500
+Train val loss 0: max=181.9208 mean=106.8563 min=32.5229
+Train val loss 1: max=189.8660 mean=111.1090 min=27.2363
+
+Total test loss = 1234.2457
+Test loss / test accuracy for output 0 = 519.2571 / 0.8320
+Test loss / test accuracy for output 1 = 714.9886 / 0.5530
+
+
+Training qa10 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 23.7968 sec
+Train acc 0: max=0.9544 mean=0.7236 min=0.2911
+Train acc 1: max=0.9589 mean=0.6263 min=0.1989
+Train loss 0: max=1514.0763 mean=613.2644 min=116.5952
+Train loss 1: max=1687.9839 mean=762.2571 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5938 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5398 min=0.1500
+Train val loss 0: max=181.9208 mean=103.3544 min=32.5229
+Train val loss 1: max=189.8660 mean=107.8408 min=27.2363
+
+Total test loss = 1511.2643
+Test loss / test accuracy for output 0 = 724.3573 / 0.7840
+Test loss / test accuracy for output 1 = 786.9070 / 0.5270
+
+
+Training qa11 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 21.4813 sec
+Train acc 0: max=0.9544 mean=0.7316 min=0.2911
+Train acc 1: max=0.9589 mean=0.6428 min=0.1989
+Train loss 0: max=1514.0763 mean=601.4464 min=116.5952
+Train loss 1: max=1687.9839 mean=737.7392 min=103.7555
+Train val acc 0: max=0.9000 mean=0.6011 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5517 min=0.1500
+Train val loss 0: max=181.9208 mean=103.4620 min=32.5229
+Train val loss 1: max=189.8660 mean=106.6348 min=27.2363
+
+Total test loss = 2227.1353
+Test loss / test accuracy for output 0 = 1124.9478 / 0.7210
+Test loss / test accuracy for output 1 = 1102.1875 / 0.7120
+
+
+Training qa12 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 7.7624 sec
+Train acc 0: max=0.9544 mean=0.7274 min=0.2911
+Train acc 1: max=0.9589 mean=0.6399 min=0.1989
+Train loss 0: max=1514.0763 mean=613.4115 min=116.5952
+Train loss 1: max=1687.9839 mean=748.0361 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5983 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5498 min=0.1500
+Train val loss 0: max=181.9208 mean=104.4545 min=32.5229
+Train val loss 1: max=189.8660 mean=107.4270 min=27.2363
+
+Total test loss = 2842.8251
+Test loss / test accuracy for output 0 = 1485.0105 / 0.4870
+Test loss / test accuracy for output 1 = 1357.8146 / 0.4900
+
+
+Training qa13 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 17.3008 sec
+Train acc 0: max=0.9544 mean=0.7241 min=0.2911
+Train acc 1: max=0.9589 mean=0.6365 min=0.1989
+Train loss 0: max=1514.0763 mean=623.3611 min=116.5952
+Train loss 1: max=1687.9839 mean=761.5291 min=103.7555
+Train val acc 0: max=0.9000 mean=0.5937 min=0.2200
+Train val acc 1: max=0.9000 mean=0.5502 min=0.1500
+Train val loss 0: max=181.9208 mean=105.9193 min=32.5229
+Train val loss 1: max=189.8660 mean=108.5616 min=27.2363
+
+Total test loss = 2661.7974
+Test loss / test accuracy for output 0 = 1222.7507 / 0.5650
+Test loss / test accuracy for output 1 = 1439.0466 / 0.4910
+
+
+Training qa14 iter 1
+Training took 56.0682 sec
+Train acc 0: max=1.0000 mean=0.7690 min=0.2911
+Train acc 1: max=0.9956 mean=0.6908 min=0.1989
+Train loss 0: max=1514.0763 mean=523.6763 min=0.9609
+Train loss 1: max=1687.9839 mean=653.2682 min=10.1153
+Train val acc 0: max=0.9800 mean=0.6569 min=0.2200
+Train val acc 1: max=0.9500 mean=0.6117 min=0.1500
+Train val loss 0: max=181.9208 mean=91.3820 min=15.7138
+Train val loss 1: max=189.8660 mean=95.6949 min=17.6613
+
+Total test loss = 651.9334
+Test loss / test accuracy for output 0 = 313.3022 / 0.9530
+Test loss / test accuracy for output 1 = 338.6311 / 0.9350
+
+
+Training qa15 iter 1
+Stopped early in iteration 80
+Returning iteration 70
+Training took 20.3173 sec
+Train acc 0: max=1.0000 mean=0.7737 min=0.2911
+Train acc 1: max=1.0000 mean=0.7155 min=0.1989
+Train loss 0: max=1514.0763 mean=508.3102 min=0.9609
+Train loss 1: max=1687.9839 mean=601.4670 min=0.8171
+Train val acc 0: max=0.9900 mean=0.6717 min=0.2200
+Train val acc 1: max=1.0000 mean=0.6438 min=0.1500
+Train val loss 0: max=181.9208 mean=86.5979 min=6.7951
+Train val loss 1: max=189.8660 mean=87.8362 min=0.1116
+
+Total test loss = 69.9185
+Test loss / test accuracy for output 0 = 68.6521 / 0.9700
+Test loss / test accuracy for output 1 = 1.2665 / 1.0000
+
+
+Training qa16 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 6.2792 sec
+Train acc 0: max=1.0000 mean=0.7691 min=0.2911
+Train acc 1: max=1.0000 mean=0.7117 min=0.1989
+Train loss 0: max=1514.0763 mean=515.3492 min=0.9609
+Train loss 1: max=1687.9839 mean=606.3504 min=0.8171
+Train val acc 0: max=0.9900 mean=0.6688 min=0.2200
+Train val acc 1: max=1.0000 mean=0.6401 min=0.1500
+Train val loss 0: max=181.9208 mean=86.8632 min=6.7951
+Train val loss 1: max=189.8660 mean=88.1787 min=0.1116
+
+Total test loss = 2697.0874
+Test loss / test accuracy for output 0 = 1218.8459 / 0.4110
+Test loss / test accuracy for output 1 = 1478.2415 / 0.4100
+
+
+Training qa17 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 4.1834 sec
+Train acc 0: max=1.0000 mean=0.7617 min=0.2911
+Train acc 1: max=1.0000 mean=0.7058 min=0.1989
+Train loss 0: max=1514.0763 mean=519.8835 min=0.9609
+Train loss 1: max=1687.9839 mean=606.9474 min=0.8171
+Train val acc 0: max=0.9900 mean=0.6633 min=0.2200
+Train val acc 1: max=1.0000 mean=0.6368 min=0.1500
+Train val loss 0: max=181.9208 mean=86.5364 min=6.7951
+Train val loss 1: max=189.8660 mean=87.6366 min=0.1116
+
+Total test loss = 1426.8914
+Test loss / test accuracy for output 0 = 726.0215 / 0.4790
+Test loss / test accuracy for output 1 = 700.8699 / 0.5110
+
+
+Training qa18 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 49.4785 sec
+Train acc 0: max=1.0000 mean=0.7614 min=0.2911
+Train acc 1: max=1.0000 mean=0.7129 min=0.1989
+Train loss 0: max=1514.0763 mean=512.0641 min=0.9609
+Train loss 1: max=1687.9839 mean=590.8925 min=0.8171
+Train val acc 0: max=0.9900 mean=0.6685 min=0.2200
+Train val acc 1: max=1.0000 mean=0.6474 min=0.1500
+Train val loss 0: max=181.9208 mean=84.0112 min=6.7951
+Train val loss 1: max=189.8660 mean=84.8342 min=0.1116
+
+Total test loss = 514.6756
+Test loss / test accuracy for output 0 = 225.0847 / 0.9090
+Test loss / test accuracy for output 1 = 289.5909 / 0.9010
+
+
+Training qa19 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 7.4959 sec
+Train acc 0: max=1.0000 mean=0.7442 min=0.0956
+Train acc 1: max=1.0000 mean=0.6981 min=0.1156
+Train loss 0: max=2343.3101 mean=559.4133 min=0.9609
+Train loss 1: max=2287.7542 mean=633.2877 min=0.8171
+Train val acc 0: max=0.9900 mean=0.6532 min=0.0700
+Train val acc 1: max=1.0000 mean=0.6334 min=0.1100
+Train val loss 0: max=279.2618 mean=88.9487 min=6.7951
+Train val loss 1: max=275.2874 mean=89.8084 min=0.1116
+
+Total test loss = 4974.8325
+Test loss / test accuracy for output 0 = 2521.7207 / 0.1330
+Test loss / test accuracy for output 1 = 2453.1118 / 0.1840
+
+
+Training qa20 iter 1
+Training took 41.7255 sec
+Train acc 0: max=1.0000 mean=0.7740 min=0.0956
+Train acc 1: max=1.0000 mean=0.7332 min=0.1156
+Train loss 0: max=2343.3101 mean=494.4673 min=0.4397
+Train loss 1: max=2287.7542 mean=559.7701 min=0.5115
+Train val acc 0: max=1.0000 mean=0.6935 min=0.0700
+Train val acc 1: max=1.0000 mean=0.6760 min=0.1100
+Train val loss 0: max=279.2618 mean=78.6174 min=0.0496
+Train val loss 1: max=275.2874 mean=79.3796 min=0.0598
+
+Total test loss = 1.1150
+Test loss / test accuracy for output 0 = 0.5041 / 1.0000
+Test loss / test accuracy for output 1 = 0.6109 / 1.0000
+
+Output for model mtletetf
+Re-implementation of MemN2N model in tf
+Running model for en/hn, 31/05/2017
+Parameters pad=1, wmethod=concat, flatten=0, repeat=1, word=1, limit=None, stop_early=1
+
+Training qa1 iter 1
+Stopped early in iteration 70
+Returning iteration 60
+Training took 24.3988 sec
+Train acc 0: max=0.8844 mean=0.8267 min=0.7389
+Train acc 1: max=0.8611 mean=0.7915 min=0.7044
+Train loss 0: max=665.4529 mean=396.6842 min=264.9186
+Train loss 1: max=709.1118 mean=486.4244 min=323.4176
+Train val acc 0: max=0.6800 mean=0.6567 min=0.6300
+Train val acc 1: max=0.6900 mean=0.6600 min=0.6200
+Train val loss 0: max=114.8276 mean=102.9988 min=93.2215
+Train val loss 1: max=113.3722 mean=97.5469 min=89.7863
+
+Total test loss = 2344.6238
+Test loss / test accuracy for output 0 = 1226.2058 / 0.6460
+Test loss / test accuracy for output 1 = 1118.4180 / 0.6680
+
+
+Training qa2 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 56.3699 sec
+Train acc 0: max=0.8844 mean=0.6970 min=0.3433
+Train acc 1: max=0.8611 mean=0.6730 min=0.3478
+Train loss 0: max=1534.9956 mean=699.8010 min=264.9186
+Train loss 1: max=1481.6067 mean=759.8248 min=323.4176
+Train val acc 0: max=0.6800 mean=0.5344 min=0.2400
+Train val acc 1: max=0.6900 mean=0.5411 min=0.2900
+Train val loss 0: max=195.4192 mean=129.8864 min=93.2215
+Train val loss 1: max=181.5050 mean=124.9219 min=89.7863
+
+Total test loss = 4062.0588
+Test loss / test accuracy for output 0 = 2056.2656 / 0.2900
+Test loss / test accuracy for output 1 = 2005.7932 / 0.3310
+
+
+Training qa3 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 290.7544 sec
+Train acc 0: max=0.8844 mean=0.6068 min=0.2133
+Train acc 1: max=0.8611 mean=0.5551 min=0.1711
+Train loss 0: max=1616.7900 mean=876.5552 min=264.9186
+Train loss 1: max=1757.4017 mean=984.6355 min=323.4176
+Train val acc 0: max=0.6800 mean=0.4667 min=0.1900
+Train val acc 1: max=0.6900 mean=0.4542 min=0.1500
+Train val loss 0: max=195.4192 mean=140.3981 min=93.2215
+Train val loss 1: max=200.7636 mean=140.5561 min=89.7863
+
+Total test loss = 4051.9207
+Test loss / test accuracy for output 0 = 2156.2080 / 0.2060
+Test loss / test accuracy for output 1 = 1895.7126 / 0.2140
+
+
+Training qa4 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 6.7880 sec
+Train acc 0: max=0.9522 mean=0.6931 min=0.2133
+Train acc 1: max=1.0000 mean=0.6731 min=0.1711
+Train loss 0: max=1616.7900 mean=697.5239 min=112.3912
+Train loss 1: max=1757.4017 mean=727.8608 min=4.5457
+Train val acc 0: max=0.8100 mean=0.5512 min=0.1900
+Train val acc 1: max=0.9700 mean=0.5835 min=0.1500
+Train val loss 0: max=195.4192 mean=130.1631 min=93.2215
+Train val loss 1: max=200.7636 mean=109.0998 min=12.9059
+
+Total test loss = 749.8715
+Test loss / test accuracy for output 0 = 617.9694 / 0.8450
+Test loss / test accuracy for output 1 = 131.9021 / 0.9720
+
+
+Training qa5 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 132.4912 sec
+Train acc 0: max=0.9522 mean=0.7375 min=0.2133
+Train acc 1: max=1.0000 mean=0.7237 min=0.1711
+Train loss 0: max=1616.7900 mean=590.5286 min=112.3912
+Train loss 1: max=1757.4017 mean=610.8430 min=4.5457
+Train val acc 0: max=0.8300 mean=0.6041 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6414 min=0.1500
+Train val loss 0: max=195.4192 mean=115.4492 min=50.2031
+Train val loss 1: max=200.7636 mean=94.7714 min=12.9059
+
+Total test loss = 1394.1094
+Test loss / test accuracy for output 0 = 824.9506 / 0.7750
+Test loss / test accuracy for output 1 = 569.1589 / 0.8340
+
+
+Training qa6 iter 1
+Stopped early in iteration 60
+Returning iteration 50
+Training took 28.2693 sec
+Train acc 0: max=0.9656 mean=0.7626 min=0.2133
+Train acc 1: max=1.0000 mean=0.7301 min=0.1711
+Train loss 0: max=1616.7900 mean=522.9598 min=93.1525
+Train loss 1: max=1757.4017 mean=569.2177 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6444 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6619 min=0.1500
+Train val loss 0: max=195.4192 mean=101.4924 min=29.4335
+Train val loss 1: max=200.7636 mean=85.6355 min=12.9059
+
+Total test loss = 675.7469
+Test loss / test accuracy for output 0 = 402.1828 / 0.8810
+Test loss / test accuracy for output 1 = 273.5641 / 0.9150
+
+
+Training qa7 iter 1
+Stopped early in iteration 70
+Returning iteration 60
+Training took 163.6461 sec
+Train acc 0: max=0.9656 mean=0.7744 min=0.2133
+Train acc 1: max=1.0000 mean=0.7465 min=0.1711
+Train loss 0: max=1616.7900 mean=497.1811 min=93.1525
+Train loss 1: max=1757.4017 mean=535.4825 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6618 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6676 min=0.1500
+Train val loss 0: max=195.4192 mean=95.3589 min=29.4335
+Train val loss 1: max=200.7636 mean=81.3591 min=12.9059
+
+Total test loss = 1617.2863
+Test loss / test accuracy for output 0 = 921.7203 / 0.7360
+Test loss / test accuracy for output 1 = 695.5660 / 0.7490
+
+
+Training qa8 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 48.5076 sec
+Train acc 0: max=0.9656 mean=0.7789 min=0.2133
+Train acc 1: max=1.0000 mean=0.7355 min=0.1711
+Train loss 0: max=1616.7900 mean=488.5659 min=93.1525
+Train loss 1: max=1757.4017 mean=565.0590 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6744 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6586 min=0.1500
+Train val loss 0: max=195.4192 mean=91.5616 min=29.4335
+Train val loss 1: max=200.7636 mean=84.3598 min=12.9059
+
+Total test loss = 1787.3395
+Test loss / test accuracy for output 0 = 660.7040 / 0.8110
+Test loss / test accuracy for output 1 = 1126.6355 / 0.6120
+
+
+Training qa9 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 21.9013 sec
+Train acc 0: max=0.9656 mean=0.7854 min=0.2133
+Train acc 1: max=1.0000 mean=0.7225 min=0.1711
+Train loss 0: max=1616.7900 mean=471.8509 min=93.1525
+Train loss 1: max=1757.4017 mean=567.2607 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6852 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6415 min=0.1500
+Train val loss 0: max=195.4192 mean=87.7926 min=29.4335
+Train val loss 1: max=200.7636 mean=83.9272 min=12.9059
+
+Total test loss = 1283.9253
+Test loss / test accuracy for output 0 = 532.1703 / 0.8260
+Test loss / test accuracy for output 1 = 751.7550 / 0.6160
+
+
+Training qa10 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 24.5335 sec
+Train acc 0: max=0.9656 mean=0.7827 min=0.2133
+Train acc 1: max=1.0000 mean=0.7133 min=0.1711
+Train loss 0: max=1616.7900 mean=474.1432 min=93.1525
+Train loss 1: max=1757.4017 mean=568.5977 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6827 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6270 min=0.1500
+Train val loss 0: max=195.4192 mean=87.0332 min=29.4335
+Train val loss 1: max=200.7636 mean=83.8211 min=12.9059
+
+Total test loss = 1562.7389
+Test loss / test accuracy for output 0 = 595.6294 / 0.7800
+Test loss / test accuracy for output 1 = 967.1095 / 0.5080
+
+
+Training qa11 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 9.7727 sec
+Train acc 0: max=0.9656 mean=0.7822 min=0.2133
+Train acc 1: max=1.0000 mean=0.7142 min=0.1711
+Train loss 0: max=1616.7900 mean=477.3036 min=93.1525
+Train loss 1: max=1757.4017 mean=569.6381 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6847 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6298 min=0.1500
+Train val loss 0: max=195.4192 mean=86.6802 min=29.4335
+Train val loss 1: max=200.7636 mean=83.6890 min=12.9059
+
+Total test loss = 1877.0255
+Test loss / test accuracy for output 0 = 979.6335 / 0.6840
+Test loss / test accuracy for output 1 = 897.3920 / 0.7140
+
+
+Training qa12 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 17.9382 sec
+Train acc 0: max=0.9656 mean=0.7686 min=0.2133
+Train acc 1: max=1.0000 mean=0.7063 min=0.1711
+Train loss 0: max=1616.7900 mean=516.7298 min=93.1525
+Train loss 1: max=1757.4017 mean=596.7583 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6688 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6171 min=0.1500
+Train val loss 0: max=195.4192 mean=91.2219 min=29.4335
+Train val loss 1: max=200.7636 mean=88.5290 min=12.9059
+
+Total test loss = 2800.2555
+Test loss / test accuracy for output 0 = 1427.9587 / 0.5190
+Test loss / test accuracy for output 1 = 1372.2968 / 0.5050
+
+
+Training qa13 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 28.4693 sec
+Train acc 0: max=0.9656 mean=0.7610 min=0.2133
+Train acc 1: max=1.0000 mean=0.6993 min=0.1711
+Train loss 0: max=1616.7900 mean=539.3419 min=93.1525
+Train loss 1: max=1757.4017 mean=622.7698 min=4.5457
+Train val acc 0: max=0.9300 mean=0.6615 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6038 min=0.1500
+Train val loss 0: max=195.4192 mean=94.1404 min=29.4335
+Train val loss 1: max=200.7636 mean=93.7927 min=12.9059
+
+Total test loss = 2935.2197
+Test loss / test accuracy for output 0 = 1229.4594 / 0.5540
+Test loss / test accuracy for output 1 = 1705.7604 / 0.4720
+
+
+Training qa14 iter 1
+Stopped early in iteration 40
+Returning iteration 30
+Training took 20.9816 sec
+Train acc 0: max=1.0000 mean=0.7716 min=0.2133
+Train acc 1: max=1.0000 mean=0.7076 min=0.1711
+Train loss 0: max=1616.7900 mean=517.6244 min=4.2356
+Train loss 1: max=1757.4017 mean=611.6344 min=4.5457
+Train val acc 0: max=0.9700 mean=0.6755 min=0.1900
+Train val acc 1: max=0.9700 mean=0.6116 min=0.1500
+Train val loss 0: max=195.4192 mean=90.8474 min=10.0750
+Train val loss 1: max=200.7636 mean=93.0176 min=12.9059
+
+Total test loss = 961.4487
+Test loss / test accuracy for output 0 = 246.3136 / 0.9540
+Test loss / test accuracy for output 1 = 715.1351 / 0.8340
+
+
+Training qa15 iter 1
+Training took 23.9091 sec
+Train acc 0: max=1.0000 mean=0.7967 min=0.2133
+Train acc 1: max=1.0000 mean=0.7450 min=0.1711
+Train loss 0: max=1616.7900 mean=461.6014 min=0.7629
+Train loss 1: max=1757.4017 mean=533.2779 min=0.2730
+Train val acc 0: max=1.0000 mean=0.7154 min=0.1900
+Train val acc 1: max=1.0000 mean=0.6634 min=0.1500
+Train val loss 0: max=195.4192 mean=79.4394 min=0.0888
+Train val loss 1: max=200.7636 mean=80.7316 min=0.0319
+
+Total test loss = 2.1295
+Test loss / test accuracy for output 0 = 1.7423 / 0.9990
+Test loss / test accuracy for output 1 = 0.3872 / 1.0000
+
+
+Training qa16 iter 1
+Stopped early in iteration 50
+Returning iteration 40
+Training took 16.0111 sec
+Train acc 0: max=1.0000 mean=0.7787 min=0.2133
+Train acc 1: max=1.0000 mean=0.7282 min=0.1711
+Train loss 0: max=1616.7900 mean=491.8590 min=0.7629
+Train loss 1: max=1757.4017 mean=561.3877 min=0.2730
+Train val acc 0: max=1.0000 mean=0.6970 min=0.1900
+Train val acc 1: max=1.0000 mean=0.6494 min=0.1500
+Train val loss 0: max=195.4192 mean=82.0530 min=0.0888
+Train val loss 1: max=200.7636 mean=83.0836 min=0.0319
+
+Total test loss = 2015.9062
+Test loss / test accuracy for output 0 = 1067.8936 / 0.4340
+Test loss / test accuracy for output 1 = 948.0127 / 0.4740
+
+
+Training qa17 iter 1
+Stopped early in iteration 30
+Returning iteration 20
+Training took 4.0448 sec
+Train acc 0: max=1.0000 mean=0.7709 min=0.2133
+Train acc 1: max=1.0000 mean=0.7212 min=0.1711
+Train loss 0: max=1616.7900 mean=497.9687 min=0.7629
+Train loss 1: max=1757.4017 mean=564.5742 min=0.2730
+Train val acc 0: max=1.0000 mean=0.6914 min=0.1900
+Train val acc 1: max=1.0000 mean=0.6452 min=0.1500
+Train val loss 0: max=195.4192 mean=82.0094 min=0.0888
+Train val loss 1: max=200.7636 mean=82.8247 min=0.0319
+
+Total test loss = 1444.2294
+Test loss / test accuracy for output 0 = 706.6245 / 0.4640
+Test loss / test accuracy for output 1 = 737.6049 / 0.5070
+
+
+Training qa18 iter 1
+Stopped early in iteration 90
+Returning iteration 80
+Training took 70.1635 sec
+Train acc 0: max=1.0000 mean=0.7736 min=0.2133
+Train acc 1: max=1.0000 mean=0.7343 min=0.1711
+Train loss 0: max=1616.7900 mean=481.4484 min=0.7629
+Train loss 1: max=1757.4017 mean=536.4462 min=0.2730
+Train val acc 0: max=1.0000 mean=0.6986 min=0.1900
+Train val acc 1: max=1.0000 mean=0.6659 min=0.1500
+Train val loss 0: max=195.4192 mean=78.7546 min=0.0888
+Train val loss 1: max=200.7636 mean=77.6219 min=0.0319
+
+Total test loss = 637.7558
+Test loss / test accuracy for output 0 = 334.4375 / 0.9000
+Test loss / test accuracy for output 1 = 303.3183 / 0.8930
+
+
+Training qa19 iter 1
+Stopped early in iteration 20
+Returning iteration 10
+Training took 4.7968 sec
+Train acc 0: max=1.0000 mean=0.7655 min=0.1189
+Train acc 1: max=1.0000 mean=0.7266 min=0.1167
+Train loss 0: max=2272.7832 mean=503.8401 min=0.7629
+Train loss 1: max=2244.5928 mean=557.7980 min=0.2730
+Train val acc 0: max=1.0000 mean=0.6911 min=0.1000
+Train val acc 1: max=1.0000 mean=0.6588 min=0.0900
+Train val loss 0: max=257.5800 mean=80.9899 min=0.0888
+Train val loss 1: max=266.7990 mean=79.9866 min=0.0319
+
+Total test loss = 5123.8259
+Test loss / test accuracy for output 0 = 2687.0737 / 0.1030
+Test loss / test accuracy for output 1 = 2436.7522 / 0.1680
+
+
+Training qa20 iter 1
+Training took 39.3192 sec
+Train acc 0: max=1.0000 mean=0.7915 min=0.1189
+Train acc 1: max=1.0000 mean=0.7570 min=0.1167
+Train loss 0: max=2272.7832 mean=447.9429 min=0.3892
+Train loss 1: max=2244.5928 mean=495.9546 min=0.2730
+Train val acc 0: max=1.0000 mean=0.7254 min=0.1000
+Train val acc 1: max=1.0000 mean=0.6967 min=0.0900
+Train val loss 0: max=257.5800 mean=72.0026 min=0.0515
+Train val loss 1: max=266.7990 mean=71.1150 min=0.0319
+
+Total test loss = 1.1275
+Test loss / test accuracy for output 0 = 0.4707 / 1.0000
+Test loss / test accuracy for output 1 = 0.6569 / 1.0000
+

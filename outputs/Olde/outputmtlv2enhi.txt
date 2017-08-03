@@ -1,0 +1,5 @@
+Training qa1
+Training took 63.73019265433134
+Total test loss = 2.3775
+Test loss / test accuracy for output 1 = 1.2395 / 0.5230
+Test loss / test accuracy for output 2 = 1.1380 / 0.5230

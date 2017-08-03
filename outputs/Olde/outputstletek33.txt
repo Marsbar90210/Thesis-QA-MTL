@@ -1,0 +1,14 @@
+python -W ignore modelstletek3.py en
+STL model based on end to end memory with 3 hops
+Running model for en
+Training qa1
+Training took 14.2754 sec
+Train loss/acc 0.1279 / 0.9545
+Validation loss/acc 0.1260 / 0.9545
+Test loss / test accuracy = 0.1265 / 0.9545
+Training qa2
+Training took 76.6522 sec
+Train loss/acc 0.2842 / 0.9722
+Validation loss/acc 0.2854 / 0.9722
+Test loss / test accuracy = 0.2651 / 0.9722
+Training qa3
